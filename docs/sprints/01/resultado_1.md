@@ -44,7 +44,7 @@ Este quadro aborda o conhecimento depois de 2 semanas de projeto, ou duas sprint
 ## 4- Burndown
 ![Burndown](img1/burndown_1.png)
 
-Percebe-se que pela falta de administração no fechamento das issues no tempo certom, afetou o gráfico burndown, mesmo que as issues estivessem sendo feitas progressivamente durante a semana, duas issues ficaram sem ser resolvidas e viraram débito técnico, muito devido essa sprint 1 também ser atípica, pelo fato de estarmos decidindo arquitetura e linguagens.
+Percebe-se que pela falta de administração no fechamento das issues no tempo certo, afetou o gráfico burndown, mesmo que as issues estivessem sendo feitas progressivamente durante a semana, duas issues ficaram sem ser resolvidas e viraram débito técnico, muito devido essa sprint 1 também ser atípica, pelo fato de estarmos decidindo arquitetura e linguagens.
 
 ## 5- Velocity
 ![Velocity](img1/velocity_1.png)
