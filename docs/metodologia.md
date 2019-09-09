@@ -1,14 +1,23 @@
-# Introdução
+# Metodologia
+
+## Histórico de Versão
+
+|Versão|Data|Descrição|Nome|
+|---|---|---|---|
+|1.0|04/09/2019|Abertura do documento|Geovanne Saraiva|
+|1.1|08/09/2019|Adição do histórico de versão e corrigindo markdown|Igor Aragão|
+
+## Introdução
 
 Este documento tem como objetivo deixar transparente o processo Ágil utilizado pelo Time Scrum do projeto FoodCare, descrevendo informações como papéis existentes e ritos do Scrum adotados.
 
-# Papéis na equipe
+## Papéis na equipe
 
 Esta sessão lista todos os papéis existentes dentro do Time Scrum do projeto FoodCare, suas atribuições e as pessoas que os estão exercendo.
 
-## Product Owner
+### Product Owner
 
-##### Atribuições:
+#### Atribuições
 
 - Responsável pelo gerenciamento do Backlog do Produto e por garantir o valor do trabalho realizado pelo Time;
 - Manter o Backlog do Produto e garante que ele está visível para todos;
@@ -22,9 +31,9 @@ Esta sessão lista todos os papéis existentes dentro do Time Scrum do projeto F
 - Canvas.
 - EAP.
 
-## DevOps
+### DevOps
 
-##### Atribuições:
+#### Atribuições
 
 - Garantir a integração continua.
 - Garantir o deploy continuo.
@@ -32,9 +41,9 @@ Esta sessão lista todos os papéis existentes dentro do Time Scrum do projeto F
 - Organizar os diversos pipeline do produto de software.
 - Criar docker.
 
-## Scrum Master
+### Scrum Master
 
-##### Atribuições:
+#### Atribuições
 
 - Ajudar todos do Time Scrum a entenderem a teoria, prática, regras e valores do Scrum.
 - Servir ao Product Owner, auxiliando de diversas formas, tais como: gerir de maneira eficiente o Backlog do produto.
@@ -45,25 +54,25 @@ instrui-lo em auto-organização e a serem multifuncionais.
 - Documentar cada Sprint.
 - Determinar e analisar as métricas e indicadores utilizados para acompanhar o progresso de toda a equipe.
 
-## Desenvolvedores
+### Desenvolvedores
 
-##### Atribuições:
+#### Atribuições:
 
 - Entregar os ítens contidos no Backlog da Sprint ao final de cada Sprint.
 - Determinar como farão para entregar os ítens do Backlog da Sprint (auto-organização).
 
-# Ritos do Scrum
+## Ritos do Scrum
 
 Abaixo ritos do Scrum que serão realizados pelo Time Scrum do projeto FoodCare. Para cada rito está descrito seus objetivos, o tempo máximo de realização deles, os dias e horários em que ocorrerão.
 
-## Sprint
+### Sprint
 
-#### objetivo:
+#### Objetivo
 
 - atingir o objetivo para a Sprint definido no Planejamento da Sprint, assim como entregar todos os ítens do Backlog da Sprint
 - time box: segunda à domingo [1 semana]
 
-## Planejamento de Sprint
+### Planejamento de Sprint
 
 - Reunião realizada com o Time Scrum no início de cada Sprint que tem como objetivo:
 
@@ -78,35 +87,37 @@ este passo é repetido até que haja consenso de todos os presentes sobre quanto
 
 - time box: : 23:00 [2h]
 
-## Daily Meeting
+### Daily Meeting
 
 - Reunião diária do Time Scrum que tem como objetivo:
 - Cada membro responder as 3 perguntas abaixo, sobre sua participação no andamento da Sprint:
 - O que foi feito pelo membro no dia anterior para ajudar a desenvolver na Sprint?
 - O que será feito pelo membro no dia atual para ajudar no desenvolvimento na Sprint?
 - Houve algum empedimento para o membro que impossibilitou ele ajudar o restante da equipe na Sprint? (gerenciamento de riscos)
-- time box:
 - Dailys presenciais: terça e quinta, 15:50 [15 min].
 - Dailys online: segunda, quarta, sexta, sábado, domingo começando às 22:00.
 
-## Review de Sprint
+### Review de Sprint
 
-objetivo:
+#### Objetivo
+
 - Revisar como foi a Sprint, com foco no Backlog do Produto e no da Sprint.
 - O que foi feito e o que ficou como débito (Product Owner).
 - Atualização do Backlog do Produto (Product Owner)
-Problemas relacionados ao Backlog da Sprint e se/como foram resolvidos (toda a equipe)
-time box: domingo, início da reunião 22h[1h]
+- Problemas relacionados ao Backlog da Sprint e se/como foram resolvidos (toda a equipe)
+- time box: domingo, início da reunião 22h[1h]
 
 IMPORTANTE: um item do Backlog da Sprint só será aceito como feito se:
+
 - Estiver terminado.
 - Estiver coberto, no mínimo, por teste unitário e/ou de integração, exceto em caso de documentação ou outros tipos de histórias que não puderem ser testadas.
 - Tiver sido feito o pull request para a branch develop ou master e este ser aceito pelos revisores.
 - A funcionalidade entregue ser aceita pelo Product Owner, de acordo com os critérios de aceitação especificados na história.
 
-## Retrospectiva da Sprint
+### Retrospectiva da Sprint
 
-objetivo:
+#### Objetivo
+
 - Levantar como foi a Sprint, do ponto de vista das pessoas, relacionamentos, processos e ferramentas (pontos positivos e negativos).
 - Identificar potenciais melhorias.
 - Identificar melhorias para colocar em prática na próxima Sprint
