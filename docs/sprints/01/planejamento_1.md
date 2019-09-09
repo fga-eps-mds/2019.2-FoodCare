@@ -21,20 +21,20 @@ Essa sprint terá como foco principal a criação do documento de visão, que de
 
 ### Sprint Backlog
 
-- [#1 Criar documento de visão](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/1)
+- [#1 Criar documento de visão](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/10)
 
-- [#2 Criar documento da metodologia](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/2)
+- [#2 Criar documento da metodologia](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/12)
 
-- [#4 Criar protótipo de baixa fidelidade](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/4)
+- [#3 Criar protótipo de baixa fidelidade](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/18)
 
-- [#5 Estudar python](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/5)
+- [#5 Estudar python](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/19)
 
-- [#6 Estudar Django](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/6)
+- [#6 Estudar Django](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/19)
 
-- [#7 Dojo de documentação](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/7)
+- [#7 Dojo de documentação](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/14)
 
-- [#8 criar EAP](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/7)
+- [#8 Criar TAP](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/16)
 
-- [#9 Criar TAP](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/7)
+- [#9 Criar Mapa Mental](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/17)
 
-- [#10 Configurar o github pages](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/7)
+- [#10 Iniciar Projeto](https://github.com/fga-eps-mds/2019.2-foodcare/issues/15)
