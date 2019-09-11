@@ -5,6 +5,7 @@
 |Versão|Data|Descrição|Nome|
 |---|---|---|---|
 |1.0|10/09/2019|Abertura do documento|Igor Aragão|
+|1.1|11/09/2019|Atualiza seção de custos|Igor Aragão|
 
 ## Introdução
 
@@ -77,35 +78,39 @@ Por meio deste, disponibilizamos os cálculos referentes ao custo dos insumos ne
 
 |Item|Finalidade|Valor (R$)|Quantidade|Total (R$)|Fornecedor|
 |---|---|---|---|---|---|
-|Notebook|Desenvolvimento e planejamento|Média: R$ 2.199,00|9|R$ 19.791,00|Variados|
-|Energia|Desenvolvimento e planejamento|0,557 R$/KWh*|814,32 kw/h*|R$ 453,57|CEB|
+|Notebook|Desenvolvimento e gerenciamento|R$ 2.199,00*|9|R$ 19.791,00|Variados|
+|Energia|Desenvolvimento e planejamento|0,557 R$/KWh*|842,40 kw/h*|R$ 469,22|CEB|
 |Internet|Desenvolvimento e planejamento|R$ 99,99*|9 pessoas durante 4 meses*|R$ 3.599,64*|Variados|
 
-O Custo de Aquisição totaliza: R$ 23.844,21.
+**Total do Custo de Aquisição: R$ 23.859,86.**
 
 #### Observações
 
-- De acordo com a Agência Nacional de Energia Elétrica (ANEEL), na data de 10/09/2019, o custo do KW/h, no DF, é de R$ 0,557.
-- **Energia:** Adotamos que: Um computador opera a 130 watts e o computador permanece ligado 6 horas por dia ao longo de 116 dias (12/09/2019 à 06/12/2019). Sendo assim, calculamos:  
-```CONSUMO = (130 watts x 6 horas x 116 dias)/1.000 * 9 PCs = 814,32 kw/h```
-- **Internet:** Adotamos que o valor médio, por mês, de um plano de internet no DF é de R$ 99,99 e que serão 4 meses de desenvolvimento. Sendo assim, calculamos:  
-```CONSUMO = (99,99 reais x 4 meses x 9 pessoas) = R$ 3599,64```
+- **Notebook**  
+    1. Adotamos que o valor de um notebook é de 2.199 reais, por ser a média do preço de um notebook com as configurações recomendadas para a execuão do projeto.  
+- **Energia**  
+    1. De acordo com o Ranking das Tarifas da Agência Nacional de Energia Elétrica (ANEEL), consultada na data de 10/09/2019, o custo do KW/h, no DF, é de R$ 0,557.  
+    2. Adotamos que um computador opera a 130 watts, e que o computador permanece ligado 6 horas por dia ao longo de 4 meses (120 dias). Sendo assim, calculamos:  
+    ```CONSUMO = (130 watts x 6 horas x 120 dias)/1.000 * 9 PCs = 842,40 kw/h```
+- **Internet:**  
+    1. Adotamos que o valor médio, por mês, de um plano de internet no DF é de R$ 99,99 e que serão 4 meses de desenvolvimento. Sendo assim, calculamos:  
+    ```CONSUMO = (99,99 reais x 4 meses x 9 pessoas) = R$ 3599,64```
 
 ### Custo de Pessoal
 
-|Cargo|Quantidade|Salário/mês* (R$)|Salário/hora (R$)|Total (R$)*|
-|---|---|---|---|---|
-|Desenvolvedor Python Jr|6|R$ 3.250,00|R$ 20,32|R$ 20.726,40|
-|DevOps, Scrum Master e PO|3|R$ 6.000,00|R$ 37,50|R$ 19.125,00|
+|Cargo|Salário/mês* (R$)|Quantidade|Total (R$)*|
+|---|---|---|---|
+|Desenvolvedor Júnior|R$ 2.654,00|6|R$ 63.696,00|
+|DevOps|R$ 10.000,00|1|R$ 40.000,00|
+|Scrum Master|R$ 7.249,00|1|R$ 28.996,00|
+|Product Owner|R$ 7.252,00|1|R$ 29.008,00|
 
-O Custo de Pessoal totaliza: R$ 39851,40.
+**Total do Custo de Pessoal: R$ 161.700,00.**
 
 #### Observações
 
-- Foi considerado que o mês tem 160 horas.
-- Adotamos também que o projeto terá a duração de 17 semanas, e que em cada semana, cada membro trabalhara por 10 horas/semana.
-- O salário total por pessoa é conseguido através do cálculo:  
-```SALARIO TOTAL (INDIVIDUAL) = SalarioHora x 10 horas x 17 semanas```
+1. Adotamos que a duração do projeto é de 4 meses.
+2. Para os valores salariais, foram pegos os valores médios de cada função no site [glassdoor](https://www.glassdoor.com.br/Salários).
 
 ### Custo de Ferramentas
 
@@ -119,14 +124,16 @@ O Custo de Pessoal totaliza: R$ 39851,40.
 |Linux|Ambiente de desenvolvimento|R$ 0|
 |Python, Rasa, Flask, MongoDB|Tecnologias utilizadas para desenvolvimento|R$ 0|
 
+**Total do Custo de Ferramentas: R$ 0,00.**
+
 ### Custo Total
 
 |Tipo de Recurso|Custo|
 |---|---|
-|Custo de Aquisição|R$ 23.844,21|
-|Custo de Pessoal|R$ 39.851,40|
+|Custo de Aquisição|R$ 23.859,86|
+|Custo de Pessoal|R$ 161.700,00|
 |Custo de Ferramentas|R$ 0,00|
-|**Custo Total**|**R$ 63.695,61**|
+|**Custo Total**|**R$ 185.559,86**|
 
 ## Partes Interessadas
 
