@@ -1,5 +1,7 @@
 # FoodCare API
 
+[Link](https://github.com/fga-eps-mds/2019.2-FoodCare-webapp) do repositório contendo o frontend.
+
 ## Configuração do ambiente
 ### Instalação
 
@@ -21,3 +23,5 @@ Para subir a aplicação no endereço `0.0.0.0` e na porta 8000 utilize o seguin
 ```
 $ [sudo] docker-compose up
 ```
+
+A aplicação estará disponível em `http://localhost:8000`.
