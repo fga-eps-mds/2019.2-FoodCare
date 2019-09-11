@@ -1,3 +1,33 @@
-site_name: FoodCare
+site_name: FoodCare Docs
+
+repo_name: 'fga-eps-mds/2019.2-FoodCare'
+repo_url: 'https://github.com/fga-eps-mds/2019.2-FoodCare'
+
 theme:
   name: 'material'
+  logo:
+    icon: 'restaurant'
+
+nav:
+  - Home: index.md
+  - Produto:
+    - Termo de Abertura de Projeto: produto/tap.md
+    - Documento de Visão: produto/doc-visao.md
+    - Mapa Mental: produto/mapa-mental.md
+    - Protótipo de Baixa Fidelidade: produto/prototipo-baixa.md
+  - Projeto:
+    - Metodologia: projeto/metodologia.md
+    - Reuniões:
+      - Reunião 01: reunioes/reuniao_01.md
+      - Reunião 02: reunioes/reuniao_02.md
+      - Reunião 03: reunioes/reuniao_03.md
+      - Reunião 04: reunioes/reuniao_04.md
+  - Sprint 0:
+    - Planejamento Sprint 0: sprints/00/planejamento_0.md
+    - Resultado Sprint 0: sprints/00/resultado_0.md
+  - Sprint 1:
+    - Planejamento Sprint 1: sprints/01/planejamento_1.md
+    - Resultado Sprint 1: sprints/01/resultado_1.md
+  - Sprint 0:
+    - Planejamento Sprint 2: sprints/02/planejamento_2.md
+    - Resultado Sprint 2: sprints/02/resultado_2.md

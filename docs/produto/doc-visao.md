@@ -5,10 +5,10 @@
  ---- | ------ | --------- | -----
 05/09/19 | 1.0 | Abertura do documento, criação da introdução e Posicionamento | Giovanna
 07/09/19 | 1.1 | Atualização da introdução e do posicionamento | Giovanna
-07/09/19 | 1.1 | Criação da descrição da Parte Interessada e do Usuário | Rafaella
-07/09/19 | 1.1 | Criação do tópico Visão Geral do Produto | Geraldo
-07/09/19 | 1.1 | Criação do tópico Recursos do Produto | Hugo
-07/09/19 | 1.1 | Criação do tópico Outros Requisitos do Produto | Lucas
+07/09/19 | 1.2 | Criação da descrição da Parte Interessada e do Usuário | Rafaella
+07/09/19 | 1.3 | Criação do tópico Visão Geral do Produto | Geraldo
+07/09/19 | 1.4 | Criação do tópico Recursos do Produto | Hugo
+07/09/19 | 1.5 | Criação do tópico Outros Requisitos do Produto | Lucas
 
 # Índice
 1. [Introdução](#1)

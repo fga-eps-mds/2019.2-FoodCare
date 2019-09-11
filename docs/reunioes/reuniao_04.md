@@ -46,10 +46,10 @@ As dúvidas foram solucionadas, e depois disso, utilizamos o quadro branco para 
 
 No quadro branco, o Scrum Master foi anotando as ideias de funcionalidades que cada um ia pensando.  
 
-O resultado foi a versão 0.1 do [Mapa Mental](../mapa_mental.md)
+O resultado foi a versão 0.1 do [Mapa Mental](../produto/mapa-mental.md)
 
 ### Protótipo de Baixa Fidelidade
 
 Após obter uma lista de funcionalidades, iniciamos o protótipo de baixa fidelidade com papel A4 e várias canetas.  
 
-O resultado foi a versão 0.1 do [Protótipo de Baixa Fidelidade](../prototipo-baixa.md)
+O resultado foi a versão 0.1 do [Protótipo de Baixa Fidelidade](../produto/prototipo-baixa.md)
