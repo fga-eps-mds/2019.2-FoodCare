@@ -14,6 +14,7 @@ nav:
     - Termo de Abertura de Projeto: produto/tap.md
     - Documento de Visão: produto/doc-visao.md
     - Mapa Mental: produto/mapa-mental.md
+    - Canvas: produto/canvas.md
     - Protótipo de Baixa Fidelidade: produto/prototipo-baixa.md
   - Projeto:
     - Metodologia: projeto/metodologia.md
@@ -28,6 +29,6 @@ nav:
   - Sprint 1:
     - Planejamento Sprint 1: sprints/01/planejamento_1.md
     - Resultado Sprint 1: sprints/01/resultado_1.md
-  - Sprint 0:
+  - Sprint 2:
     - Planejamento Sprint 2: sprints/02/planejamento_2.md
     - Resultado Sprint 2: sprints/02/resultado_2.md
