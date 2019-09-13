@@ -1,6 +1,7 @@
 # FoodCare API
 
 [![Maintainability](https://api.codeclimate.com/v1/badges/f32161ad0dd11e650c14/maintainability)](https://codeclimate.com/github/fga-eps-mds/2019.2-FoodCare/maintainability)
+[![Build Status](https://travis-ci.org/fga-eps-mds/2019.2-FoodCare.svg?branch=master)](https://travis-ci.org/fga-eps-mds/2019.2-FoodCare)
 
 [Link](https://github.com/fga-eps-mds/2019.2-FoodCare-webapp) do repositório contendo o frontend.
 
