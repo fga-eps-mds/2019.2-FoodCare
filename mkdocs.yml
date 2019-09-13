@@ -12,6 +12,7 @@ nav:
   - Home: index.md
   - Produto:
     - Termo de Abertura de Projeto: produto/tap.md
+    - Estrutura Analítica do Projeto: produto/eap.md
     - Documento de Visão: produto/doc-visao.md
     - Mapa Mental: produto/mapa-mental.md
     - Canvas: produto/canvas.md
