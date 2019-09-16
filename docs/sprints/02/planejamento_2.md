@@ -23,30 +23,26 @@ Essa sprint terá como foco principal o conhecimento das linguagens e tecnologia
 
 ### Sprint Backlog
 
-- [#1 Criar protótipo de alta fidelidade](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/10)
+- [#1 Criar protótipo de alta fidelidade](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/28)
 
-- [#2 Estudar django](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/12)
+- [#2 Estudar django](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/30)
 
-- [#3 Estudar angular](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/18)
+- [#3 Estudar angular](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/30)
 
-- [#4 Dojo de Django e Angular](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/19)
+- [#4 Dojo de Django e Angular](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/30)
 
-- [#5 Criar Tap](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/19)
+- [#5 Criar Tap](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/16)
 
-- [#6 Criar Docker](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/14)
+- [#6 Criar Docker](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/27)
 
-- [#7 Criar Canvas](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/16)
+- [#7 Criar Canvas](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/22)
 
-- [#8 Criar EAP](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/17)
+- [#8 Criar EAP](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/24)
 
-- [#9 Criar roadmap de papeis](https://github.com/fga-eps-mds/2019.2-foodcare/issues/15)
+- [#9 Criar roadmap de papeis](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/26)
 
-- [#10 Criar roadmap de produto](https://github.com/fga-eps-mds/2019.2-foodcare/issues/15)
+- [#10 Criar roadmap de produto](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/25)
 
-- [#11 Iniciar o projeto](https://github.com/fga-eps-mds/2019.2-foodcare/issues/15)
+- [#11 Criar folha de estilo](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/29)
 
-- [#12 Criar folha de estilo](https://github.com/fga-eps-mds/2019.2-foodcare/issues/15)
-
-- [#13 instalar o Travis](https://github.com/fga-eps-mds/2019.2-foodcare/issues/15)
-
-- [#14 Criar a Home do projeto](https://github.com/fga-eps-mds/2019.2-foodcare/issues/15)
+- [#12 instalar o Travis](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/31)
