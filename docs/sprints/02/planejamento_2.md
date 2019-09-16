@@ -5,6 +5,9 @@
 **Data de início:** 09/08/2019  
 **Data de término:** 15/09/2019  
 **Duração:** 7 dias  
+**Pontos Planejados:** 29 pontos
+
+
 
 ### Papéis
 
@@ -17,7 +20,7 @@
 
 ## Planejamento da Sprint
 
-Essa sprint terá como foco principal a criação do documento de visão, que deixa mais robusto o escopo do projeto, além do protótipo de baixa fidelidade, o conhecimento terá que ser passado de uma maneira mais rápida, por isso o estudo das linguagens já serão colocados nessa sprint.
+Essa sprint terá como foco principal a criação do documento de visão, que deixa mais robusto o escopo do projeto, além do protótipo de alta fidelidade, o conhecimento terá que ser passado de uma maneira mais rápida, por isso o estudo das linguagens já serão colocados nessa sprint.
 
 Essa sprint terá como foco principal o conhecimento das linguagens e tecnologias escolhidas, a preparação do docker também será fundamental nessa sprint, além dos dojos em Django e Angular, o protótipo de alta fidelidade irá guiar o PO na hora da montagem dos requisitos do sistema.
 
