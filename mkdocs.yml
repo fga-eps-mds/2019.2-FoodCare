@@ -27,6 +27,9 @@ nav:
       - Reunião 03: reunioes/reuniao_03.md
       - Reunião 04: reunioes/reuniao_04.md
       - Reunião 05: reunioes/reuniao_05.md
+  - DevOps:
+    - Pipeline: devops/pipeline.md
+    - Plano GCS: gcs.md
   - Sprint 0:
     - Planejamento Sprint 0: sprints/00/planejamento_0.md
     - Resultado Sprint 0: sprints/00/resultado_0.md
