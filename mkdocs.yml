@@ -26,9 +26,12 @@ nav:
     - Identidade Visual: produto/id-visual.md
     - Protótipo de Baixa Fidelidade: produto/prototipo-baixa.md
     - Protótipo de Alta Fidelidade: produto/prototipo-alta.md
+    - Pipeline: devops/pipeline.md
+    - Plano GCS: gcs.md
   - Projeto:
     - Metodologia: projeto/metodologia.md
     - Plano de Gerência de Configuração de Software: gcs.md
+    - RoadMap do Projeto: projeto/roadmap-projeto.md
     - RoadMap de Papéis: projeto/roadmap-papeis.md
     - Reuniões:
       - Reunião 01: reunioes/reuniao_01.md
@@ -46,3 +49,5 @@ nav:
     - Sprint 2:
       - Planejamento Sprint 2: sprints/02/planejamento_2.md
       - Resultado Sprint 2: sprints/02/resultado_2.md
+    - Sprint 3:
+      - Planejamento Sprint 3: sprints/03/planejamento_3.md
