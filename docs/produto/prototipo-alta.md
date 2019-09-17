@@ -1,11 +1,14 @@
 # Protótipo de alto nível
+
 ## Histórico de versão
+
  Data | Versão | Descrição | Autor
  ---- | ------ | --------- | -----
 14/09/19 | 0.1 | Abertura do documento | Giovanna
-14/09/19 | 1.1 | Criada a tela de home, de mapa, de lista e de login | Geraldo, Rafaella, Lucas, Igor
-15/09/19 | 1.1 | Atualizada a tela de home, de mapa, de lista e de login | Geraldo, Giovanna, Hugo e Lucas.
-15/09/19 | 1.1 | Criada a tela de home doador | Geraldo, Giovanna, Hugo e Lucas.
+14/09/19 | 0.2 | Criada a tela de home, de mapa, de lista e de login | Geraldo, Rafaella, Lucas, Igor
+15/09/19 | 0.3 | Atualizada a tela de home, de mapa, de lista e de login | Geraldo, Giovanna, Hugo e Lucas.
+15/09/19 | 0.4 | Criada a tela de home doador | Geraldo, Giovanna, Hugo e Lucas.
+16/09/19 | 0.5 | Atualiza markdown e renomeia arquivo | Igor |
 
 ## Introdução
 

@@ -1,4 +1,4 @@
-# Plano de Gerência e Configuração de Software
+# Plano de Gerência de Configuração de Software
 
 ## Histórico de Versão
 

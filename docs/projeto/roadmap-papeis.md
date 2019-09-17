@@ -1,12 +1,21 @@
 # RoadMap de Papéis
 
-Data | Versão | Descrição | Autor |
------|--------|-----------|-------|
-12/09/2019 | 0.1 | Primeira versão do RoadMap | Geovanne Santos |
+## Histórico de Versão
 
-## V0.1
+|Versão|Data|Descrição|Nome|
+|---|---|---|---|
+|0.1|12/09/2019|Primeira versão do RoadMap|Geovanne Santos|
 
-### DevOps
+## Introdução
+
+Este documento visa apresentar o RoadMap de papéis do projeto FoodCare.
+
+## RoadMap
+
+### Versão 0.1
+
+#### DevOps
+
 - Elaborar e Implementar a integração continua do projeto.
 - Elaborar e Implementar o Deploy continuo do projeto.
 - Prover feedback continuo para a equipe de desenvolvimento, com métricas e dados, além de culturas e padrões que devem ser seguidos.
@@ -16,6 +25,7 @@ Data | Versão | Descrição | Autor |
 - Orquestração de containeres com micro serviços.
 
 ### Product Owner
+
 - Vender o Produto.
 - Integração cliente-equipe.
 - Valor de negócio.
@@ -29,6 +39,7 @@ Data | Versão | Descrição | Autor |
 - Abertura e verificação dos critérios de aceitação para fechamento da Issue.
 
 ### Scrum Master
+
 - Comunicação
 - Analisar indicadores e métricas de produtividade.
 - Metas de entrega continua.
@@ -39,12 +50,14 @@ Data | Versão | Descrição | Autor |
 - Auxiliar a equipe em seus processos decisórios.
 
 ## EPS
+
 - Responsável por propor a solução e arquitetura da aplicação(micro serviços).
 - Facilitar a modelagem da solução atuando como mentores do Agile Team(MDS).
 - Responsável por acompanhar a equipe de desenvolvimento na construção do software.
 - Treinar MDS para o desenvolvimento da arquitetura de software.
 
 ## Time de Desenvolvimento
+
 - O time de desenvolvimento deve ser auto-organizável.
 - O time de desenvolvimento deve entender e seguir todos os processos.
 - O time de desenvolvimento deve gerar documento de visão.
