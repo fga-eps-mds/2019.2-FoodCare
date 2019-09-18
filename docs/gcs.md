@@ -1,10 +1,19 @@
-# Política de Contribuição
+# Plano de Gerência de Configuração de Software
+
+## Histórico de Versão
+
+|Versão|Data|Descrição|Nome|
+|---|---|---|---|
+|1.0|01/09/2019|Abertura do documento|Igor Aragão|
+|1.1|12/09/2019|Refatora o documento|Igor Aragão|
 
 ## Introdução
 
 Esse documento tem como finalidade definir a política de utilização de branches no repositório.
 
-## Política de Commits
+## Políticas
+
+### Política de Commits
 
 Cada commit deve ser criado após a finalização de um bloco conexo de alterações, seja em código, e/ou em documentação.  
 O título do commit, deve ser coerente às alterações feitas de forma resumida e em português, com o tempo verbal no particípio, e ser iniciado com a letra maiúscula. Por exemplo:
@@ -13,7 +22,7 @@ O título do commit, deve ser coerente às alterações feitas de forma resumida
 
 Caso haja mais de uma alteração (pertinente ao *commit*) ela deve ser adicionada na descrição do *commit*.
 
-## Política de Branches
+### Política de Branches
 
 O fluxo das *branches* utilizadas deverá seguir o fluxo ***git flow***
 
@@ -25,11 +34,11 @@ O fluxo das *branches* utilizadas deverá seguir o fluxo ***git flow***
 
 Veja mais detalhes sobre o fluxo *git flow* [aqui](https://medium.com/trainingcenter/utilizando-o-fluxo-git-flow-e63d5e0d5e04).
 
-### Conflitos
+#### Conflitos
 
 Se um pull request causar algum tipo de conflito, deve ser resolvido primeiro pela equipe que desenvolveu o que está causando conflito, prezando pela integridade e organização do histórico de commits, e então deve ser refeito o pedido para avaliação do merge.
 
-## Uso de Issues
+### Uso de Issues
 
 As issues serão criadas com o objetivo de mapear as histórias de usuário, histórias técnicas e bugs, tendo assim um maior controle sobre eles. Com isso, conseguiremos manter o rastro dos commits com suas respectivas issues.
 
