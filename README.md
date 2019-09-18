@@ -1,27 +1,33 @@
 <p align="center">
-  <img src="docs/images/logo-medium.png" alt="Logo">
+    <img src="docs/images/logo-medium.png" alt="Logo">
 </p>
 
-<h1 align="center">FoodCare</h1>
+<h1 align="center">FoodCare API</h1>
 
 <p align="center">
-  <a href="http://isitmaintained.com/project/fga-eps-mds/2019.2-FoodCare" alt="Porcentagem de issues abertas" >
-    <img src="http://isitmaintained.com/badge/open/fga-eps-mds/2019.2-FoodCare.svg" />
-  </a>
-  <a href="http://isitmaintained.com/project/fga-eps-mds/2019.2-FoodCare" alt="Tempo médio para fechar uma issue" >
-    <img src="http://isitmaintained.com/badge/resolution/fga-eps-mds/2019.2-FoodCare.svg" />
-  </a>
-  <a href="https://www.gnu.org/licenses/gpl-3.0" alt="Licença: GPL v3" >
-    <img src="https://img.shields.io/badge/License-GPLv3-blue.svg" />
-  </a>
+    <a href="https://codeclimate.com/github/fga-eps-mds/2019.2-FoodCare/maintainability" alt="Manutenibilidade" >
+        <img src="https://api.codeclimate.com/v1/badges/f32161ad0dd11e650c14/maintainability" />
+    </a>
+    <a href="https://travis-ci.org/fga-eps-mds/2019.2-FoodCare" alt="Status da build" >
+        <img src="https://travis-ci.org/fga-eps-mds/2019.2-FoodCare.svg?branch=master" />
+    </a>
+    <a href="http://isitmaintained.com/project/fga-eps-mds/2019.2-FoodCare" alt="Porcentagem de issues abertas" >
+        <img src="http://isitmaintained.com/badge/open/fga-eps-mds/2019.2-FoodCare.svg" />
+    </a>
+    <a href="http://isitmaintained.com/project/fga-eps-mds/2019.2-FoodCare" alt="Tempo médio para fechar uma issue" >
+        <img src="http://isitmaintained.com/badge/resolution/fga-eps-mds/2019.2-FoodCare.svg" />
+    </a>
+    <a href="https://www.gnu.org/licenses/gpl-3.0" alt="Licença: GPL v3" >
+        <img src="https://img.shields.io/badge/License-GPLv3-blue.svg" />
+    </a>
 </p>
 
 <p align="center">
-    <a href="https://fga-eps-mds.github.io/2019.1-unbrake/"><strong>Acesse FoodCare WebApp</strong></a>
+    <a href="https://github.com/fga-eps-mds/2019.2-FoodCare-WebApp"><strong>Acesse FoodCare WebApp</strong></a>
 </p>
 
 <p align="center">
-    <a href="https://fga-eps-mds.github.io/2019.1-unbrake/"><strong>Acesse FoodCare Docs</strong></a>
+    <a href="https://fga-eps-mds.github.io/2019.2-FoodCare"><strong>Acesse FoodCare Docs</strong></a>
 </p>
 
 ## Sobre o projeto
@@ -53,23 +59,29 @@ Para construir novamente o container caso tenha feito alguma alteração no cód
 [sudo] docker-compose build
 ```
 
+## Execução
+
+Para subir a aplicação no endereço `0.0.0.0` e na porta 8000 utilize o seguinte comando:
+
+```bash
+[sudo] docker-compose up
+```
+
+A aplicação estará disponível em `http://localhost:8000`.
+
 <!-- ## Testes
 
 Descreva e mostre como rodar testes. -->
 
-## Contribuição
+<!-- ## Contribuição
 
-Siga o [guia de contribuição](???) para entender os passos e regras para adicionar sua contribuição ao projeto.
+Siga o [guia de contribuição](???) para entender os passos e regras para adicionar sua contribuição ao projeto. -->
 
-<!--
-
-## Estilo do Código
+<!-- ## Estilo do Código
 
 If you're using any code style like xo, standard etc. That will help others while contributing to your project. Ex. -
 
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
-
--->
+[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard) -->
 
 ## Licença
 
