@@ -2,7 +2,8 @@
 ## Historico de versão
  Data | Versão | Descrição | Autor
  ---- | ------ | --------- | -----
-19/09/19 | 1.0 | Abertura do documento, criação da introdução| Lucas 
+19/09/19 | 1.0 | Abertura do documento, criação da introdução| Lucas
+20/09/19 | 1.1 | Adiciona Requisitos mínimos dos sistemas | Giovanna
 
 # Índice
 1. [Introdução](#1)
@@ -128,9 +129,43 @@
 
 # Requisitos Mínimos dos Sistemas <a name="13"></a>
 ## Sistema executar o projeto <a name="13.1"></a>
+
+* Processadores: processador Intel Atom® ou processador Intel® Core ™ i3
+* Espaço em disco: 1 GB
+* Sistemas operacionais: Windows * 7 ou posterior, macOS e Linux
+* Versões Python *: 2.7.X, 3.6.X
+
 ## Servidor de Banco de Dados e Servidor Web <a name="13.2"></a>
+
+Com os requisitos a seguir o esse servidor deve suportar cerca de 10 000 usuários, caso tenha necessidade de atuar com mais usuários o estudo deve ser feito novamente.
+
 ### Servidor de Banco de Dados <a name="13.2.1"></a>
+* Requirido
+    * Processador = Xeon E5 server family
+    * CPU = 2 x 4 cores
+    * Memoria RAM = 16 GB
+    * Backup = External Hard Disk, HDD
+* Futura expansabilidade
+    * CPU = 1 x 4 sockets
+    * Espaço de Disco = 16GB à 1.5TB
+
 #### SQLite <a name="13.2.1.1"></a>
+
+Windows | Linux/ Mac
+------- | -----
+XP Service Pack 3/2003 Service Pack 2 ou maior. |  Java Runtime Environment (JRE) 1.5 ou maior.  
+.NET Framework 2.0 ou maior. | 500 MB RAM  
+500 MB RAM |
 ### Servidor Web <a name="13.2.1"></a>
 
+A escolha do servidor web é de grande importancia pois afeta diretamente a experiencia do usuário. Deve ser um equilíbrio de CPU e de RAM.
+
+* Processador: Intel I7-3770
+* Memoria Ram: 16GB
+* HDD: 146 GB 15K 12GBPS 128MB Cache
+
 # Referências <a name="14"></a>
+
+* Requisitos de hardware. Disponível em <http://www.stansoftware.com/hardware-requirements/>. Acesso em 20 de setembro de 2019.
+* Requisitos de sistema. Disponível em: <https://software.intel.com/en-us/distribution-for-python/system-requirements>. Acesso em 20 de setembro de 2019.
+* Requisitos de sistema. Disponível em: <http://cdn.cdata.com/help/DEA/rsb/pg_startrequirementsrsb.htm>. Acesso em 20 de setembro de 2019.
