@@ -153,9 +153,9 @@ Com os requisitos a seguir o esse servidor deve suportar cerca de 10 000 usuári
 
 Windows | Linux/ Mac
 ------- | -----
-* XP Service Pack 3/2003 Service Pack 2 ou maior. | * Java Runtime Environment (JRE) 1.5 ou maior.  
-* .NET Framework 2.0 ou maior. | * 500 MB RAM  
-* 500 MB RAM |
+XP Service Pack 3/2003 Service Pack 2 ou maior. |  Java Runtime Environment (JRE) 1.5 ou maior.  
+.NET Framework 2.0 ou maior. | 500 MB RAM  
+500 MB RAM |
 ### Servidor Web <a name="13.2.1"></a>
 
 A escolha do servidor web é de grande importancia pois afeta diretamente a experiencia do usuário. Deve ser um equilíbrio de CPU e de RAM.
