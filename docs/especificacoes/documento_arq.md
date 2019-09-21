@@ -2,9 +2,10 @@
 ## Historico de versão
  Data | Versão | Descrição | Autor
  ---- | ------ | --------- | -----
-19/09/19 | 1.0 | Abertura do documento, criação da introdução| Lucas
+19/09/19 | 1.0 | Abertura do documento, criação da introdução| Lucas , Geraldo
 20/09/19 | 1.1 | Adiciona Requisitos mínimos dos sistemas | Giovanna
 21/09/19 | 1.2 | Adiciona visão de dados | Giovanna
+21/09/19 | 1.3 | Adiciona introdução e representação de arquitetura| Geraldo
 
 # Índice
 1. [Introdução](#1)
@@ -64,17 +65,45 @@
 # Introdução <a name="1"></a>
 
 ## Finalidade <a name="1.1"></a>
-
+Este documento tem como finalidade apresentar a arquitetura do projeto **FoodCare**, para registrar decisões relacionadas ao projeto através de diversas visões. O documento é dividido da seguinte forma: primeiramente a representação da arquitetura da solução é apresentada, em seguida metas e restrições desta arquitetura e por fim as visões sobre elementos da arquitetura.
 ## Escopo <a name="1.2"></a>
-
+Este documento apresenta as características arquiteturais do projeto **FoodCare**, descrevendo em detalhes a soluções arquiteturais determinadas para o projeto, de forma a servir como base para o desenvolvimento do projeto pelos desenvolvedores de software alocados para o projeto.
 ## Definições, acrônimos, abreviações <a name="1.3"></a>
+**MVC** - Model View Controller
+
+**MTV** - Model Template View
+
+**Django** - Framework da linguagem python para a construção rápida de aplicativos web, fornecendo componentes prontos e com fácil uso.
+
+**REST** - API para Django que visa aumentar a produtividade na utilização do Django em algumas etapas.
+
+**Angular** - Framework de front-end que visa aumentar a produtividade no que diz respeito ao ao front-end do projeto.
+
+**Docker** - Ferramenta utilizada para modularizar os processos do desenvolvimento do software para eliminiar as inconsistências do ambiente de desenvolvimento.
+
+**FoodCare** - Aplicação web, desenvolvida em Django REST e Angular, que tem como objetivo aproximar pessoas que querem doar com pessoas que desejam receber, estimulando doações, tendo em vista a quantidade de comida que é desperdiçada todos os dias.
 
 # Representação da arquitetura <a name="2"></a>
+O sistema faz uso do Framework Django (versão 2.2.5), que faz uso do padrão MVC. No entanto, tal plataforma possui uma interpretação singular em relação à organização de camadas. O indicado é considerar que a própria plataforma faz o papel da camada de controle, enquanto a camada de Modelo e de Visão devem ser adaptadas e reinterpretadas conforme o necessário. Por este motivo, ainda que o Django implemente o MVC, considera-se que o padrão de camadas externalizado pela plataforma é o MTV (Model-Template-View).
+
+A utilização de uma arquitetura em camadas é interessante por proporcionar uma clara separação de responsabilidades no código, proporcionando reusabilidade, e reduzindo o esforço de manutenção. Os conceitos de MVC e MTV serão apresentados nas seções seguintes.
 
 ## MVC <a name="2.1"></a>
+Figura 1. Padrão arquitetural MVC.
 
+* **Model:** camada de acesso a base de dados, é responsável pela leitura, manipulação e validação dados;
+
+* **Controller:** é responsável por manipular e validar as requisições do usuário, traduzindo em comandos enviados para enviados para a Model e/ou View .
+
+* **View:** camada de interface com o usuário, responsável pela representação dos dados;
 ## MTV <a name="2.2"></a>
+Figura 2. Padrão arquitetural MTV.
 
+* **Model:** segue a mesma definição da model no MVC;
+
+* **Template:** segue a mesma definição da view no MVC;
+
+* **View:** segue a mesma definição da controller no MVC.
 # Metas e Restrições de Arquitetura <a name="3"></a>
 
 # Visão de casos de uso <a name="4"></a>
@@ -171,3 +200,4 @@ A escolha do servidor web é de grande importancia pois afeta diretamente a expe
 * Requisitos de hardware. Disponível em <http://www.stansoftware.com/hardware-requirements/>. Acesso em 20 de setembro de 2019.
 * Requisitos de sistema. Disponível em: <https://software.intel.com/en-us/distribution-for-python/system-requirements>. Acesso em 20 de setembro de 2019.
 * Requisitos de sistema. Disponível em: <http://cdn.cdata.com/help/DEA/rsb/pg_startrequirementsrsb.htm>. Acesso em 20 de setembro de 2019.
+* Get Started with Docker. Disponível em <https://www.docker.com/get-started>
