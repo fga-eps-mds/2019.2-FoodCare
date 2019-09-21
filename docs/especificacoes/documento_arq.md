@@ -4,6 +4,7 @@
  ---- | ------ | --------- | -----
 19/09/19 | 1.0 | Abertura do documento, criação da introdução| Lucas
 20/09/19 | 1.1 | Adiciona Requisitos mínimos dos sistemas | Giovanna
+21/09/19 | 1.2 | Adiciona visão de dados | Giovanna
 
 # Índice
 1. [Introdução](#1)
