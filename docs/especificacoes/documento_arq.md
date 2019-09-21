@@ -111,9 +111,10 @@
 
 # visão de dados <a name="11"></a>
 ## diagrama entidade-relacionamento <a name="11.1"></a>
+![diagrama entidade-relacionamento](https://github.com/fga-eps-mds/2019.2-FoodCare/blob/docs/docs/images/DER.png?raw=true)
 ## diagrama lógico <a name="11.2"></a>
 ### diagrama lógico modelado <a name="11.1.1"></a>
-### Diagrama Lógico Gerado pelo Django <a name="11.1.2"></a>
+![diagrama lógico modelado](https://github.com/fga-eps-mds/2019.2-FoodCare/blob/docs/docs/images/MER.png?raw=true)
 
 # Qualidade  <a name="12"></a>
 ## requisitos funcionais <a name="12.1"></a>
