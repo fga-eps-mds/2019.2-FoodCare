@@ -33,36 +33,33 @@
 8. [Diagrama de usuário](#8)
     1. [Diagrama de atividades (atividade)](#8.1)
     2. [Diagrama de atividades (artigo)](#8.2)
-9. [Diagrama de estados](#9)
-    1. [Diagrama de estados (atividade)](#9.1)
-    2. [Diagrama de estados (artigo)](#9.2)
-10. [Visão de implementação](#10)
-    1. [Finalidade](#10.1)
-    2. [Diagramas significativos](#10.2)
-        1. [Diagrama de componentes](#10.2.1)
-11. [Visão de dados](#11)
-    1. [Diagrama entidade-relacionamento](#11.1)
-    2. [Diagrama lógico](#11.2)
-        1. [Diagrama lógico modelado](#11.2.1)
-        2. [Diagrama Lógico Gerado pelo Django](#11.2.2)
-12. [Qualidade](#12)
-    1. [Requisitos funcionais](#12.1)
-    2. [Requisitos não funcionais](#12.2)
-    3. [Requisitos para plataformas específicas](#12.3)
-    4. [Usabilidade](#12.4)
-    5. [Confiabilidade](#12.5)
-    6. [Desempenho](#12.6)
-    7. [Suportabilidade](#12.7)
-    8. [Restrições de design](#12.8)
-    9. [Requisitos de Sistema de Ajuda e de Documentação de Usuário On-line](#12.9)
-    10. [Interfaces de Hardware](#12.10)
-13. [Requisitos Mínimos dos Sistemas](#13)
-    1. [Sistema executar o projeto](#13.1)
-    2. [Servidor de Banco de Dados e Servidor Web](#13.2)
-        1. [Servidor de Banco de Dados](#13.2.1)
-            1. [SQLite](#13.2.1.1)
-        2. [Servidor Web](#13.2.2)
-14. [Referências](#14)
+9. [Visão de implementação](#9)
+    1. [Finalidade](#9.1)
+    2. [Diagramas significativos](#9.2)
+        1. [Diagrama de componentes](#9.2.1)
+10. [Visão de dados](#10)
+    1. [Diagrama entidade-relacionamento](#10.1)
+    2. [Diagrama lógico](#10.2)
+        1. [Diagrama lógico modelado](#10.2.1)
+        2. [Diagrama Lógico Gerado pelo Django](#10.2.2)
+11. [Qualidade](#11)
+    1. [Requisitos funcionais](#11.1)
+    2. [Requisitos não funcionais](#11.2)
+    3. [Requisitos para plataformas específicas](#11.3)
+    4. [Usabilidade](#11.4)
+    5. [Confiabilidade](#11.5)
+    6. [Desempenho](#11.6)
+    7. [Suportabilidade](#11.7)
+    8. [Restrições de design](#11.8)
+    9. [Requisitos de Sistema de Ajuda e de Documentação de Usuário On-line](#11.9)
+    10. [Interfaces de Hardware](#11.10)
+12. [Requisitos Mínimos dos Sistemas](#12)
+    1. [Sistema executar o projeto](#12.1)
+    2. [Servidor de Banco de Dados e Servidor Web](#12.2)
+        1. [Servidor de Banco de Dados](#12.2.1)
+            1. [SQLite](#12.2.1.1)
+        2. [Servidor Web](#12.2.2)
+13. [Referências](#13)
 
 
 # Introdução <a name="1"></a>
@@ -144,47 +141,43 @@ O sistema faz uso do angular 8, que traz vantagens como: componetização, módu
 ## diagrama de atividades (geral) <a name="8.1"></a>
 ## diagrama de atividades (usuário) <a name="8.2"></a>
 
-# diagrama de estados <a name="9"></a>
-## diagrama de estados (geral) <a name="9.1"></a>
-## diagrama de estados (usuário) <a name="9.2"></a>
+# visão de implementação <a name="9"></a>
+## finalidade <a name="9.1"></a>
+## diagramas significativos <a name="9.1"></a>
+### diagrama de componentes <a name="9.1.1"></a>
 
-# visão de implementação <a name="10"></a>
-## finalidade <a name="10.1"></a>
-## diagramas significativos <a name="10.1"></a>
-### diagrama de componentes <a name="10.1.1"></a>
-
-# visão de dados <a name="11"></a>
-## diagrama entidade-relacionamento <a name="11.1"></a>
+# visão de dados <a name="10"></a>
+## diagrama entidade-relacionamento <a name="10.1"></a>
 ![diagrama entidade-relacionamento](https://github.com/fga-eps-mds/2019.2-FoodCare/blob/docs/docs/images/DER.png?raw=true)
-## diagrama lógico <a name="11.2"></a>
-### diagrama lógico modelado <a name="11.1.1"></a>
+## diagrama lógico <a name="10.2"></a>
+### diagrama lógico modelado <a name="10.1.1"></a>
 ![diagrama lógico modelado](https://github.com/fga-eps-mds/2019.2-FoodCare/blob/docs/docs/images/MER.png?raw=true)
 
-# Qualidade  <a name="12"></a>
-## requisitos funcionais <a name="12.1"></a>
-## requisitos não funcionais <a name="12.2"></a>
-## requisitos para plataformas específicas <a name="12.3"></a>
-## usabilidade <a name="12.4"></a>
-## confiabilidade <a name="12.5"></a>
-## desempenho <a name="12.6"></a>
-## suportabilidade <a name="12.7"></a>
-## restrições de design <a name="12.8"></a>
-## Requisitos de Sistema de Ajuda e de Documentação de Usuário On-line <a name="12.9"></a>
-## Interfaces de Hardware <a name="12.10"></a>
+# Qualidade  <a name="11"></a>
+## requisitos funcionais <a name="11.1"></a>
+## requisitos não funcionais <a name="11.2"></a>
+## requisitos para plataformas específicas <a name="11.3"></a>
+## usabilidade <a name="11.4"></a>
+## confiabilidade <a name="11.5"></a>
+## desempenho <a name="11.6"></a>
+## suportabilidade <a name="11.7"></a>
+## restrições de design <a name="11.8"></a>
+## Requisitos de Sistema de Ajuda e de Documentação de Usuário On-line <a name="11.9"></a>
+## Interfaces de Hardware <a name="11.10"></a>
 
-# Requisitos Mínimos dos Sistemas <a name="13"></a>
-## Sistema executar o projeto <a name="13.1"></a>
+# Requisitos Mínimos dos Sistemas <a name="12"></a>
+## Sistema executar o projeto <a name="12.1"></a>
 
 * Processadores: processador Intel Atom® ou processador Intel® Core ™ i3
 * Espaço em disco: 1 GB
 * Sistemas operacionais: Windows * 7 ou posterior, macOS e Linux
 * Versões Python *: 2.7.X, 3.6.X
 
-## Servidor de Banco de Dados e Servidor Web <a name="13.2"></a>
+## Servidor de Banco de Dados e Servidor Web <a name="12.2"></a>
 
 Com os requisitos a seguir o esse servidor deve suportar cerca de 10 000 usuários, caso tenha necessidade de atuar com mais usuários o estudo deve ser feito novamente.
 
-### Servidor de Banco de Dados <a name="13.2.1"></a>
+### Servidor de Banco de Dados <a name="12.2.1"></a>
 * Requirido
     * Processador = Xeon E5 server family
     * CPU = 2 x 4 cores
@@ -194,14 +187,14 @@ Com os requisitos a seguir o esse servidor deve suportar cerca de 10 000 usuári
     * CPU = 1 x 4 sockets
     * Espaço de Disco = 16GB à 1.5TB
 
-#### SQLite <a name="13.2.1.1"></a>
+#### SQLite <a name="12.2.1.1"></a>
 
 Windows | Linux/ Mac
 ------- | -----
 XP Service Pack 3/2003 Service Pack 2 ou maior. |  Java Runtime Environment (JRE) 1.5 ou maior.  
 .NET Framework 2.0 ou maior. | 500 MB RAM  
 500 MB RAM |
-### Servidor Web <a name="13.2.1"></a>
+### Servidor Web <a name="12.2.1"></a>
 
 A escolha do servidor web é de grande importancia pois afeta diretamente a experiencia do usuário. Deve ser um equilíbrio de CPU e de RAM.
 
@@ -209,7 +202,7 @@ A escolha do servidor web é de grande importancia pois afeta diretamente a expe
 * Memoria Ram: 16GB
 * HDD: 146 GB 15K 12GBPS 128MB Cache
 
-# Referências <a name="14"></a>
+# Referências <a name="13"></a>
 
 * Requisitos de hardware. Disponível em <http://www.stansoftware.com/hardware-requirements/>. Acesso em 20 de setembro de 2019.
 * Requisitos de sistema. Disponível em: <https://software.intel.com/en-us/distribution-for-python/system-requirements>. Acesso em 20 de setembro de 2019.
