@@ -25,7 +25,8 @@
     1. [Diagramas significativos](#5.1)
         1. [Diagrama de classes](#5.1.1)
         2. [Diagrama de colaboração](#5.1.2)
-        3. [Diagrama de pacotes](#5.1.3)
+        3. [Diagrama de pacotes Django](#5.1.3)
+        4. [Diagrama de pacotes Angular](#5.1.4)
 6. [Visão de implantação](#6)
     1. [Diagrama de implantação](#6.1)
 7. [Diagrama de sequência](#7)
@@ -123,13 +124,97 @@ O sistema faz uso do angular 8, que traz vantagens como: componetização, módu
 ## Diagramas significativos <a name="5.1"></a>
 
 ### Diagrama de classes <a name="5.1.1"></a>
+O diagrama de classes é a representação gráfica que descrevea estrutura de um sistema. Contendo seus atributos, métodos, classes e afins.
+
+Seguindo o modelo UML(Unfied Modeling Language), o nosso sistema se descreve em sua estrutura de funcionamento, relacionando seus subsistemas dependentes.
+
+Temos como principais classes:
+
+* Usuário: possui um endereço e pode criar eventos
+* Endereço: usado para criar um evento
+* Evento: contém informações do usuário e endereço, e expões o alimento a ser doado
+* Alimento: o alimento é usado como referência física do produto a ser doado, tendo ele categorias do produto como: quantidade e validade 
 
 ### Diagrama de colaboração <a name="5.1.2"></a>
+O diagrama de colaboração exibe as interações entre os objetos e suas dependências dentro de um sistema.
 
-### Diagrama de pacotes <a name="5.1.3"></a>
+### Diagrama de pacotes Django <a name="5.1.3"></a>
+O Diagrama de pacotes, ou diagrama de módulos, definido pela UML, descreve os pacotes ou pedaços do sistema divididos em agrupamentos lógicos mostrando as dependências entre eles. Este diagrama é utilizado para ilustrar a arquitetura de um sistema mostrando o agrupamento de suas classes. O Django organiza seus componentes em apps que possuem arquivos referentes a cada aplicação.
+
+* apps: cada app tem uma pasta com as suas models, views, formulários, testes, templates e arquivos estáticos.
+
+    * migrations : pasta com as migrações para o banco de dados.
+
+    * static : pasta com arquivos CSS, JavaScript e imagens.
+
+    * tests : arquivos de testes refente ao app.
+
+    * templates : arquivos html do app.
+
+    * locale : traduções referentes ao app.
+
+    * models : arquivos de models do app.
+
+    * views : arquivos de views do app.
+
+    * forms : arquivos de formulários do app.
+
+    * admin : arquivo de conexão do app com o admin.
+
+    * urls.py : arquivo que mapeia as as views com templates de cada app
+
+    * _init_ : arquivo que transforma o app em um pacote python.
+
+    * apps : mapeia a pasta que o contém como um app.
+
+    * utils : arquivos de validação dos apps.
+
+* config : pasta com as configurações do projeto Django.
+
+    * urls.py : inclui todos os URLs.py dos apps.
+
+    * _init_ : arquivo que transforma as configurações em um pacote python.
+
+    * settings : arquivos com as configurações básicas da aplicação.
+
+    * wsgi : especificação para uma interface simples e universal entre servidores web e aplicações web.
+
+* manage.py : arquivo criado automaticamente pelo Django para gerênciamento de comandos.
+
+* docs : documentação da aplicação.
+
+* compose : pasta com arquivos do docker.
+
+* utility : arquivos para o auxílio na instalação do software.
+
+* requirements : organiza todos os pacotes/componentes que a aplicação utiliza em arquivos. 
+
+### Diagrama de pacotes Angular <a name="5.1.4"></a>
+Os a relação de pacotes utilizados do Angular compõe:
+
+* app.component.css: Arquivo responsável pelo estilo do nosso módulo.
+
+* app.component.html: Arquivo HTML do nosso componente App, segue o mesmo pensamento que os arquivos de estilo.
+
+* app.component.spec.ts: Arquivo de teste do nosso componente.
+
+* app.component.ts: possui a mesma responsabilidade os Constrollers.
+
+* app.module.ts: O Angular é um framework modular.
+
+* Assets: Esse diretório nos permite trabalhar com arquivos extras a nossa aplicação, como as nossas imagens.
+
+* Environments: Temos dois arquivos .ts, um para o nosso ambiente de produção e um outro para o nosso ambiente de desenvolvimento.
+
+* index.html: Esse seria o nosso arquivo root, dentro dele rodamos a nossa SPA (Single Page Application).
+
+* main.ts: Esse é o arquivo principal da nossa Solution. Ele vem definido dentro do nosso arquivo angular-cli.json, esse seria o bootstrap da nossa aplicação.
+
+* polyfills.ts: traduz o código para diferentes navegadores web.
 
 # Visão de implantação  <a name="6"></a>
 ## Diagrama de implantação <a name="6.1"></a>
+
 
 
 # diagrama de sequência <a name="7"></a>
