@@ -6,11 +6,8 @@
 20/09/19 | 1.1 | Adiciona Requisitos mínimos dos sistemas | Giovanna
 21/09/19 | 1.2 | Adiciona visão de dados | Giovanna
 21/09/19 | 1.3 | Adiciona introdução e representação de arquitetura| Geraldo
-<<<<<<< HEAD
-21/09/19 | 1.4 | Adiciona diagrama de sequência doador| Lucas
-=======
 22/09/19 | 1.4 | Atualiza introdução e representação de arquitetura| Geraldo
->>>>>>> 1a57fc0f1e688b507022687ef3a6849d8533c8b0
+21/09/19 | 1.5 | Adiciona diagrama de sequência doador| Lucas
 
 # Índice
 1. [Introdução](#1)
