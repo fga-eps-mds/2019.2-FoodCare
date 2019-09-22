@@ -6,7 +6,11 @@
 20/09/19 | 1.1 | Adiciona Requisitos mínimos dos sistemas | Giovanna
 21/09/19 | 1.2 | Adiciona visão de dados | Giovanna
 21/09/19 | 1.3 | Adiciona introdução e representação de arquitetura| Geraldo
+<<<<<<< HEAD
 21/09/19 | 1.4 | Adiciona diagrama de sequência doador| Lucas
+=======
+22/09/19 | 1.4 | Atualiza introdução e representação de arquitetura| Geraldo
+>>>>>>> 1a57fc0f1e688b507022687ef3a6849d8533c8b0
 
 # Índice
 1. [Introdução](#1)
@@ -14,8 +18,10 @@
     2. [Escopo](#1.2)
     3. [Definições, acrônimos, abreviações](#1.3)
 2. [Representação da arquitetura](#2)
-    1. [MVC](#2.1)
-    2. [MTV](#2.2)
+    1.  [Back-end](#2.1)
+        1. [MVC](#2.1.1)
+        2. [MTV](#2.1.1)
+    2.  [Front-end](#2.2)   
 3. [Metas e Restrições de Arquitetura](#3)
 4. [Visão de casos de uso](#4)
 5. [Visão lógica](#5)
@@ -73,20 +79,26 @@ Este documento apresenta as características arquiteturais do projeto **FoodCare
 
 **Django** - Framework da linguagem python para a construção rápida de aplicativos web, fornecendo componentes prontos e com fácil uso.
 
-**REST** - API para Django que visa aumentar a produtividade na utilização do Django em algumas etapas.
+**HTTP** - Prototocolo de comunicação utilizado para sistemas de informação.
+
+**REST** - Ferramenta que auxilia a utilização do protocolo http.
 
 **Angular** - Framework de front-end que visa aumentar a produtividade no que diz respeito ao ao front-end do projeto.
 
 **Docker** - Ferramenta utilizada para modularizar os processos do desenvolvimento do software para eliminiar as inconsistências do ambiente de desenvolvimento.
 
+**PWA** - Progressive Web App (PWA) é um termo usado para denotar aplicativos da web que usam as últimas tecnologias da web. Os aplicativos da web progressivos são páginas web (ou sites) tecnicamente regulares, mas podem aparecer ao usuário como aplicativos tradicionais ou aplicativos móveis (nativos).
+
 **FoodCare** - Aplicação web, desenvolvida em Django REST e Angular, que tem como objetivo aproximar pessoas que querem doar com pessoas que desejam receber, estimulando doações, tendo em vista a quantidade de comida que é desperdiçada todos os dias.
 
 # Representação da arquitetura <a name="2"></a>
-O sistema faz uso do Framework Django (versão 2.2.5), que faz uso do padrão MVC. No entanto, tal plataforma possui uma interpretação singular em relação à organização de camadas. O indicado é considerar que a própria plataforma faz o papel da camada de controle, enquanto a camada de Modelo e de Visão devem ser adaptadas e reinterpretadas conforme o necessário. Por este motivo, ainda que o Django implemente o MVC, considera-se que o padrão de camadas externalizado pela plataforma é o MTV (Model-Template-View).
 
+## Back-end <a name="2.1"></a>
+
+O sistema faz uso do Framework Django (versão 2.2.2), que faz uso do padrão MVC. No entanto, tal plataforma possui uma interpretação singular em relação à organização de camadas. O indicado é considerar que a própria plataforma faz o papel da camada de controle, enquanto a camada de Modelo e de Visão devem ser adaptadas e reinterpretadas conforme o necessário. Por este motivo, ainda que o Django implemente o MVC, considera-se que o padrão de camadas externalizado pela plataforma é o MTV (Model-Template-View). Para auxiliar no protocolo http utilizamos a ferramenta REST.
 A utilização de uma arquitetura em camadas é interessante por proporcionar uma clara separação de responsabilidades no código, proporcionando reusabilidade, e reduzindo o esforço de manutenção. Os conceitos de MVC e MTV serão apresentados nas seções seguintes.
 
-## MVC <a name="2.1"></a>
+### MVC <a name="2.1.1"></a>
 Figura 1. Padrão arquitetural MVC.
 
 * **Model:** camada de acesso a base de dados, é responsável pela leitura, manipulação e validação dados;
@@ -94,7 +106,7 @@ Figura 1. Padrão arquitetural MVC.
 * **Controller:** é responsável por manipular e validar as requisições do usuário, traduzindo em comandos enviados para enviados para a Model e/ou View .
 
 * **View:** camada de interface com o usuário, responsável pela representação dos dados;
-## MTV <a name="2.2"></a>
+### MTV <a name="2.1.1"></a>
 Figura 2. Padrão arquitetural MTV.
 
 * **Model:** segue a mesma definição da model no MVC;
@@ -102,6 +114,9 @@ Figura 2. Padrão arquitetural MTV.
 * **Template:** segue a mesma definição da view no MVC;
 
 * **View:** segue a mesma definição da controller no MVC.
+
+## Back-end <a name="2.2"></a>
+O sistema faz uso do angular 8, que traz vantagens como: componetização, módulos específicos para configurar PWA, sistema de rotas de páginas, framework material para parte de design do site.
 # Metas e Restrições de Arquitetura <a name="3"></a>
 
 # Visão de casos de uso <a name="4"></a>
@@ -197,3 +212,6 @@ A escolha do servidor web é de grande importancia pois afeta diretamente a expe
 * Requisitos de sistema. Disponível em: <https://software.intel.com/en-us/distribution-for-python/system-requirements>. Acesso em 20 de setembro de 2019.
 * Requisitos de sistema. Disponível em: <http://cdn.cdata.com/help/DEA/rsb/pg_startrequirementsrsb.htm>. Acesso em 20 de setembro de 2019.
 * Get Started with Docker. Disponível em <https://www.docker.com/get-started>
+* Software Architecture: MVC Design Pattern, Medium. Disponível em: //medium.com/@dennisvera.z/software-architecture-mvc-design-pattern-ceae5d5083d7)).
+* Django's Structure – A Heretic's Eye View, The django book. Disponível em: <https://djangobook.com/mdj2-django-structure/>
+* O que é PWA (Progressive Web App). Disponível em <https://vizir.com.br/2017/08/o-que-e-pwa-progressive-web-app-porque-isso-pode-aumentar-seus-resultados-mobile/>
