@@ -239,17 +239,78 @@ Os a relação de pacotes utilizados do Angular compõe:
 ### diagrama lógico modelado <a name="10.1.1"></a>
 ![diagrama lógico modelado](https://github.com/fga-eps-mds/2019.2-FoodCare/blob/docs/docs/images/MER.png?raw=true)
 
-# Qualidade  <a name="11"></a>
-## requisitos funcionais <a name="11.1"></a>
-## requisitos não funcionais <a name="11.2"></a>
-## requisitos para plataformas específicas <a name="11.3"></a>
-## usabilidade <a name="11.4"></a>
-## confiabilidade <a name="11.5"></a>
-## desempenho <a name="11.6"></a>
-## suportabilidade <a name="11.7"></a>
-## restrições de design <a name="11.8"></a>
-## Requisitos de Sistema de Ajuda e de Documentação de Usuário On-line <a name="11.9"></a>
-## Interfaces de Hardware <a name="11.10"></a>
+# 11. Qualidade  <a name="11"></a>
+Os seguintes itens conferem ao sistema aspectos de qualidade, bem como a descrição da abordagem realizada para satisfazer esses aspectos. São estes aspectos, legais e reguladores, como as normas estabelecidas para bom funcionamento do sistema, atributos de qualidade, como padrões de usabilidade, confiabilidade, desempenho e suportabilidade.
+
+## 11.1 Requisitos funcionais <a name="11.1"></a>
+Identificador | Requisito funcional | Descrição
+------- | ------- | -------
+RF001 | Cadastrar usuário | O sistema deve permitir que o usuário inclua infomrações para cadastro.
+RF002 | Consultar mapa com localização das doações | O sistema deve permitir que o usuário veja os eventos referentes às doações no formato de mapa.
+RF003 | Filtrar categorias de alimentos | O sistema deve permitir que o usuário filtre os eventos que deseja visualizar de acordo com o tipo de alimento disponível em cada evento.
+RF004 | Pesquisar evento | O sistema deve permitir que o usuário pesquise nominalmente o evento de seu interesse.
+RF005 | Consultar evento | O sistema deve permitir que o usuário consulte as informaçẽos específicas dos eventos, como local, hora, data e o tipo de alimento disponibilizado.
+RF006 | Listar eventos | O sistema deve permitir ao usuário escolha a visualização dos eventos em forma de lista.
+RF007 | Validar dados cadastrais do usuário | O sistema deve ser capaz de validar os dados do usuário no momento em que o logiin for realizado.
+RF008 | Enviar email | O sistema deve permitir que o usuário envie um email para o admin do site.
+RF009 | Criar evento | O sistema deve permitir que o usuário insira informações para criar eventos de doação, como nome e data do evento, quantidade e tipo de alimento disponibilizado.
+RF010 | Alterar evento | O sistema deve permirtir que o usuário altere o evento criado, editando informações.
+RF011 | Excluir evento | O sistema deve permitir que o usuário exclua um evento criado. 
+RF012 | Notificar usuário | O sistema deve ser capaz de notificar, via email, o usuário cadastrado a respeito das doaçẽos em vigor. 
+RF013 | Cadastrar admin | O sistema deve permitir cadastro de um administrador do site.
+
+## 11.2 Requisitos não funcionais <a name="11.2"></a>
+Identificador | Requisito não funcional | Descrição
+-----| ------| ------
+RNF001 | Retornar mensagem de sucesso | Imeadiatamente após o cadastro do usuário, o sistema irá retornar uma mensagem de cadastro completado com sucesso.
+RNF002 | Mensagem de erro | Caso o usuário tente fazer login sem que haja cadastro, uma mensagem de erro será mostrada.
+RNF003 | Retornar à Home | A página retornará para a interface Home sempre que houver click sobre o nome da página.
+
+## 11.3 Requisitos para plataformas específicas <a name="11.3"></a>
+Identificador | Navegador Web | Modelo | Versão
+------- | ------- | ------- | ------ 
+RNF001 | Internet Explorer | Qualquer dispositivo | Versão 10 ou superior.
+RNF002 | Chrome | Qualquer dispositivo | Última versão
+RNF003 | Mozilla Firefox | Qualquer dispositivo | Versão mais recente ou imediatamente anterior
+RNF004 | Opera | Qualquer dispositivo | 11 ou superior.
+RNF005 | Safari | Qualquer dispositivo | Versão 6 ou superior.
+
+## 11.4 Usabilidade <a name="11.4"></a>
+A usabilidade definida como a efetividade, a eficiência e a satisfação com que usuários específicos atingem objetivos específicos em ambientes particulares, visa facilitar a utilização de uma interface pelo usuário sem perder a interação de suas funcionalidades com o sistema.
+
+* Facilidade de aprendizado: a utilização do sistema requer pouco treinamento;
+* Fácilidade de memorização: o usuário deve lembrar como utilizar a interface depois de algum tempo;
+* Consistência e Padronização: O sistema deve manter padronizada a interface independente do tipo de usuário, apenas alterando as funcionalidades disponíveis para cada um;
+* Eficiência: O sistema deve fornecer acesso a qualquer funcionalidade de forma rápida e eficiente;
+* Design Simples: O sistema deve ter ícones intuitivos. Para cada tipo de usuário haverá um certo nível de funcionalidades disponíveis;
+* Minimizar os erros: caso aconteçam erros, a interface deve avisar o usuário e permitir a correção de modo fácil.
+
+## 11.5 Confiabilidade <a name="11.5"></a>
+Qualidade do sistema que nos permite confiar, justificadamente, no serviço oferecido.
+
+* Disponibilidade: O sistema estará disponível no modo 24/7 (24 horas por dia, 7 dias por semana).
+* Autenticidade: O sistema irá cadastrar doares de alimentos utilizando o número de CNPJ da empresa, de modo a minimizar o risco de falsos doadores.
+* Segurança e Privacidade: O sistema deve assegurar a segurança e privacidade dos dados gerados, armazenando senhas e dados sensíveis de forma segura. O sistema deve ser transparente quanto às informações coletadas referentes a dados pessoais do usuário.
+
+## 11.6 Desempenho <a name="11.6"></a>
+
+* Tempo de Resposta: O aplicativo tem de responder às ações do usuário de imediato.
+* Modo de degradação: Se o sistema estiver sofrendo com algo que degrade o site, como a internet com sinal fraco, terá páginas que não serão carregadas.
+* Utilização de Recursos: OS X 10.9 ou superior, Windows 7 ou superior, Versão 6 ou superior.
+* Adequação de interface: O site será capaz de se adequar à tela ao dispositivo utilizado pelo usuário, utilizando Progress Web Apps (PWA).
+
+## 11.7 Suportabilidade <a name="11.7"></a>
+
+## 11.8 Restrições de design <a name="11.8"></a>
+* O nome da página sempre estará no topo do layout e sempre que clicado, direcionará à página para a interface inicial (home)
+* Para criar um novo evento, o usuário terá que passar pela teça de login.
+
+## 11.9 Interfaces de Hardware <a name="11.10"></a>
+O software oferece suporte aos dispositivos apresentados abaixo.
+
+* Smartphones.
+* Computadores Notebooks.
+* Computadores Desktop.
 
 # Requisitos Mínimos dos Sistemas <a name="12"></a>
 ## Sistema executar o projeto <a name="12.1"></a>
