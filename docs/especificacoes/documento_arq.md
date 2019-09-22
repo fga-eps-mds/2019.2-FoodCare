@@ -25,7 +25,7 @@
 6. [Visão de implantação](#6)
     1. [Diagrama de implantação](#6.1)
 7. [Diagrama de sequência](#7)
-    1. [Diagrama de sequência geral](#7.1)    
+    1. [Diagrama de sequência doador](#7.1)    
     2. [Diagrama de sequência de usuário](#7.2)
 8. [Diagrama de usuário](#8)
     1. [Diagrama de atividades (atividade)](#8.1)
@@ -123,7 +123,9 @@ Figura 2. Padrão arquitetural MTV.
 
 
 # diagrama de sequência <a name="7"></a>
-## diagrama de sequência (geral) <a name="7.1"></a>
+## diagrama de sequência doador <a name="7.1"></a>
+![Diagrama de Sequência doador](seq_diag_doador.png)
+
 ## diagrama de sequência (usuário) <a name="7.2"></a>
 
 # diagrama de usuário <a name="8"></a>
