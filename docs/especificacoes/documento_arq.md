@@ -6,6 +6,7 @@
 20/09/19 | 1.1 | Adiciona Requisitos mínimos dos sistemas | Giovanna
 21/09/19 | 1.2 | Adiciona visão de dados | Giovanna
 21/09/19 | 1.3 | Adiciona introdução e representação de arquitetura| Geraldo
+21/09/19 | 1.4 | Adiciona diagrama de sequência doador| Lucas
 
 # Índice
 1. [Introdução](#1)
