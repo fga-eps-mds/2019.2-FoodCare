@@ -10,7 +10,8 @@
 21/09/19 | 1.5 | Adiciona diagrama de sequência doador| Lucas
 23/09/19 | 1.6 | Adiciona metas e restrições de arquitetura| Bruna
 23/09/19 | 1.7 | Adiciona diagrama de casos de uso| Bruna
-24/09/19 | 1.8 | Adiciona diagrama sequência doador| Lucas
+24/09/19 | 1.8 | Adiciona diagrama sequência visitante| Lucas
+24/09/19 | 1.9 | Adiciona diagramas atividades| Lucas
 
 # Índice
 1. [Introdução](#1)
