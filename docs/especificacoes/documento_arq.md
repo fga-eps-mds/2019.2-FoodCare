@@ -233,14 +233,15 @@ Os a relação de pacotes utilizados do Angular compõe:
 ## diagrama de sequência doador <a name="7.1"></a>
 ![Diagrama de Sequência doador](seq_diag_doador.png)
 
-## diagrama de sequência (usuário) <a name="7.2"></a>
+## diagrama de sequência visitante <a name="7.2"></a>
 ![Diagrama de Sequência doador](seq_diag_visitante.png)
 
 # diagrama de usuário <a name="8"></a>
 ## diagrama de atividades doador <a name="8.1"></a>
 ![Diagrama de Atividade doador](diag_act_doador.png)
 
-## diagrama de atividades (usuário) <a name="8.2"></a>
+## diagrama de atividades  visitante<a name="8.2"></a>
+![Diagrama de Atividade doador](diag_act_visitante.png)
 
 # visão de implementação <a name="9"></a>
 ## finalidade <a name="9.1"></a>
