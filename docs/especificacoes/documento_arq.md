@@ -116,7 +116,16 @@ Figura 2. Padrão arquitetural MTV.
 ## Back-end <a name="2.2"></a>
 O sistema faz uso do angular 8, que traz vantagens como: componetização, módulos específicos para configurar PWA, sistema de rotas de páginas, framework material para parte de design do site.
 # Metas e Restrições de Arquitetura <a name="3"></a>
-
+Restrição|Descrição
+:---------:|:----------
+Linguagem|O sistema será desenvolvido utilizando a linguagem Typescript para o front-end e a linguagem Python para o back-end.
+Plataforma|Será utilizado o framework Angular para o front-end e o framework Django para o back-end.
+Segurança|Todas as senhas cadastradas serão criptogradas, para uma maior segurança para o usuário.
+Persistência|Será utilizado o banco de dados SQLite3 para a persistência dos dados.
+Arquitetura|Será feita uma arquitetura de microserviços, já que facilita a escalabilidade do sistema e simplifica o deploy de componentes separados do sistema.
+Portabilidade|O projeto é uma aplicação web, o que facilita a portabilidade entre sistemas, sendo acessado através do navegador. Entretanto, não possui portabilidade para mobile.
+Distribuição|Sempre será disponibilizada ao usuário a última versão da API, já que a distribuição sempre ocorrerá assim que a nova versão do software é enviada para produção.
+Reuso|A utilização dos frameworks Django e Angular certificam um bom reuso devido à padronização da criação de componentes do código.
 # Visão de casos de uso <a name="4"></a>
 
 # Visão lógica  <a name="5"></a>
