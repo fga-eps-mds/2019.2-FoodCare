@@ -8,6 +8,8 @@
 21/09/19 | 1.3 | Adiciona introdução e representação de arquitetura| Geraldo
 22/09/19 | 1.4 | Atualiza introdução e representação de arquitetura| Geraldo
 21/09/19 | 1.5 | Adiciona diagrama de sequência doador| Lucas
+23/09/19 | 1.6 | Adiciona metas e restrições de arquitetura| Bruna
+23/09/19 | 1.7 | Adiciona diagrama de casos de uso| Bruna
 
 # Índice
 1. [Introdução](#1)
@@ -127,7 +129,7 @@ Portabilidade|O projeto é uma aplicação web, o que facilita a portabilidade e
 Distribuição|Sempre será disponibilizada ao usuário a última versão da API, já que a distribuição sempre ocorrerá assim que a nova versão do software é enviada para produção.
 Reuso|A utilização dos frameworks Django e Angular certificam um bom reuso devido à padronização da criação de componentes do código.
 # Visão de casos de uso <a name="4"></a>
-
+![Diagrama de Casos de Uso](diagrama_casos_de_uso.png)
 # Visão lógica  <a name="5"></a>
 
 ## Diagramas significativos <a name="5.1"></a>
