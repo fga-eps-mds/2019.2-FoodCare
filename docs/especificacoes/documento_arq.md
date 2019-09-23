@@ -31,7 +31,7 @@
     1. [Diagrama de implantação](#6.1)
 7. [Diagrama de sequência](#7)
     1. [Diagrama de sequência doador](#7.1)    
-    2. [Diagrama de sequência de usuário](#7.2)
+    2. [Diagrama de sequência visitante](#7.2)
 8. [Diagrama de usuário](#8)
     1. [Diagrama de atividades (atividade)](#8.1)
     2. [Diagrama de atividades (artigo)](#8.2)
@@ -222,6 +222,7 @@ Os a relação de pacotes utilizados do Angular compõe:
 ![Diagrama de Sequência doador](seq_diag_doador.png)
 
 ## diagrama de sequência (usuário) <a name="7.2"></a>
+![Diagrama de Sequência doador](seq_diag_visitante.png)
 
 # diagrama de usuário <a name="8"></a>
 ## diagrama de atividades (geral) <a name="8.1"></a>
