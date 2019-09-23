@@ -10,6 +10,7 @@
 21/09/19 | 1.5 | Adiciona diagrama de sequência doador| Lucas
 23/09/19 | 1.6 | Adiciona metas e restrições de arquitetura| Bruna
 23/09/19 | 1.7 | Adiciona diagrama de casos de uso| Bruna
+24/09/19 | 1.8 | Adiciona diagrama sequência doador| Lucas
 
 # Índice
 1. [Introdução](#1)
@@ -35,8 +36,8 @@
     1. [Diagrama de sequência doador](#7.1)    
     2. [Diagrama de sequência visitante](#7.2)
 8. [Diagrama de usuário](#8)
-    1. [Diagrama de atividades (atividade)](#8.1)
-    2. [Diagrama de atividades (artigo)](#8.2)
+    1. [Diagrama de atividades doador](#8.1)
+    2. [Diagrama de atividades visitante](#8.2)
 9. [Visão de implementação](#9)
     1. [Finalidade](#9.1)
     2. [Diagramas significativos](#9.2)
@@ -236,7 +237,9 @@ Os a relação de pacotes utilizados do Angular compõe:
 ![Diagrama de Sequência doador](seq_diag_visitante.png)
 
 # diagrama de usuário <a name="8"></a>
-## diagrama de atividades (geral) <a name="8.1"></a>
+## diagrama de atividades doador <a name="8.1"></a>
+![Diagrama de Atividade doador](diag_act_doador.png)
+
 ## diagrama de atividades (usuário) <a name="8.2"></a>
 
 # visão de implementação <a name="9"></a>
