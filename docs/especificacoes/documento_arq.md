@@ -200,7 +200,7 @@ Os a relação de pacotes utilizados do Angular compõe:
 
 * app.component.ts: possui a mesma responsabilidade os Constrollers.
 
-* app.module.ts: O Angular é um framework modular.
+* app.module.ts: O Angular é um framework modular, ele precisa de um ou mais módulos para que possamos gerenciar os nossos componentes.
 
 * Assets: Esse diretório nos permite trabalhar com arquivos extras a nossa aplicação, como as nossas imagens.
 
