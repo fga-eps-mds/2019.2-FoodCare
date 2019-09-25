@@ -1,4 +1,4 @@
-![FoodCare](https://lh3.googleusercontent.com/dr4TtJKIvmdQJBv1aRgMM2lt-0MvwHLiPintF255CDc3JJBw1iKIYUaNqO6aBimgvJgGcw=s141 )
+![FoodCare](https://raw.githubusercontent.com/fga-eps-mds/2019.2-FoodCare/docs/docs/images/logo-medium.png)
 # Documento de Visão
 ## Historico de versão
  Data | Versão | Descrição | Autor
@@ -9,6 +9,7 @@
 07/09/19 | 1.3 | Criação do tópico Visão Geral do Produto | Geraldo
 07/09/19 | 1.4 | Criação do tópico Recursos do Produto | Hugo
 07/09/19 | 1.5 | Criação do tópico Outros Requisitos do Produto | Lucas
+25/09/19 | 1.6 | Atualiza a posição do produto | Giovanna
 
 # Índice
 1. [Introdução](#1)
@@ -53,10 +54,10 @@ O programa desenvolvido tem como intuito facilitar o acesso a alimentos para fam
 ## Descrição do Problema <a name="2.1"></a>
 O problema é a quantidade de comida que restaurantes e/ou mercados jogam fora por deixarem de estar fresco e/ou vencido. Isso faz com que muita comida seja desperdiçada, enquanto muitas famílias carentes não conseguem garantir alimentação durante o mês.
 
-Uma solução para essa situação é garantir que a comunidade carecida  e/ou ONG’s tenha conhecimento de quais restaurantes e/ou mercados estão doando comida.
+Uma solução para essa situação é garantir que a comunidade carecida  e/ou ONG’s tenha conhecimento de quais restaurantes e/ou mercados e/ou ONG’s estão doando comida.
 
 ## Posição do produto <a name="2.2"></a>
-Para a comunidade que carece de recursos alimentícios. O FoodCare é uma aplicação web que facilita o acesso a comida doada. De outro modo o Cópia, além de necessitar de número de telefone internacional, é um aplicativo que deve ser baixado,  nosso FoodCare é um Progressive Web App (PWA) e não precisa instalar nenhum aplicativo. Além de oferecer notificações específicas para cada usuário cadastrado.
+Para a comunidade que carece de recursos alimentícios. O FoodCare é uma aplicação web que facilita o acesso a comida doada. De outro modo o Cópia, além de necessitar de número de telefone internacional, é um aplicativo que deve ser baixado,  nosso FoodCare é um Progressive Web App (PWA) e não precisa instalar nenhum aplicativo. Além de oferecer Web Push Notifications, notificações exibidas em navegadores. Ao acessar o site e aceitar as notificações, o usuário vai receber mensagens diretamente em seu navegador.
 
 # Descrições dos envolvidos e usuários <a name="3"></a>
 O produto visa facilitar a interação entre aqueles que possuem recursos alimentícios a serem doados e aqueles que necessitam desses produtos. Desta forma, o FoodCare terá usuários doadores e usuários receptores,  visando minimizar o problema relacionado ao desperdício de alimentos.
