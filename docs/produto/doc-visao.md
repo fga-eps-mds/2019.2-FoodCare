@@ -10,6 +10,8 @@
 07/09/19 | 1.4 | Criação do tópico Recursos do Produto | Hugo
 07/09/19 | 1.5 | Criação do tópico Outros Requisitos do Produto | Lucas
 25/09/19 | 1.6 | Atualiza a posição do produto | Giovanna
+25/09/19 | 1.7 | Atualiza a descrição dos envolvidos e usúarios | Giovanna
+
 
 # Índice
 1. [Introdução](#1)
@@ -62,23 +64,22 @@ Para a comunidade que carece de recursos alimentícios. O FoodCare é uma aplica
 # Descrições dos envolvidos e usuários <a name="3"></a>
 O produto visa facilitar a interação entre aqueles que possuem recursos alimentícios a serem doados e aqueles que necessitam desses produtos. Desta forma, o FoodCare terá usuários doadores e usuários receptores,  visando minimizar o problema relacionado ao desperdício de alimentos.
 ## Perfil da Parte Interessada <a name="3.1"></a>
-* Representante: Doadores
-* Descrição: O usuário doador trat
 
-O usuário doador trata-se de supermercados e restaurantes dispostos a doar alimentos que não serão mais destinados ao que foram propostos, como alimentos perto do vencimento da validade ou sobras de “comida limpa” nos restaurantes.
+* Representante: Doadores
+* Descrição: O usuário doador trata-se de supermercados, de restaurantes e de ONG's dispostos a doar alimentos que não serão mais destinados ao que foram propostos, como alimentos perto do vencimento da validade ou sobras de “comida limpa” nos restaurantes.
 
 * Envolvimento no projeto: Cadastrar o recurso que será disponibilizado a fim de destiná-los da melhor maneira e iniciar um evento que indique o período em que esse recurso será disponibilizado.
 
 ## Perfil do usuário <a name="3.2"></a>
 
 * Representante: Receptor
-* Descrição: O usuário receptor trata-se de ONG’s ou pessoas físicas interessadas em captar o recurso alimentício que será disponibilizado pelo doador a fim de distribuir esse alimento às pessoas necessitadas.
-* Envolvimento no projeto: Cadastrar seu email para ser notificada quando um doador iniciar um evento.
+* Descrição: O usuário receptor trata-se de ONG’s ou pessoas físicas interessadas em captar o recurso alimentício que será disponibilizado pelo doador, no caso das ONG's a fim de distribuir esse alimento às pessoas necessitadas.
+* Envolvimento no projeto: Acessar o site, vizualizar eventos de doação e aceitar as notificações, para que receba mensagens diretamente em seu navegador.
 
 ## Demográficos de Mercado <a name="3.3"></a>
 Atualmente, os alimentos que perdem o prazo de validade ou refeições prontas e não consumidas em restaurantes são descartados. Estima-se que por ano, no Brasil, mais de 26 milhões de toneladas de comida sejam jogadas fora.
 
-O FoodCare ao oferecer um serviço de integração entre o doador e o receptor, faz o papel de destinar o alimento que seria perdido àqueles que necessitam.
+O FoodCare ao oferecer um serviço de integração entre o doador e o receptor, faz o papel de divulgar o alimento que seria perdido àqueles que necessitam.
 ## Alternativas e Concorrência <a name="3.4"></a>
 A vantagem competitiva do FoodCare se dá no fato de poder ser acessado em qualquer rede desde que haja acesso à internet, sem a obrigatoriedade da instalação de um aplicativo.
 
