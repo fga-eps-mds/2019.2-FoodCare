@@ -1,4 +1,4 @@
-# Sprint 3
+# Sprint 4
 
 ## Resumo da Sprint
 
@@ -22,7 +22,7 @@
 A definição de duplas de pareamento foram escolhidas analisando o quadro de conhecimento, a review da sprint passada também, onde foi relatado para o Scrum como cada membro está se relacionando com a equipe e possíveis problemas pessoais e técnicos que poderão ocorrer. Cada dupla de pareamento será supervisionada por um EPS, devido também ter issues atrasadas da sprint 3 o pareamento terá de ocorrer todos os dias.
 
 - Geraldo e Bruna, com a supervisão do EPS Igor.
-- Giovanna e Hugo, com a supervisão dos EPS Willian.
+- Giovanna e Hugo, com a supervisão dos EPS William.
 - Rafaella e Lucas, com a supervisão do EPS Geovanne.
 
 ## Planejamento da Sprint
@@ -33,7 +33,7 @@ Essa Sprint como será a última antes da release 1, terá foco no resolução d
 
 - [#40 Criar home](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/40)
 
-- [#41 Criar cadastro e cogin de doador](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/41)
+- [#41 Criar cadastro e login de doador](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/41)
 
 - [#48 Refatorar documentação](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/42)
 
