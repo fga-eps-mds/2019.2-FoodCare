@@ -317,6 +317,7 @@ Qualidade do sistema que nos permite confiar, justificadamente, no serviço ofer
 * Adequação de interface: O site será capaz de se adequar à tela ao dispositivo utilizado pelo usuário, utilizando Progress Web Apps (PWA).
 
 ## 11.7 Suportabilidade <a name="11.7"></a>
+O usuário será capaz de utilizar o sistema através de um navegador de internet, sem a necessidade de qualquer software personalizado no computador pessoal. O site é uma aplicação desenvolvida como *PWA (Progressive Web App)*, possibilitando adequação da tela para uso em qualquer disposito eletrônico. O servidor terá suporte para 100.000 cadastros de usuário.
 
 ## 11.8 Restrições de design <a name="11.8"></a>
 * O nome da página sempre estará no topo do layout e sempre que clicado, direcionará à página para a interface inicial (home)
