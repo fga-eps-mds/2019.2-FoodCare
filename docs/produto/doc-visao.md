@@ -12,6 +12,7 @@
 25/09/19 | 1.6 | Atualiza a posição do produto | Giovanna
 25/09/19 | 1.7 | Atualiza a descrição dos envolvidos e usúarios | Giovanna
 26/09/19 | 1.8 | Atualiza a tabela de resumo das capacidades | Giovanna
+26/09/19 | 1.9 | Atualiza o topico Outros Requisitos de Produto | Giovanna
 
 # Índice
 1. [Introdução](#1)
@@ -124,9 +125,9 @@ Por se tratar de um site não é necessário instalação do nosso software, par
 
 ## Cadastro <a name="5.1"></a>
 
-O usuário poderá se cadastrar na plataforma para ter acesso às funcionalidades do software. O cadastro discrimina o tipo de usuário, podendo ele ser: empresa, Ong ou pessoa física.
+O usuário poderá se cadastrar na plataforma para ter acesso às funcionalidades do software. O cadastro discrimina o tipo de usuário, podendo ele ser: empresa, ONG's desde que tenha CNPJ.
 
-Essa funcionalidade também atenderá as necessidades de edição do conteúdo informado no momento do cadastro como: endereço, idade, nome fantasia, etc.
+Essa funcionalidade também atenderá as necessidades de edição do conteúdo informado no momento do cadastro como: endereço, nome fantasia, etc.
 
 ## Criar evento <a name="5.2"></a>
 
@@ -138,17 +139,17 @@ Todos os usuários serão capazes de visualizar os eventos com status de ativo n
 
 ## Tipificar alimento <a name="5.4"></a>
 
-A empresa doadora será capaz de adicionar informações sobre o alimento como: data de validade, quantidade, nome, categoria alimentícia, etc.
+A empresa doadora será capaz de adicionar informações sobre o alimento como: quantidade, nome e categoria alimentícia.
 
 Esse recurso poderá ser visualizado pelos demais usuários da plataforma.
 
 ## Login <a name="5.5"></a>
 
-O usuário de qualquer tipo cadastrado poderá entrar no sistema por meio de login.
+O usuário cadastrado poderá entrar no sistema por meio de login.
 
 ## Notificações <a name="5.6"></a>
 
-Usuários cadastrados estarão aptos a receber notificações de acordo com a sua necessidade de uso.
+Usuários não cadastrados estarão aptos a receber notificações de acordo com a sua necessidade de uso.
 
 # Outros requisitos do produto <a name="6"></a>
 
