@@ -11,7 +11,7 @@
 07/09/19 | 1.5 | Criação do tópico Outros Requisitos do Produto | Lucas
 25/09/19 | 1.6 | Atualiza a posição do produto | Giovanna
 25/09/19 | 1.7 | Atualiza a descrição dos envolvidos e usúarios | Giovanna
-
+26/09/19 | 1.8 | Atualiza a tabela de resumo das capacidades | Giovanna
 
 # Índice
 1. [Introdução](#1)
@@ -104,7 +104,7 @@ Benefício para o Cliente | Recursos de Suporte
 ------------------------ | -------------------
 Aproxima a informação de onde e quando estão havendo doações de alimentos. | ONG’s e pessoas poderão pesquisar eventos que são no caso os de doações de alimento de acordo com a localização desejada.
 Aproxima quem quer doar alimentos com quem deseja receber doações dos mesmo. | Através da criação de eventos por parte das instituições que querem doar gera-se a informação de quando e onde haverá doação para quem deseja receber doação.
-Cadastro para receber notificações de assim que o evento é criado. | Notificações para os usuários (ONG’s e pessoas).
+Recebe notificações de eventos e alimentos | Notificações para os usuários (ONG’s e pessoas).
 Cadastro de instituições que querem doar alimentos para que fique mais automático criar eventos com endereços cadastrados. | Após o cadastro a instituição pode ver uma lista dos endereços cadastrados.
 Apresenta a localização de eventos de doação de alimentos. | Através do endereço cadastrado pelas as instituições é possível apresentar ao usuário, que deseja doações, a localização do evento .
 
