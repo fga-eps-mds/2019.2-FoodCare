@@ -18,10 +18,7 @@ class Evento(models.Model):
     #id_endereco = models.ForeignKey("Endereco", on_delete=models.CASCADE, related_name = 'evento')
     #id_alimento = models.ManyToManyField(Alimento)
     # esta dando erro aqui, nao consegui resolver, mas o campo deve ser DateTime de acordo com o DER
-    #hora_inicio = models.DateTimeField(default=datetime.now)
-    #hora_final = models.DateTimeField(default=datetime.now)
-    data_inicio = models.DateField(blank=True)
-    hora_inicio = models.TimeField(blank=False)
-    data_fim = models.DateField(blank=True)
-    hora_fim = models.TimeField(blank=False)
+    data_inicio = models.DateTimeField(default=datetime.now)
+    data_final = models.DateTimeField(default=datetime.now)
+    
 
