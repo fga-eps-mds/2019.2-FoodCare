@@ -1,1 +1,3 @@
-django
+django=2.2.2
+djangorestframework
+django-cors-headers
