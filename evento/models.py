@@ -16,8 +16,7 @@ class Evento(models.Model):
     id = models.AutoField(primary_key=True)
     #id_doador = models.ForeignKey("Doador", on_delete=models.CASCADE, related_name = 'evento')
     #id_endereco = models.ForeignKey("Endereco", on_delete=models.CASCADE, related_name = 'evento')
-    #id_alimento = models.ManyToManyField(Alimento)
-    # esta dando erro aqui, nao consegui resolver, mas o campo deve ser DateTime de acordo com o DER
+    id_alimento = models.ManyToManyField(Alimento)
     data_inicio = models.DateTimeField(default=datetime.now)
     data_final = models.DateTimeField(default=datetime.now)
     
