@@ -1,16 +1,18 @@
 from django.db import models
 from datetime import datetime, date
 
+class Categoria(models.Model):
+    id = models.AutoField(primary_key=True)
+    nome = models.CharField(max_length=60)
+    
+
 class Alimento(models.Model):
     id = models.AutoField(primary_key=True)
     nome = models.CharField(max_length=60)
     un_medida = models.CharField(max_length=60)
     quantidade = models.IntegerField()
-
-class Categoria(models.Model):
-    id = models.AutoField(primary_key=True)
-    nome = models.CharField(max_length=60)
-    #id_alimento = models.ForeignKey("Alimento", on_delete=models.CASCADE, related_name='categoria')
+    id_categoria = models.ManyToManyField(Categoria)
+    
 
 class Evento(models.Model):
     id = models.AutoField(primary_key=True)
