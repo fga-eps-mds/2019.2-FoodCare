@@ -1,6 +1,8 @@
 # Fechamento da Sprint 3
 
 ## 1- Resumo da Sprint
+**Membros Presentes:** Geovanne, Lucas, Geraldo, Bruna e Rafaella.
+
 
 ##### Pontos concluídos: 23 pontos
 
@@ -37,7 +39,7 @@ Pode-se se observar que o número de issues programadas foram bem mais que em sp
 ## 3- Quadro de conhecimento
 ![Quadro de conhecimento](img3/conhecimento_3.png)
 
-Este quadro aborda o conhecimento depois de quatro sprints, vemos que todos já sabem a metodologia, a parte de backend o desenvolvimento está em crescimento, o maior problema são com as tecnologias relacionadas ao Angular, onde a maioria dos membros tem dificuldade, e isso faz com que ao final da sprint as issues funcionem em partes, mas o todo não é entregue, [tabela de horas trabalhadas](https://docs.google.com/spreadsheets/d/1NrR6Oh-tJsaAimDdOja_gvTsL-g2F_3fklMY8SX_2AQ/edit#gid=644793269), por esta tabela dá para perceber que a equipe de MDS que pegou a issue de home, que foram Rafaella, Geraldo e Lucas, tiveram algumas horas com foco no Angular, houve umas disseminação de conhecimento, inclusive pela descrição das horas trabalhadas deu para perceber isso.
+Este quadro aborda o conhecimento depois de quatro sprints, vemos que todos já sabem a metodologia, a parte de backend o desenvolvimento está em crescimento, o maior problema são com as tecnologias relacionadas ao Angular, onde a maioria dos membros tem dificuldade, e isso faz com que ao final da sprint as issues funcionem em partes, mas o todo não é entregue, [tabela de horas trabalhadas](https://docs.google.com/spreadsheets/d/1NrR6Oh-tJsaAimDdOja_gvTsL-g2F_3fklMY8SX_2AQ/edit#gid=1662865666), por esta tabela dá para perceber que a equipe de MDS que pegou a issue de home, que foram Rafaella, Geraldo e Lucas, tiveram algumas horas com foco no Angular, houve umas disseminação de conhecimento, inclusive pela descrição das horas trabalhadas deu para perceber isso.
 
 ## 4- Burndown
 ![Burndown](img3/burndown_3.png)

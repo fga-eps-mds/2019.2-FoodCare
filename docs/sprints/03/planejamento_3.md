@@ -6,7 +6,6 @@
 **Data de término:** 22/09/2019  
 **Duração:** 7 dias  
 **Pontos Planejados:** 41  
-**Membros Presentes:** Geovanne, Lucas, Geraldo, Bruna e Rafaella.
 
 ### Papéis
 
