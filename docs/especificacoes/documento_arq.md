@@ -101,7 +101,9 @@ O sistema faz uso do Framework Django (versão 2.2.2), que faz uso do padrão MV
 A utilização de uma arquitetura em camadas é interessante por proporcionar uma clara separação de responsabilidades no código, proporcionando reusabilidade, e reduzindo o esforço de manutenção. Os conceitos de MVC e MTV serão apresentados nas seções seguintes.
 
 ### MVC <a name="2.1.1"></a>
-Figura 1. Padrão arquitetural MVC.
+![Figura 1](mvc.png) 
+
+Padrão arquitetural MVC.
 
 * **Model:** camada de acesso a base de dados, é responsável pela leitura, manipulação e validação dados;
 
@@ -109,7 +111,9 @@ Figura 1. Padrão arquitetural MVC.
 
 * **View:** camada de interface com o usuário, responsável pela representação dos dados;
 ### MTV <a name="2.1.1"></a>
-Figura 2. Padrão arquitetural MTV.
+![Figura 2](mvt.png) 
+
+Padrão arquitetural MTV.
 
 * **Model:** segue a mesma definição da model no MVC;
 
