@@ -27,6 +27,7 @@ nav:
     - Protótipo de Baixa Fidelidade: produto/prototipo-baixa.md
     - Protótipo de Alta Fidelidade: produto/prototipo-alta.md
     - Pipeline: devops/pipeline.md
+    - Plano de gerenciamento de qualidade: devops/plano_qualidade.md
     - Plano GCS: gcs.md
   - Projeto:
     - Metodologia: projeto/metodologia.md
