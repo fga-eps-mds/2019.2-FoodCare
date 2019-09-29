@@ -21,5 +21,3 @@ class Evento(models.Model):
     id_alimento = models.ManyToManyField(Alimento)
     data_inicio = models.DateTimeField(default=datetime.now)
     data_final = models.DateTimeField(default=datetime.now)
-    
-
