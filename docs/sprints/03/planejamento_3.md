@@ -2,11 +2,10 @@
 
 ## Resumo da Sprint
 
-**Data de início:** 16/08/2019  
+**Data de início:** 16/09/2019  
 **Data de término:** 22/09/2019  
 **Duração:** 7 dias  
-**Pontos Planejados:** 32  
-**Membros Presentes:** Geovanne, Lucas, Geraldo, Bruna e Rafaella.
+**Pontos Planejados:** 41  
 
 ### Papéis
 

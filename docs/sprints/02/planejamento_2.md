@@ -2,7 +2,7 @@
 
 ## Resumo da Sprint
 
-**Data de início:** 09/08/2019  
+**Data de início:** 09/09/2019  
 **Data de término:** 15/09/2019  
 **Duração:** 7 dias  
 **Pontos Planejados:** 29 pontos
