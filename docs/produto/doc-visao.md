@@ -55,12 +55,14 @@ O programa desenvolvido tem como intuito facilitar o acesso a alimentos para fam
 
 # Posicionamento <a name="2"></a>
 ## Descrição do Problema <a name="2.1"></a>
-O problema é a quantidade de comida que restaurantes e/ou mercados jogam fora por deixarem de estar fresco e/ou vencido. Isso faz com que muita comida seja desperdiçada, enquanto muitas famílias carentes não conseguem garantir alimentação durante o mês.
+A quantidade excessiva de comida oferecida por restaurantes e/ou mercados acaba não chegando ao consumidor final. A consequência desse excesso faz com que muita comida seja desperdiçada. Ao mesmo tempo, muitas famílias carentes não conseguem garantir alimentação durante o mês.
 
-Uma solução para essa situação é garantir que a comunidade carecida  e/ou ONG’s tenha conhecimento de quais restaurantes e/ou mercados e/ou ONG’s estão doando comida.
+Uma possível solução para essa situação, é garantir a comunicação entre a comunidade carecida e as instituições que estão doando comida.
 
 ## Posição do produto <a name="2.2"></a>
-Para a comunidade que carece de recursos alimentícios. O FoodCare é uma aplicação web que facilita o acesso a comida doada. De outro modo o Cópia, além de necessitar de número de telefone internacional, é um aplicativo que deve ser baixado,  nosso FoodCare é um Progressive Web App (PWA) e não precisa instalar nenhum aplicativo. Além de oferecer Web Push Notifications, notificações exibidas em navegadores. Ao acessar o site e aceitar as notificações, o usuário vai receber mensagens diretamente em seu navegador.
+O FoodCare é uma aplicação web que facilita o acesso a comida doada. De outro modo, uma aplicação semelhante, o app Cópia, além de necessitar de número de telefone internacional, é um aplicativo que deve ser baixado. 
+
+Nosso app, é um Progressive Web App(PWA) e não precisa instalar nenhum aplicativo e além de oferecer Web Push Notifications(notificações exibidas em navegadores), ao acessar o site e aceitar as notificações, o usuário vai receber mensagens diretamente em seu navegador.
 
 # Descrições dos envolvidos e usuários <a name="3"></a>
 O produto visa facilitar a interação entre aqueles que possuem recursos alimentícios a serem doados e aqueles que necessitam desses produtos. Desta forma, o FoodCare terá usuários doadores e usuários receptores,  visando minimizar o problema relacionado ao desperdício de alimentos.
@@ -131,7 +133,7 @@ Essa funcionalidade também atenderá as necessidades de edição do conteúdo i
 
 ## Criar evento <a name="5.2"></a>
 
-Essa funcionalidade permite que uma empresa inicie um evento de doação que estará disponível no sistema, para que Ongs e pessoas físicas visualizem.
+Essa funcionalidade permite que qualquer instituição com CNPJ inicie um evento de doação que estará disponível no sistema, para que Ongs e pessoas físicas visualizem.
 
 ## Pesquisar evento <a name="5.3"></a>
 
@@ -139,7 +141,7 @@ Todos os usuários serão capazes de visualizar os eventos com status de ativo n
 
 ## Tipificar alimento <a name="5.4"></a>
 
-A empresa doadora será capaz de adicionar informações sobre o alimento como: quantidade, nome e categoria alimentícia.
+O doador será capaz de adicionar informações sobre o alimento como: quantidade, nome e categoria alimentícia.
 
 Esse recurso poderá ser visualizado pelos demais usuários da plataforma.
 
@@ -149,7 +151,7 @@ O usuário cadastrado poderá entrar no sistema por meio de login.
 
 ## Notificações <a name="5.6"></a>
 
-Usuários cadastrados estarão aptos a receber notificações de acordo com a sua necessidade de uso.
+Usuários não cadastrados estarão aptos a receber notificações de acordo com a sua necessidade de uso.
 
 # Outros requisitos do produto <a name="6"></a>
 
