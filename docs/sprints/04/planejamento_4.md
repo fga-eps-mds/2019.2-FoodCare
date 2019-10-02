@@ -5,7 +5,7 @@
 **Data de início:** 23/09/2019  
 **Data de término:** 29/09/2019  
 **Duração:** 7 dias  
-**Pontos Planejados:** 35  
+**Pontos Planejados:** 40  
 **Membros Presentes:** Geovanne, Lucas, Geraldo, Bruna, Rafaella, Hugo e Giovanna.
 
 ### Papéis
@@ -35,16 +35,18 @@ Essa Sprint como será a última antes da release 1, terá foco no resolução d
 
 - [#41 Criar cadastro e login de doador](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/41)
 
-- [#48 Refatorar documentação](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/42)
+- [#51 Gerenciamento de evento](https://github.com/fga-eps-mds/2019.2-foodcare/issues/51)
+
+- [#53 Refatorar documentação](https://github.com/fga-eps-mds/2019.2-foodcare/issues/53)
 
 - [#43 Criar termo de compromisso](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/43)
 
-- [#49 Criar plano de gerenciamento de qualidade](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/42)
+- [#54 Criar plano de gerenciamento de qualidade](https://github.com/fga-eps-mds/2019.2-foodcare/issues/54)
 
-- [#50 Criar código de conduta ](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/42)
+- [#55 Criar código de conduta ](https://github.com/fga-eps-mds/2019.2-foodcare/issues/55)
 
-- [#51 Criar guia de contribuição](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/42)
+- [#56 Criar guia de contribuição](https://github.com/fga-eps-mds/2019.2-foodcare/issues/56)
 
-- [#52 Documentar Sprint 4](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/42)
+- [#52 Documentar Sprint 4](https://github.com/fga-eps-mds/2019.2-foodcare/issues/52)
 
-- [#53 Criar especificação suplementar ](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/42)
+- [#57 Criar especificação suplementar ](https://github.com/fga-eps-mds/2019.2-foodcare/issues/57)
