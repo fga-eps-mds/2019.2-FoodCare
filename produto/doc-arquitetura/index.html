@@ -1,0 +1,669 @@
+<!doctype html><html lang="en" class="no-js"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="x-ua-compatible" content="ie=edge"><meta name="lang:clipboard.copy" content="Copy to clipboard"><meta name="lang:clipboard.copied" content="Copied to clipboard"><meta name="lang:search.language" content="en"><meta name="lang:search.pipeline.stopwords" content="True"><meta name="lang:search.pipeline.trimmer" content="True"><meta name="lang:search.result.none" content="No matching documents"><meta name="lang:search.result.one" content="1 matching document"><meta name="lang:search.result.other" content="# matching documents"><meta name="lang:search.tokenizer" content="[\s\-]+"><link rel="shortcut icon" href="../../assets/images/favicon.png"><meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.3.0"><title>Documento de Arquitetura - FoodCare Docs</title><link rel="stylesheet" href="../../assets/stylesheets/application.4031d38b.css"><link rel="stylesheet" href="../../assets/stylesheets/application-palette.224b79ff.css"><meta name="theme-color" content="#009688"><script src="../../assets/javascripts/modernizr.74668098.js"></script><link href="https://fonts.gstatic.com" rel="preconnect" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow:300,400,400i,700|&display=swap"><style>body,input{font-family:"Barlow","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"","Courier New",Courier,monospace}</style><link rel="stylesheet" href="../../assets/fonts/material-icons.css"></head><body dir="ltr" data-md-color-primary="teal" data-md-color-accent="teal"><svg class="md-svg"><defs><svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="__github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg></defs></svg> <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off"> <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off"> <label class="md-overlay" data-md-component="overlay" for="__drawer"></label><a href="#documento-de-arquitetura" tabindex="1" class="md-skip">Skip to content </a><header class="md-header" data-md-component="header"><nav class="md-header-nav md-grid"><div class="md-flex"><div class="md-flex__cell md-flex__cell--shrink"><a href="../.." title="FoodCare Docs" class="md-header-nav__button md-logo"><img src="../../assets/images/id-visual/icon-white.png" width="24" height="24"></a></div><div class="md-flex__cell md-flex__cell--shrink"><label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label></div><div class="md-flex__cell md-flex__cell--stretch"><div class="md-flex__ellipsis md-header-nav__title" data-md-component="title"><span class="md-header-nav__topic">FoodCare Docs</span><span class="md-header-nav__topic">Documento de Arquitetura</span></div></div><div class="md-flex__cell md-flex__cell--shrink"><label class="md-icon md-icon--search md-header-nav__button" for="__search"></label><div class="md-search" data-md-component="search" role="dialog"><label class="md-search__overlay" for="__search"></label><div class="md-search__inner" role="search"><form class="md-search__form" name="search"><input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active"> <label class="md-icon md-search__icon" for="__search"></label> <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">&#xE5CD;</button></form><div class="md-search__output"><div class="md-search__scrollwrap" data-md-scrollfix><div class="md-search-result" data-md-component="result"><div class="md-search-result__meta">Type to start searching</div><ol class="md-search-result__list"></ol></div></div></div></div></div></div><div class="md-flex__cell md-flex__cell--shrink"><div class="md-header-nav__source"><a href="https://github.com/fga-eps-mds/2019.2-FoodCare/" title="Go to repository" class="md-source" data-md-source="github"><div class="md-source__icon"><svg viewBox="0 0 24 24" width="24" height="24"><use xlink:href="#__github" width="24" height="24"></use></svg></div><div class="md-source__repository">fga-eps-mds/2019.2-FoodCare</div></a></div></div></div></nav></header><div class="md-container"><nav class="md-tabs md-tabs--active" data-md-component="tabs"><div class="md-tabs__inner md-grid"><ul class="md-tabs__list"><li class="md-tabs__item"><a href="../.." title="Início" class="md-tabs__link">Início</a></li><li class="md-tabs__item"><a href="../doc-visao/" title="Produto" class="md-tabs__link md-tabs__link--active">Produto</a></li><li class="md-tabs__item"><a href="../tap/" title="Projeto" class="md-tabs__link">Projeto</a></li><li class="md-tabs__item"><a href="../../sprints/00/planejamento_0/" title="Sprints" class="md-tabs__link">Sprints</a></li></ul></div></nav><main class="md-main"><div class="md-main__inner md-grid" data-md-component="container"><div class="md-sidebar md-sidebar--primary" data-md-component="navigation"><div class="md-sidebar__scrollwrap"><div class="md-sidebar__inner"><nav class="md-nav md-nav--primary" data-md-level="0"><label class="md-nav__title md-nav__title--site" for="__drawer"><a href="../.." title="FoodCare Docs" class="md-nav__button md-logo"><img src="../../assets/images/id-visual/icon-white.png" width="48" height="48"></a>FoodCare Docs</label><div class="md-nav__source"><a href="https://github.com/fga-eps-mds/2019.2-FoodCare/" title="Go to repository" class="md-source" data-md-source="github"><div class="md-source__icon"><svg viewBox="0 0 24 24" width="24" height="24"><use xlink:href="#__github" width="24" height="24"></use></svg></div><div class="md-source__repository">fga-eps-mds/2019.2-FoodCare</div></a></div><ul class="md-nav__list" data-md-scrollfix><li class="md-nav__item md-nav__item--nested"><input class="md-toggle md-nav__toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1"><label class="md-nav__link" for="nav-1">Início</label><nav class="md-nav" data-md-component="collapsible" data-md-level="1"><label class="md-nav__title" for="nav-1">Início</label><ul class="md-nav__list" data-md-scrollfix><li class="md-nav__item"><a href="../.." title="Home" class="md-nav__link">Home</a></li></ul></nav></li><li class="md-nav__item md-nav__item--active md-nav__item--nested"><input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked><label class="md-nav__link" for="nav-2">Produto</label><nav class="md-nav" data-md-component="collapsible" data-md-level="1"><label class="md-nav__title" for="nav-2">Produto</label><ul class="md-nav__list" data-md-scrollfix><li class="md-nav__item"><a href="../doc-visao/" title="Documento de Visão" class="md-nav__link">Documento de Visão</a></li><li class="md-nav__item md-nav__item--active"><input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc"><label class="md-nav__link md-nav__link--active" for="__toc">Documento de Arquitetura</label><a href="./" title="Documento de Arquitetura" class="md-nav__link md-nav__link--active">Documento de Arquitetura</a><nav class="md-nav md-nav--secondary"><label class="md-nav__title" for="__toc">Table of contents</label><ul class="md-nav__list" data-md-scrollfix><li class="md-nav__item"><a href="#historico-de-versao" title="Historico de versão" class="md-nav__link">Historico de versão</a></li><li class="md-nav__item"><a href="#indice" title="Índice" class="md-nav__link">Índice</a></li></ul></nav></li><li class="md-nav__item"><a href="../mapa-mental/" title="Mapa Mental" class="md-nav__link">Mapa Mental</a></li><li class="md-nav__item"><a href="../canvas/" title="Canvas" class="md-nav__link">Canvas</a></li><li class="md-nav__item"><a href="../id-visual/" title="Identidade Visual" class="md-nav__link">Identidade Visual</a></li><li class="md-nav__item"><a href="../prototipo-baixa/" title="Protótipo de Baixa Fidelidade" class="md-nav__link">Protótipo de Baixa Fidelidade</a></li><li class="md-nav__item"><a href="../prototipo-alta/" title="Protótipo de Alta Fidelidade" class="md-nav__link">Protótipo de Alta Fidelidade</a></li><li class="md-nav__item"><a href="../../projeto/plano_qualidade/" title="Plano de Gerenciamento de Qualidade" class="md-nav__link">Plano de Gerenciamento de Qualidade</a></li><li class="md-nav__item"><a href="../especificacao_suplementar/" title="Especificação Suplementar" class="md-nav__link">Especificação Suplementar</a></li></ul></nav></li><li class="md-nav__item md-nav__item--nested"><input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3"><label class="md-nav__link" for="nav-3">Projeto</label><nav class="md-nav" data-md-component="collapsible" data-md-level="1"><label class="md-nav__title" for="nav-3">Projeto</label><ul class="md-nav__list" data-md-scrollfix><li class="md-nav__item"><a href="../tap/" title="Termo de Abertura de Projeto" class="md-nav__link">Termo de Abertura de Projeto</a></li><li class="md-nav__item"><a href="../eap/" title="Estrutura Analítica do Projeto" class="md-nav__link">Estrutura Analítica do Projeto</a></li><li class="md-nav__item"><a href="../../projeto/gcs/" title="Plano de Gerência de Configuração de Software" class="md-nav__link">Plano de Gerência de Configuração de Software</a></li><li class="md-nav__item"><a href="../../projeto/metodologia/" title="Metodologia" class="md-nav__link">Metodologia</a></li><li class="md-nav__item"><a href="../../projeto/roadmap-projeto/" title="RoadMap do Projeto" class="md-nav__link">RoadMap do Projeto</a></li><li class="md-nav__item"><a href="../../projeto/roadmap-papeis/" title="RoadMap de Papéis" class="md-nav__link">RoadMap de Papéis</a></li><li class="md-nav__item"><a href="../../projeto/pipeline/" title="Pipeline" class="md-nav__link">Pipeline</a></li><li class="md-nav__item"><a href="../../projeto/ferramentas/" title="Ferramentas" class="md-nav__link">Ferramentas</a></li><li class="md-nav__item"><a href="../../projeto/plano-risco/" title="Plano de Risco" class="md-nav__link">Plano de Risco</a></li><li class="md-nav__item"><a href="../../projeto/product-backlog/" title="Product Backlog" class="md-nav__link">Product Backlog</a></li><li class="md-nav__item md-nav__item--nested"><input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-11" type="checkbox" id="nav-3-11"><label class="md-nav__link" for="nav-3-11">Reuniões</label><nav class="md-nav" data-md-component="collapsible" data-md-level="2"><label class="md-nav__title" for="nav-3-11">Reuniões</label><ul class="md-nav__list" data-md-scrollfix><li class="md-nav__item"><a href="../../projeto/reunioes/reuniao_01/" title="Reunião 01" class="md-nav__link">Reunião 01</a></li><li class="md-nav__item"><a href="../../projeto/reunioes/reuniao_02/" title="Reunião 02" class="md-nav__link">Reunião 02</a></li><li class="md-nav__item"><a href="../../projeto/reunioes/reuniao_03/" title="Reunião 03" class="md-nav__link">Reunião 03</a></li><li class="md-nav__item"><a href="../../projeto/reunioes/reuniao_04/" title="Reunião 04" class="md-nav__link">Reunião 04</a></li><li class="md-nav__item"><a href="../../projeto/reunioes/reuniao_05/" title="Reunião 05" class="md-nav__link">Reunião 05</a></li></ul></nav></li></ul></nav></li><li class="md-nav__item md-nav__item--nested"><input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4"><label class="md-nav__link" for="nav-4">Sprints</label><nav class="md-nav" data-md-component="collapsible" data-md-level="1"><label class="md-nav__title" for="nav-4">Sprints</label><ul class="md-nav__list" data-md-scrollfix><li class="md-nav__item md-nav__item--nested"><input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-1" type="checkbox" id="nav-4-1"><label class="md-nav__link" for="nav-4-1">Sprint 0</label><nav class="md-nav" data-md-component="collapsible" data-md-level="2"><label class="md-nav__title" for="nav-4-1">Sprint 0</label><ul class="md-nav__list" data-md-scrollfix><li class="md-nav__item"><a href="../../sprints/00/planejamento_0/" title="Planejamento Sprint 0" class="md-nav__link">Planejamento Sprint 0</a></li><li class="md-nav__item"><a href="../../sprints/00/resultado_0/" title="Resultado Sprint 0" class="md-nav__link">Resultado Sprint 0</a></li></ul></nav></li><li class="md-nav__item md-nav__item--nested"><input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-2" type="checkbox" id="nav-4-2"><label class="md-nav__link" for="nav-4-2">Sprint 1</label><nav class="md-nav" data-md-component="collapsible" data-md-level="2"><label class="md-nav__title" for="nav-4-2">Sprint 1</label><ul class="md-nav__list" data-md-scrollfix><li class="md-nav__item"><a href="../../sprints/01/planejamento_1/" title="Planejamento Sprint 1" class="md-nav__link">Planejamento Sprint 1</a></li><li class="md-nav__item"><a href="../../sprints/01/resultado_1/" title="Resultado Sprint 1" class="md-nav__link">Resultado Sprint 1</a></li></ul></nav></li><li class="md-nav__item md-nav__item--nested"><input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-3" type="checkbox" id="nav-4-3"><label class="md-nav__link" for="nav-4-3">Sprint 2</label><nav class="md-nav" data-md-component="collapsible" data-md-level="2"><label class="md-nav__title" for="nav-4-3">Sprint 2</label><ul class="md-nav__list" data-md-scrollfix><li class="md-nav__item"><a href="../../sprints/02/planejamento_2/" title="Planejamento Sprint 2" class="md-nav__link">Planejamento Sprint 2</a></li><li class="md-nav__item"><a href="../../sprints/02/resultado_2/" title="Resultado Sprint 2" class="md-nav__link">Resultado Sprint 2</a></li></ul></nav></li><li class="md-nav__item md-nav__item--nested"><input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-4" type="checkbox" id="nav-4-4"><label class="md-nav__link" for="nav-4-4">Sprint 3</label><nav class="md-nav" data-md-component="collapsible" data-md-level="2"><label class="md-nav__title" for="nav-4-4">Sprint 3</label><ul class="md-nav__list" data-md-scrollfix><li class="md-nav__item"><a href="../../sprints/03/planejamento_3/" title="Planejamento Sprint 3" class="md-nav__link">Planejamento Sprint 3</a></li><li class="md-nav__item"><a href="../../sprints/03/resultado_3/" title="Resultado Sprint 3" class="md-nav__link">Resultado Sprint 3</a></li></ul></nav></li><li class="md-nav__item md-nav__item--nested"><input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-5" type="checkbox" id="nav-4-5"><label class="md-nav__link" for="nav-4-5">Sprint 4</label><nav class="md-nav" data-md-component="collapsible" data-md-level="2"><label class="md-nav__title" for="nav-4-5">Sprint 4</label><ul class="md-nav__list" data-md-scrollfix><li class="md-nav__item"><a href="../../sprints/04/planejamento_4/" title="Planejamento Sprint 4" class="md-nav__link">Planejamento Sprint 4</a></li><li class="md-nav__item"><a href="../../sprints/04/resultado_4/" title="Resultado Sprint 4" class="md-nav__link">Resultado Sprint 4</a></li></ul></nav></li><li class="md-nav__item md-nav__item--nested"><input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-6" type="checkbox" id="nav-4-6"><label class="md-nav__link" for="nav-4-6">Sprint 5</label><nav class="md-nav" data-md-component="collapsible" data-md-level="2"><label class="md-nav__title" for="nav-4-6">Sprint 5</label><ul class="md-nav__list" data-md-scrollfix><li class="md-nav__item"><a href="../../sprints/05/planejamento_5/" title="Planejamento Sprint 5" class="md-nav__link">Planejamento Sprint 5</a></li><li class="md-nav__item"><a href="../../sprints/05/resultado_5/" title="Resultado Sprint 5" class="md-nav__link">Resultado Sprint 5</a></li></ul></nav></li></ul></nav></li></ul></nav></div></div></div><div class="md-sidebar md-sidebar--secondary" data-md-component="toc"><div class="md-sidebar__scrollwrap"><div class="md-sidebar__inner"><nav class="md-nav md-nav--secondary"><label class="md-nav__title" for="__toc">Table of contents</label><ul class="md-nav__list" data-md-scrollfix><li class="md-nav__item"><a href="#historico-de-versao" title="Historico de versão" class="md-nav__link">Historico de versão</a></li><li class="md-nav__item"><a href="#indice" title="Índice" class="md-nav__link">Índice</a></li></ul></nav></div></div></div><div class="md-content"><article class="md-content__inner md-typeset"><a href="https://github.com/fga-eps-mds/2019.2-FoodCare/edit/master/docs/produto/doc-arquitetura.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a><h1 id="documento-de-arquitetura">Documento de Arquitetura</h1>
+<h2 id="historico-de-versao">Historico de versão</h2>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>Versão</th>
+<th>Descrição</th>
+<th>Autor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>19/09/19</td>
+<td>1.0</td>
+<td>Abertura do documento, criação da introdução</td>
+<td>Lucas, Geraldo</td>
+</tr>
+<tr>
+<td>20/09/19</td>
+<td>1.1</td>
+<td>Adiciona Requisitos mínimos dos sistemas</td>
+<td>Giovanna</td>
+</tr>
+<tr>
+<td>21/09/19</td>
+<td>1.2</td>
+<td>Adiciona visão de dados</td>
+<td>Giovanna</td>
+</tr>
+<tr>
+<td>21/09/19</td>
+<td>1.3</td>
+<td>Adiciona introdução e representação de arquitetura</td>
+<td>Geraldo</td>
+</tr>
+<tr>
+<td>22/09/19</td>
+<td>1.4</td>
+<td>Atualiza introdução e representação de arquitetura</td>
+<td>Geraldo</td>
+</tr>
+<tr>
+<td>21/09/19</td>
+<td>1.5</td>
+<td>Adiciona diagrama de sequência doador</td>
+<td>Lucas</td>
+</tr>
+<tr>
+<td>23/09/19</td>
+<td>1.6</td>
+<td>Adiciona metas e restrições de arquitetura</td>
+<td>Bruna</td>
+</tr>
+<tr>
+<td>23/09/19</td>
+<td>1.7</td>
+<td>Adiciona diagrama de casos de uso</td>
+<td>Bruna</td>
+</tr>
+<tr>
+<td>24/09/19</td>
+<td>1.8</td>
+<td>Adiciona diagrama sequência visitante</td>
+<td>Lucas</td>
+</tr>
+<tr>
+<td>24/09/19</td>
+<td>1.9</td>
+<td>Adiciona diagramas atividades</td>
+<td>Lucas</td>
+</tr>
+</tbody>
+</table>
+<h2 id="indice">Índice</h2>
+<ol>
+<li><a href="#1">Introdução</a><ol>
+<li><a href="#1.1">Finalidade</a></li>
+<li><a href="#1.2">Escopo</a></li>
+<li><a href="#1.3">Definições, acrônimos, abreviações</a></li>
+</ol>
+</li>
+<li><a href="#2">Representação da arquitetura</a><ol>
+<li><a href="#2.1">Back-end</a><ol>
+<li><a href="#2.1.1">MVC</a></li>
+<li><a href="#2.1.1">MTV</a></li>
+</ol>
+</li>
+<li><a href="#2.2">Front-end</a></li>
+</ol>
+</li>
+<li><a href="#3">Metas e Restrições de Arquitetura</a></li>
+<li><a href="#4">Visão de casos de uso</a></li>
+<li><a href="#5">Visão lógica</a><ol>
+<li><a href="#5.1">Diagramas significativos</a><ol>
+<li><a href="#5.1.1">Diagrama de classes</a></li>
+<li><a href="#5.1.2">Diagrama de colaboração</a></li>
+<li><a href="#5.1.3">Diagrama de pacotes Django</a></li>
+<li><a href="#5.1.4">Diagrama de pacotes Angular</a></li>
+</ol>
+</li>
+</ol>
+</li>
+<li><a href="#6">Visão de implantação</a><ol>
+<li><a href="#6.1">Diagrama de implantação</a></li>
+</ol>
+</li>
+<li><a href="#7">Diagrama de sequência</a><ol>
+<li><a href="#7.1">Diagrama de sequência doador</a>    </li>
+<li><a href="#7.2">Diagrama de sequência visitante</a></li>
+</ol>
+</li>
+<li><a href="#8">Diagrama de usuário</a><ol>
+<li><a href="#8.1">Diagrama de atividades doador</a></li>
+<li><a href="#8.2">Diagrama de atividades visitante</a></li>
+</ol>
+</li>
+<li><a href="#9">Visão de implementação</a><ol>
+<li><a href="#9.1">Finalidade</a></li>
+<li><a href="#9.2">Diagramas significativos</a><ol>
+<li><a href="#9.2.1">Diagrama de componentes</a></li>
+</ol>
+</li>
+</ol>
+</li>
+<li><a href="#10">Visão de dados</a><ol>
+<li><a href="#10.1">Diagrama entidade-relacionamento</a></li>
+<li><a href="#10.2">Diagrama lógico</a><ol>
+<li><a href="#10.2.1">Diagrama lógico modelado</a></li>
+<li><a href="#10.2.2">Diagrama Lógico Gerado pelo Django</a></li>
+</ol>
+</li>
+</ol>
+</li>
+<li><a href="#11">Qualidade</a><ol>
+<li><a href="#11.1">Requisitos funcionais</a></li>
+<li><a href="#11.2">Requisitos não funcionais</a></li>
+<li><a href="#11.3">Requisitos para plataformas específicas</a></li>
+<li><a href="#11.4">Usabilidade</a></li>
+<li><a href="#11.5">Confiabilidade</a></li>
+<li><a href="#11.6">Desempenho</a></li>
+<li><a href="#11.7">Suportabilidade</a></li>
+<li><a href="#11.8">Restrições de design</a></li>
+<li><a href="#11.9">Requisitos de Sistema de Ajuda e de Documentação de Usuário On-line</a></li>
+<li><a href="#11.10">Interfaces de Hardware</a></li>
+</ol>
+</li>
+<li><a href="#12">Requisitos Mínimos dos Sistemas</a><ol>
+<li><a href="#12.1">Sistema executar o projeto</a></li>
+<li><a href="#12.2">Servidor de Banco de Dados e Servidor Web</a><ol>
+<li><a href="#12.2.1">Servidor de Banco de Dados</a><ol>
+<li><a href="#12.2.1.1">SQLite</a></li>
+</ol>
+</li>
+<li><a href="#12.2.2">Servidor Web</a></li>
+</ol>
+</li>
+</ol>
+</li>
+<li><a href="#13">Referências</a></li>
+</ol>
+<h1 id="introducao">Introdução <a name="1"></a></h1>
+<h2 id="finalidade">Finalidade <a name="1.1"></a></h2>
+<p>Este documento tem como finalidade apresentar a arquitetura do projeto <strong>FoodCare</strong>, para registrar decisões relacionadas ao projeto através de diversas visões. O documento é dividido da seguinte forma: primeiramente a representação da arquitetura da solução é apresentada, em seguida metas e restrições desta arquitetura e por fim as visões sobre elementos da arquitetura.</p>
+<h2 id="escopo">Escopo <a name="1.2"></a></h2>
+<p>Este documento apresenta as características arquiteturais do projeto <strong>FoodCare</strong>, descrevendo em detalhes a soluções arquiteturais determinadas para o projeto, de forma a servir como base para o desenvolvimento do projeto pelos desenvolvedores de software alocados para o projeto.</p>
+<h2 id="definicoes-acronimos-abreviacoes">Definições, acrônimos, abreviações <a name="1.3"></a></h2>
+<p><strong>MVC</strong> - Model View Controller</p>
+<p><strong>MTV</strong> - Model Template View</p>
+<p><strong>Django</strong> - Framework da linguagem python para a construção rápida de aplicativos web, fornecendo componentes prontos e com fácil uso.</p>
+<p><strong>HTTP</strong> - Prototocolo de comunicação utilizado para sistemas de informação.</p>
+<p><strong>REST</strong> - Ferramenta que auxilia a utilização do protocolo http.</p>
+<p><strong>Angular</strong> - Framework de front-end que visa aumentar a produtividade no que diz respeito ao ao front-end do projeto.</p>
+<p><strong>Docker</strong> - Ferramenta utilizada para modularizar os processos do desenvolvimento do software para eliminiar as inconsistências do ambiente de desenvolvimento.</p>
+<p><strong>PWA</strong> - Progressive Web App (PWA) é um termo usado para denotar aplicativos da web que usam as últimas tecnologias da web. Os aplicativos da web progressivos são páginas web (ou sites) tecnicamente regulares, mas podem aparecer ao usuário como aplicativos tradicionais ou aplicativos móveis (nativos).</p>
+<p><strong>FoodCare</strong> - Aplicação web, desenvolvida em Django REST e Angular, que tem como objetivo aproximar pessoas que querem doar com pessoas que desejam receber, estimulando doações, tendo em vista a quantidade de comida que é desperdiçada todos os dias.</p>
+<h1 id="representacao-da-arquitetura">Representação da arquitetura <a name="2"></a></h1>
+<h2 id="back-end">Back-end <a name="2.1"></a></h2>
+<p>O sistema faz uso do Framework Django (versão 2.2.2), que faz uso do padrão MVC. No entanto, tal plataforma possui uma interpretação singular em relação à organização de camadas. O indicado é considerar que a própria plataforma faz o papel da camada de controle, enquanto a camada de Modelo e de Visão devem ser adaptadas e reinterpretadas conforme o necessário. Por este motivo, ainda que o Django implemente o MVC, considera-se que o padrão de camadas externalizado pela plataforma é o MTV (Model-Template-View). Para auxiliar no protocolo http utilizamos a ferramenta REST.
+A utilização de uma arquitetura em camadas é interessante por proporcionar uma clara separação de responsabilidades no código, proporcionando reusabilidade, e reduzindo o esforço de manutenção. Os conceitos de MVC e MTV serão apresentados nas seções seguintes.</p>
+<h3 id="mvc">MVC <a name="2.1.1"></a></h3>
+<p><img alt="Figura 1" src="../img/mvc.png" /></p>
+<p>Padrão arquitetural MVC.</p>
+<ul>
+<li>
+<p><strong>Model:</strong> camada de acesso a base de dados, é responsável pela leitura, manipulação e validação dados;</p>
+</li>
+<li>
+<p><strong>Controller:</strong> é responsável por manipular e validar as requisições do usuário, traduzindo em comandos enviados para enviados para a Model e/ou View .</p>
+</li>
+<li>
+<p><strong>View:</strong> camada de interface com o usuário, responsável pela representação dos dados;</p>
+</li>
+</ul>
+<h3 id="mtv">MTV <a name="2.1.1"></a></h3>
+<p><img alt="Figura 2" src="../img/mvt.png" /> </p>
+<p>Padrão arquitetural MTV.</p>
+<ul>
+<li>
+<p><strong>Model:</strong> segue a mesma definição da model no MVC;</p>
+</li>
+<li>
+<p><strong>Template:</strong> segue a mesma definição da view no MVC;</p>
+</li>
+<li>
+<p><strong>View:</strong> segue a mesma definição da controller no MVC.</p>
+</li>
+</ul>
+<h2 id="back-end_1">Back-end <a name="2.2"></a></h2>
+<p>O sistema faz uso do angular 8, que traz vantagens como: componetização, módulos específicos para configurar PWA, sistema de rotas de páginas, framework material para parte de design do site.</p>
+<h1 id="metas-e-restricoes-de-arquitetura">Metas e Restrições de Arquitetura <a name="3"></a></h1>
+<table>
+<thead>
+<tr>
+<th align="center">Restrição</th>
+<th align="left">Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="center">Linguagem</td>
+<td align="left">O sistema será desenvolvido utilizando a linguagem Typescript para o front-end e a linguagem Python para o back-end.</td>
+</tr>
+<tr>
+<td align="center">Plataforma</td>
+<td align="left">Será utilizado o framework Angular para o front-end e o framework Django para o back-end.</td>
+</tr>
+<tr>
+<td align="center">Segurança</td>
+<td align="left">Todas as senhas cadastradas serão criptogradas, para uma maior segurança para o usuário.</td>
+</tr>
+<tr>
+<td align="center">Persistência</td>
+<td align="left">Será utilizado o banco de dados SQLite3 para a persistência dos dados.</td>
+</tr>
+<tr>
+<td align="center">Arquitetura</td>
+<td align="left">Será feita uma arquitetura de microserviços, já que facilita a escalabilidade do sistema e simplifica o deploy de componentes separados do sistema.</td>
+</tr>
+<tr>
+<td align="center">Portabilidade</td>
+<td align="left">O projeto é uma aplicação web, o que facilita a portabilidade entre sistemas, sendo acessado através do navegador. Entretanto, não possui portabilidade para mobile.</td>
+</tr>
+<tr>
+<td align="center">Distribuição</td>
+<td align="left">Sempre será disponibilizada ao usuário a última versão da API, já que a distribuição sempre ocorrerá assim que a nova versão do software é enviada para produção.</td>
+</tr>
+<tr>
+<td align="center">Reuso</td>
+<td align="left">A utilização dos frameworks Django e Angular certificam um bom reuso devido à padronização da criação de componentes do código.</td>
+</tr>
+<tr>
+<td align="center"># Visão de casos de uso <a name="4"></a></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="center"><img alt="Diagrama de Casos de Uso" src="../img/diagrama_casos_de_uso.png" /></td>
+<td align="left"></td>
+</tr>
+<tr>
+<td align="center"># Visão lógica  <a name="5"></a></td>
+<td align="left"></td>
+</tr>
+</tbody>
+</table>
+<h2 id="diagramas-significativos">Diagramas significativos <a name="5.1"></a></h2>
+<h3 id="diagrama-de-classes">Diagrama de classes <a name="5.1.1"></a></h3>
+<p>O diagrama de classes é a representação gráfica que descrevea estrutura de um sistema. Contendo seus atributos, métodos, classes e afins.</p>
+<p>Seguindo o modelo UML(Unfied Modeling Language), o nosso sistema se descreve em sua estrutura de funcionamento, relacionando seus subsistemas dependentes.</p>
+<p>Temos como principais classes:</p>
+<ul>
+<li>Usuário: possui um endereço e pode criar eventos</li>
+<li>Endereço: usado para criar um evento</li>
+<li>Evento: contém informações do usuário e endereço, e expões o alimento a ser doado</li>
+<li>Alimento: o alimento é usado como referência física do produto a ser doado, tendo ele categorias do produto como: quantidade e validade </li>
+</ul>
+<h3 id="diagrama-de-colaboracao">Diagrama de colaboração <a name="5.1.2"></a></h3>
+<p>O diagrama de colaboração exibe as interações entre os objetos e suas dependências dentro de um sistema.</p>
+<h3 id="diagrama-de-pacotes-django">Diagrama de pacotes Django <a name="5.1.3"></a></h3>
+<p>O Diagrama de pacotes, ou diagrama de módulos, definido pela UML, descreve os pacotes ou pedaços do sistema divididos em agrupamentos lógicos mostrando as dependências entre eles. Este diagrama é utilizado para ilustrar a arquitetura de um sistema mostrando o agrupamento de suas classes. O Django organiza seus componentes em apps que possuem arquivos referentes a cada aplicação.</p>
+<ul>
+<li>
+<p>apps: cada app tem uma pasta com as suas models, views, formulários, testes, templates e arquivos estáticos.</p>
+<ul>
+<li>
+<p>migrations : pasta com as migrações para o banco de dados.</p>
+</li>
+<li>
+<p>static : pasta com arquivos CSS, JavaScript e imagens.</p>
+</li>
+<li>
+<p>tests : arquivos de testes refente ao app.</p>
+</li>
+<li>
+<p>templates : arquivos html do app.</p>
+</li>
+<li>
+<p>locale : traduções referentes ao app.</p>
+</li>
+<li>
+<p>models : arquivos de models do app.</p>
+</li>
+<li>
+<p>views : arquivos de views do app.</p>
+</li>
+<li>
+<p>forms : arquivos de formulários do app.</p>
+</li>
+<li>
+<p>admin : arquivo de conexão do app com o admin.</p>
+</li>
+<li>
+<p>urls.py : arquivo que mapeia as as views com templates de cada app</p>
+</li>
+<li>
+<p><em>init</em> : arquivo que transforma o app em um pacote python.</p>
+</li>
+<li>
+<p>apps : mapeia a pasta que o contém como um app.</p>
+</li>
+<li>
+<p>utils : arquivos de validação dos apps.</p>
+</li>
+</ul>
+</li>
+<li>
+<p>config : pasta com as configurações do projeto Django.</p>
+<ul>
+<li>
+<p>urls.py : inclui todos os URLs.py dos apps.</p>
+</li>
+<li>
+<p><em>init</em> : arquivo que transforma as configurações em um pacote python.</p>
+</li>
+<li>
+<p>settings : arquivos com as configurações básicas da aplicação.</p>
+</li>
+<li>
+<p>wsgi : especificação para uma interface simples e universal entre servidores web e aplicações web.</p>
+</li>
+</ul>
+</li>
+<li>
+<p>manage.py : arquivo criado automaticamente pelo Django para gerênciamento de comandos.</p>
+</li>
+<li>
+<p>docs : documentação da aplicação.</p>
+</li>
+<li>
+<p>compose : pasta com arquivos do docker.</p>
+</li>
+<li>
+<p>utility : arquivos para o auxílio na instalação do software.</p>
+</li>
+<li>
+<p>requirements : organiza todos os pacotes/componentes que a aplicação utiliza em arquivos. </p>
+</li>
+</ul>
+<h3 id="diagrama-de-pacotes-angular">Diagrama de pacotes Angular <a name="5.1.4"></a></h3>
+<p>Os a relação de pacotes utilizados do Angular compõe:</p>
+<ul>
+<li>
+<p>app.component.css: Arquivo responsável pelo estilo do nosso módulo.</p>
+</li>
+<li>
+<p>app.component.html: Arquivo HTML do nosso componente App, segue o mesmo pensamento que os arquivos de estilo.</p>
+</li>
+<li>
+<p>app.component.spec.ts: Arquivo de teste do nosso componente.</p>
+</li>
+<li>
+<p>app.component.ts: possui a mesma responsabilidade os Constrollers.</p>
+</li>
+<li>
+<p>app.module.ts: O Angular é um framework modular, ele precisa de um ou mais módulos para que possamos gerenciar os nossos componentes.</p>
+</li>
+<li>
+<p>Assets: Esse diretório nos permite trabalhar com arquivos extras a nossa aplicação, como as nossas imagens.</p>
+</li>
+<li>
+<p>Environments: Temos dois arquivos .ts, um para o nosso ambiente de produção e um outro para o nosso ambiente de desenvolvimento.</p>
+</li>
+<li>
+<p>index.html: Esse seria o nosso arquivo root, dentro dele rodamos a nossa SPA (Single Page Application).</p>
+</li>
+<li>
+<p>main.ts: Esse é o arquivo principal da nossa Solution. Ele vem definido dentro do nosso arquivo angular-cli.json, esse seria o bootstrap da nossa aplicação.</p>
+</li>
+<li>
+<p>polyfills.ts: traduz o código para diferentes navegadores web.</p>
+</li>
+</ul>
+<h1 id="visao-de-implantacao">Visão de implantação  <a name="6"></a></h1>
+<h2 id="diagrama-de-implantacao">Diagrama de implantação <a name="6.1"></a></h2>
+<h1 id="diagrama-de-sequencia">diagrama de sequência <a name="7"></a></h1>
+<h2 id="diagrama-de-sequencia-doador">diagrama de sequência doador <a name="7.1"></a></h2>
+<p><img alt="Diagrama de Sequência doador" src="../img/seq_diag_doador.png" /></p>
+<h2 id="diagrama-de-sequencia-visitante">diagrama de sequência visitante <a name="7.2"></a></h2>
+<p><img alt="Diagrama de Sequência doador" src="../img/seq_diag_visitante.png" /></p>
+<h1 id="diagrama-de-usuario">diagrama de usuário <a name="8"></a></h1>
+<h2 id="diagrama-de-atividades-doador">diagrama de atividades doador <a name="8.1"></a></h2>
+<p><img alt="Diagrama de Atividade doador" src="../img/diag_act_doador.png" /></p>
+<h2 id="diagrama-de-atividades-visitante">diagrama de atividades  visitante<a name="8.2"></a></h2>
+<p><img alt="Diagrama de Atividade doador" src="../img/diag_act_visitante.png" /></p>
+<h1 id="visao-de-implementacao">visão de implementação <a name="9"></a></h1>
+<h2 id="finalidade_1">finalidade <a name="9.1"></a></h2>
+<h2 id="diagramas-significativos_1">diagramas significativos <a name="9.1"></a></h2>
+<h3 id="diagrama-de-componentes">diagrama de componentes <a name="9.1.1"></a></h3>
+<h1 id="visao-de-dados">visão de dados <a name="10"></a></h1>
+<h2 id="diagrama-entidade-relacionamento">diagrama entidade-relacionamento <a name="10.1"></a></h2>
+<p><img alt="diagrama entidade-relacionamento" src="../../assets/images/doc-arquitetura/DER.png" /></p>
+<h2 id="diagrama-logico">diagrama lógico <a name="10.2"></a></h2>
+<h3 id="diagrama-logico-modelado">diagrama lógico modelado <a name="10.1.1"></a></h3>
+<p><img alt="diagrama lógico modelado" src="../../assets/images/doc-arquitetura/MER.png" /></p>
+<h1 id="11-qualidade">11. Qualidade  <a name="11"></a></h1>
+<p>Os seguintes itens conferem ao sistema aspectos de qualidade, bem como a descrição da abordagem realizada para satisfazer esses aspectos. São estes aspectos, legais e reguladores, como as normas estabelecidas para bom funcionamento do sistema, atributos de qualidade, como padrões de usabilidade, confiabilidade, desempenho e suportabilidade.</p>
+<h2 id="111-requisitos-funcionais">11.1 Requisitos funcionais <a name="11.1"></a></h2>
+<table>
+<thead>
+<tr>
+<th>Identificador</th>
+<th>Requisito funcional</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RF001</td>
+<td>Cadastrar usuário</td>
+<td>O sistema deve permitir que o usuário inclua infomrações para cadastro.</td>
+</tr>
+<tr>
+<td>RF002</td>
+<td>Consultar mapa com localização das doações</td>
+<td>O sistema deve permitir que o usuário veja os eventos referentes às doações no formato de mapa.</td>
+</tr>
+<tr>
+<td>RF003</td>
+<td>Filtrar categorias de alimentos</td>
+<td>O sistema deve permitir que o usuário filtre os eventos que deseja visualizar de acordo com o tipo de alimento disponível em cada evento.</td>
+</tr>
+<tr>
+<td>RF004</td>
+<td>Pesquisar evento</td>
+<td>O sistema deve permitir que o usuário pesquise nominalmente o evento de seu interesse.</td>
+</tr>
+<tr>
+<td>RF005</td>
+<td>Consultar evento</td>
+<td>O sistema deve permitir que o usuário consulte as informaçẽos específicas dos eventos, como local, hora, data e o tipo de alimento disponibilizado.</td>
+</tr>
+<tr>
+<td>RF006</td>
+<td>Listar eventos</td>
+<td>O sistema deve permitir ao usuário escolha a visualização dos eventos em forma de lista.</td>
+</tr>
+<tr>
+<td>RF007</td>
+<td>Validar dados cadastrais do usuário</td>
+<td>O sistema deve ser capaz de validar os dados do usuário no momento em que o logiin for realizado.</td>
+</tr>
+<tr>
+<td>RF008</td>
+<td>Enviar email</td>
+<td>O sistema deve permitir que o usuário envie um email para o admin do site.</td>
+</tr>
+<tr>
+<td>RF009</td>
+<td>Criar evento</td>
+<td>O sistema deve permitir que o usuário insira informações para criar eventos de doação, como nome e data do evento, quantidade e tipo de alimento disponibilizado.</td>
+</tr>
+<tr>
+<td>RF010</td>
+<td>Alterar evento</td>
+<td>O sistema deve permirtir que o usuário altere o evento criado, editando informações.</td>
+</tr>
+<tr>
+<td>RF011</td>
+<td>Excluir evento</td>
+<td>O sistema deve permitir que o usuário exclua um evento criado.</td>
+</tr>
+<tr>
+<td>RF012</td>
+<td>Notificar usuário</td>
+<td>O sistema deve ser capaz de notificar, via email, o usuário cadastrado a respeito das doaçẽos em vigor.</td>
+</tr>
+<tr>
+<td>RF013</td>
+<td>Cadastrar admin</td>
+<td>O sistema deve permitir cadastro de um administrador do site.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="112-requisitos-nao-funcionais">11.2 Requisitos não funcionais <a name="11.2"></a></h2>
+<table>
+<thead>
+<tr>
+<th>Identificador</th>
+<th>Requisito não funcional</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RNF001</td>
+<td>Retornar mensagem de sucesso</td>
+<td>Imeadiatamente após o cadastro do usuário, o sistema irá retornar uma mensagem de cadastro completado com sucesso.</td>
+</tr>
+<tr>
+<td>RNF002</td>
+<td>Mensagem de erro</td>
+<td>Caso o usuário tente fazer login sem que haja cadastro, uma mensagem de erro será mostrada.</td>
+</tr>
+<tr>
+<td>RNF003</td>
+<td>Retornar à Home</td>
+<td>A página retornará para a interface Home sempre que houver click sobre o nome da página.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="113-requisitos-para-plataformas-especificas">11.3 Requisitos para plataformas específicas <a name="11.3"></a></h2>
+<table>
+<thead>
+<tr>
+<th>Identificador</th>
+<th>Navegador Web</th>
+<th>Modelo</th>
+<th>Versão</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RNF001</td>
+<td>Internet Explorer</td>
+<td>Qualquer dispositivo</td>
+<td>Versão 10 ou superior.</td>
+</tr>
+<tr>
+<td>RNF002</td>
+<td>Chrome</td>
+<td>Qualquer dispositivo</td>
+<td>Última versão</td>
+</tr>
+<tr>
+<td>RNF003</td>
+<td>Mozilla Firefox</td>
+<td>Qualquer dispositivo</td>
+<td>Versão mais recente ou imediatamente anterior</td>
+</tr>
+<tr>
+<td>RNF004</td>
+<td>Opera</td>
+<td>Qualquer dispositivo</td>
+<td>11 ou superior.</td>
+</tr>
+<tr>
+<td>RNF005</td>
+<td>Safari</td>
+<td>Qualquer dispositivo</td>
+<td>Versão 6 ou superior.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="114-usabilidade">11.4 Usabilidade <a name="11.4"></a></h2>
+<p>A usabilidade definida como a efetividade, a eficiência e a satisfação com que usuários específicos atingem objetivos específicos em ambientes particulares, visa facilitar a utilização de uma interface pelo usuário sem perder a interação de suas funcionalidades com o sistema.</p>
+<ul>
+<li>Facilidade de aprendizado: a utilização do sistema requer pouco treinamento;</li>
+<li>Fácilidade de memorização: o usuário deve lembrar como utilizar a interface depois de algum tempo;</li>
+<li>Consistência e Padronização: O sistema deve manter padronizada a interface independente do tipo de usuário, apenas alterando as funcionalidades disponíveis para cada um;</li>
+<li>Eficiência: O sistema deve fornecer acesso a qualquer funcionalidade de forma rápida e eficiente;</li>
+<li>Design Simples: O sistema deve ter ícones intuitivos. Para cada tipo de usuário haverá um certo nível de funcionalidades disponíveis;</li>
+<li>Minimizar os erros: caso aconteçam erros, a interface deve avisar o usuário e permitir a correção de modo fácil.</li>
+</ul>
+<h2 id="115-confiabilidade">11.5 Confiabilidade <a name="11.5"></a></h2>
+<p>Qualidade do sistema que nos permite confiar, justificadamente, no serviço oferecido.</p>
+<ul>
+<li>Disponibilidade: O sistema estará disponível no modo 24/7 (24 horas por dia, 7 dias por semana).</li>
+<li>Autenticidade: O sistema irá cadastrar doares de alimentos utilizando o número de CNPJ da empresa, de modo a minimizar o risco de falsos doadores.</li>
+<li>Segurança e Privacidade: O sistema deve assegurar a segurança e privacidade dos dados gerados, armazenando senhas e dados sensíveis de forma segura. O sistema deve ser transparente quanto às informações coletadas referentes a dados pessoais do usuário.</li>
+</ul>
+<h2 id="116-desempenho">11.6 Desempenho <a name="11.6"></a></h2>
+<ul>
+<li>Tempo de Resposta: O aplicativo tem de responder às ações do usuário de imediato.</li>
+<li>Modo de degradação: Se o sistema estiver sofrendo com algo que degrade o site, como a internet com sinal fraco, terá páginas que não serão carregadas.</li>
+<li>Utilização de Recursos: OS X 10.9 ou superior, Windows 7 ou superior, Versão 6 ou superior.</li>
+<li>Adequação de interface: O site será capaz de se adequar à tela ao dispositivo utilizado pelo usuário, utilizando Progress Web Apps (PWA).</li>
+</ul>
+<h2 id="117-suportabilidade">11.7 Suportabilidade <a name="11.7"></a></h2>
+<p>O usuário será capaz de utilizar o sistema através de um navegador de internet, sem a necessidade de qualquer software personalizado no computador pessoal. O site é uma aplicação desenvolvida como <em>PWA (Progressive Web App)</em>, possibilitando adequação da tela para uso em qualquer disposito eletrônico. O servidor terá suporte para 100.000 cadastros de usuário.</p>
+<h2 id="118-restricoes-de-design">11.8 Restrições de design <a name="11.8"></a></h2>
+<ul>
+<li>O nome da página sempre estará no topo do layout e sempre que clicado, direcionará à página para a interface inicial (home)</li>
+<li>Para criar um novo evento, o usuário terá que passar pela teça de login.</li>
+</ul>
+<h2 id="119-interfaces-de-hardware">11.9 Interfaces de Hardware <a name="11.10"></a></h2>
+<p>O software oferece suporte aos dispositivos apresentados abaixo.</p>
+<ul>
+<li>Smartphones.</li>
+<li>Computadores Notebooks.</li>
+<li>Computadores Desktop.</li>
+</ul>
+<h1 id="requisitos-minimos-dos-sistemas">Requisitos Mínimos dos Sistemas <a name="12"></a></h1>
+<h2 id="sistema-executar-o-projeto">Sistema executar o projeto <a name="12.1"></a></h2>
+<ul>
+<li>Processadores: processador Intel Atom® ou processador Intel® Core ™ i3</li>
+<li>Espaço em disco: 1 GB</li>
+<li>Sistemas operacionais: Windows * 7 ou posterior, macOS e Linux</li>
+<li>Versões Python *: 2.7.X, 3.6.X</li>
+</ul>
+<h2 id="servidor-de-banco-de-dados-e-servidor-web">Servidor de Banco de Dados e Servidor Web <a name="12.2"></a></h2>
+<p>Com os requisitos a seguir o esse servidor deve suportar cerca de 10 000 usuários, caso tenha necessidade de atuar com mais usuários o estudo deve ser feito novamente.</p>
+<h3 id="servidor-de-banco-de-dados">Servidor de Banco de Dados <a name="12.2.1"></a></h3>
+<ul>
+<li>Requirido<ul>
+<li>Processador = Xeon E5 server family</li>
+<li>CPU = 2 x 4 cores</li>
+<li>Memoria RAM = 16 GB</li>
+<li>Backup = External Hard Disk, HDD</li>
+</ul>
+</li>
+<li>Futura expansabilidade<ul>
+<li>CPU = 1 x 4 sockets</li>
+<li>Espaço de Disco = 16GB à 1.5TB</li>
+</ul>
+</li>
+</ul>
+<h4 id="sqlite">SQLite <a name="12.2.1.1"></a></h4>
+<table>
+<thead>
+<tr>
+<th>Windows</th>
+<th>Linux/ Mac</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>XP Service Pack 3/2003 Service Pack 2 ou maior.</td>
+<td>Java Runtime Environment (JRE) 1.5 ou maior.</td>
+</tr>
+<tr>
+<td>.NET Framework 2.0 ou maior.</td>
+<td>500 MB RAM</td>
+</tr>
+<tr>
+<td>500 MB RAM</td>
+<td></td>
+</tr>
+<tr>
+<td>### Servidor Web <a name="12.2.1"></a></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p>A escolha do servidor web é de grande importancia pois afeta diretamente a experiencia do usuário. Deve ser um equilíbrio de CPU e de RAM.</p>
+<ul>
+<li>Processador: Intel I7-3770</li>
+<li>Memoria Ram: 16GB</li>
+<li>HDD: 146 GB 15K 12GBPS 128MB Cache</li>
+</ul>
+<h1 id="referencias">Referências <a name="13"></a></h1>
+<ul>
+<li>Requisitos de hardware. Disponível em <a href="http://www.stansoftware.com/hardware-requirements/">http://www.stansoftware.com/hardware-requirements/</a>. Acesso em 20 de setembro de 2019.</li>
+<li>Requisitos de sistema. Disponível em: <a href="https://software.intel.com/en-us/distribution-for-python/system-requirements">https://software.intel.com/en-us/distribution-for-python/system-requirements</a>. Acesso em 20 de setembro de 2019.</li>
+<li>Requisitos de sistema. Disponível em: <a href="http://cdn.cdata.com/help/DEA/rsb/pg_startrequirementsrsb.htm">http://cdn.cdata.com/help/DEA/rsb/pg_startrequirementsrsb.htm</a>. Acesso em 20 de setembro de 2019.</li>
+<li>Get Started with Docker. Disponível em <a href="https://www.docker.com/get-started">https://www.docker.com/get-started</a></li>
+<li>Software Architecture: MVC Design Pattern, Medium. Disponível em: //medium.com/@dennisvera.z/software-architecture-mvc-design-pattern-ceae5d5083d7)).</li>
+<li>Django's Structure – A Heretic's Eye View, The django book. Disponível em: <a href="https://djangobook.com/mdj2-django-structure/">https://djangobook.com/mdj2-django-structure/</a></li>
+<li>O que é PWA (Progressive Web App). Disponível em <a href="https://vizir.com.br/2017/08/o-que-e-pwa-progressive-web-app-porque-isso-pode-aumentar-seus-resultados-mobile/">https://vizir.com.br/2017/08/o-que-e-pwa-progressive-web-app-porque-isso-pode-aumentar-seus-resultados-mobile/</a></li>
+</ul></article></div></div></main><footer class="md-footer"><div class="md-footer-nav"><nav class="md-footer-nav__inner md-grid"><a href="../doc-visao/" title="Documento de Visão" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev"><div class="md-flex__cell md-flex__cell--shrink"><i class="md-icon md-icon--arrow-back md-footer-nav__button"></i></div><div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title"><span class="md-flex__ellipsis"><span class="md-footer-nav__direction">Previous</span>Documento de Visão</span></div></a><a href="../mapa-mental/" title="Mapa Mental" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next"><div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title"><span class="md-flex__ellipsis"><span class="md-footer-nav__direction">Next</span>Mapa Mental</span></div><div class="md-flex__cell md-flex__cell--shrink"><i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i></div></a></nav></div><div class="md-footer-meta md-typeset"><div class="md-footer-meta__inner md-grid"><div class="md-footer-copyright">powered by <a href="https://www.mkdocs.org">MkDocs</a> and <a href="https://squidfunk.github.io/mkdocs-material/">Material for MkDocs</a></div></div></div></footer></div><script src="../../assets/javascripts/application.b260a35d.js"></script><script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script></body></html>
