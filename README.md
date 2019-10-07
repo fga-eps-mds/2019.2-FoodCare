@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="docs/images/logo-medium.png" alt="Logo">
+    <img src="docs/assets/images/id-visual/vertical-normal.png" alt="Logo">
 </p>
 
 <h1 align="center">FoodCare API</h1>
@@ -73,15 +73,9 @@ A aplicação estará disponível em `http://localhost:8000`.
 
 Descreva e mostre como rodar testes. -->
 
-<!-- ## Contribuição
+## Contribuição
 
-Siga o [guia de contribuição](???) para entender os passos e regras para adicionar sua contribuição ao projeto. -->
-
-<!-- ## Estilo do Código
-
-If you're using any code style like xo, standard etc. That will help others while contributing to your project. Ex. -
-
-[![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard) -->
+Siga o [guia de contribuição](CONTRIBUTING.md) e o [código de conduta](CODE_OF_CONDUCT.md) para entender os passos e regras para adicionar sua contribuição ao projeto.
 
 ## Licença
 

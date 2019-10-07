@@ -1,6 +1,7 @@
 # Plano de gerenciamento de qualidade
 
 ## Histórico de Versão
+
 |Versão|Data|Descrição|Nome|
 |---|---|---|---|
 |1.0|27/09/2019|Abertura do documento|William Almeida|
@@ -14,6 +15,7 @@ Esse documento tem como finalidade apresentar as ferramentas, métricas e o plan
 Buscando que o código tenha uma boa qualidade, serão usadas algumas métricas iniciais que estão relacionadas com a qualidade, como conformidade com os guias de estilos das linguagens, cobertura de testes unitários, nível de manutenibilidade, entre outras características.
 
 ## Métricas
+
 |Métrica|Bom|Regular|Ruim|
 |---|---|---|---|
 |Cobertura de testes unitários|Acima de 90%|De 75% a 90%|Abaixo de 75%|
@@ -28,9 +30,7 @@ O monitoramento da qualidade do código será feito ao final de cada sprint com 
 
 ## Ferramentas
 
-
 * [Code Climate](https://codeclimate.com/): O Code Climate permite o monitoramento de algumas métricas importantes do software, como a duplicação, complexidade, quantidade de linhas, e nível de manutenibilidade. Será usado tanto no frontend quanto no backend.
-
 
 * [Unittest](https://docs.python.org/3/library/unittest.html): O unittest é uma ferramenta padrão de testes unitários do python que foi inspirado no JUnit. Ele será usado no backend e permite a automatização dos testes.
 

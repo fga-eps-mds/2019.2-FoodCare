@@ -1,4 +1,4 @@
-# Fechamento da Sprint 4
+<!-- # Fechamento da Sprint 4
 
 ## 1- Resumo da Sprint
 **Membros Presentes:** Geovanne, Lucas, Geraldo, Bruna, Rafaella e Giovanna.
@@ -64,4 +64,4 @@ Esse tópico faz com que possamos analisar todos os possíveis riscos de cada Sp
 ## Análise do Scrum Master
 
 Essa Sprint teve como objetivo principal focar nas dívidas técnicas, ver como as novas duplas de pareamento se comportam, como o quadro de conhecimento está evoluindo, pois agora o time de mds está cada vez mais focado nos requisitos funcionais, a parte de documentação foi refatorada em alguns tópicos, só que mais uma revisão será feita antes da release 1.  
-A review da Sprint deu para identificar que mds está com dificuldade em integrar os dados do front com o que api recebe, logo soluções serão propostas para a sprint 5.
+A review da Sprint deu para identificar que mds está com dificuldade em integrar os dados do front com o que api recebe, logo soluções serão propostas para a sprint 5. -->
