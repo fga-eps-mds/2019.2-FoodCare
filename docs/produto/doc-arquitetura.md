@@ -123,7 +123,7 @@ Padrão arquitetural MTV.
 
 * **View:** segue a mesma definição da controller no MVC.
 
-## Back-end <a name="2.2"></a>
+## Front-end <a name="2.2"></a>
 O sistema faz uso do angular 8, que traz vantagens como: componetização, módulos específicos para configurar PWA, sistema de rotas de páginas, framework material para parte de design do site.
 # Metas e Restrições de Arquitetura <a name="3"></a>
 Restrição|Descrição
