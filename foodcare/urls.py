@@ -32,4 +32,5 @@ urlpatterns = [
     path('api-auth/', include('rest_framework.urls')),
     path('auth/signup/', include('rest_auth.registration.urls')),
     path('auth/refresh-token/', refresh_jwt_token),
+    path('',include('emailfood.urls'))
 ]
