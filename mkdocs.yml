@@ -10,35 +10,43 @@ theme:
     accent: 'teal'
   font:
     text: 'Barlow'
-  logo:
-    icon: 'restaurant'
+  logo: 'assets/images/id-visual/icon-white.png'
+    # icon: 'restaurant'1
   feature:
     tabs: true
 
 nav:
-  - Home: index.md
+  - Início: 
+    - Home: index.md
+    # - Guia de Contribuição: ../CONTRIBUTING.md
+    # - Código de Conduta: ../CODE_OF_CONDUCT.md
   - Produto:
-    - Termo de Abertura de Projeto: produto/tap.md
-    - Estrutura Analítica do Projeto: produto/eap.md
     - Documento de Visão: produto/doc-visao.md
+    - Documento de Arquitetura: produto/doc-arquitetura.md
     - Mapa Mental: produto/mapa-mental.md
     - Canvas: produto/canvas.md
     - Identidade Visual: produto/id-visual.md
     - Protótipo de Baixa Fidelidade: produto/prototipo-baixa.md
     - Protótipo de Alta Fidelidade: produto/prototipo-alta.md
-    - Pipeline: devops/pipeline.md
-    - Plano GCS: gcs.md
+    - Plano de Gerenciamento de Qualidade: projeto/plano_qualidade.md
+    - Especificação Suplementar: produto/especificacao_suplementar.md
   - Projeto:
+    - Termo de Abertura de Projeto: produto/tap.md
+    - Estrutura Analítica do Projeto: produto/eap.md
+    - Plano de Gerência de Configuração de Software: projeto/gcs.md
     - Metodologia: projeto/metodologia.md
-    - Plano de Gerência de Configuração de Software: gcs.md
     - RoadMap do Projeto: projeto/roadmap-projeto.md
     - RoadMap de Papéis: projeto/roadmap-papeis.md
+    - Pipeline: projeto/pipeline.md
+    - Ferramentas: projeto/ferramentas.md
+    - Plano de Risco: projeto/plano-risco.md
+    - Product Backlog: projeto/product-backlog.md
     - Reuniões:
-      - Reunião 01: reunioes/reuniao_01.md
-      - Reunião 02: reunioes/reuniao_02.md
-      - Reunião 03: reunioes/reuniao_03.md
-      - Reunião 04: reunioes/reuniao_04.md
-      - Reunião 05: reunioes/reuniao_05.md
+      - Reunião 01: projeto/reunioes/reuniao_01.md
+      - Reunião 02: projeto/reunioes/reuniao_02.md
+      - Reunião 03: projeto/reunioes/reuniao_03.md
+      - Reunião 04: projeto/reunioes/reuniao_04.md
+      - Reunião 05: projeto/reunioes/reuniao_05.md
   - Sprints:
     - Sprint 0:
       - Planejamento Sprint 0: sprints/00/planejamento_0.md
@@ -51,3 +59,13 @@ nav:
       - Resultado Sprint 2: sprints/02/resultado_2.md
     - Sprint 3:
       - Planejamento Sprint 3: sprints/03/planejamento_3.md
+      - Resultado Sprint 3: sprints/03/resultado_3.md
+    - Sprint 4:
+      - Planejamento Sprint 4: sprints/04/planejamento_4.md
+      - Resultado Sprint 4: sprints/04/resultado_4.md
+    - Sprint 5:
+      - Planejamento Sprint 5: sprints/05/planejamento_5.md
+      - Resultado Sprint 5: sprints/05/resultado_5.md
+    # - Sprint 6:
+    #   - Planejamento Sprint 4: sprints/06/planejamento_6.md
+    #   - Resultado Sprint 4: sprints/06/resultado_6.md
