@@ -2,7 +2,7 @@
 
 ## Resumo da Sprint
 
-**Data de início:** 02/08/2019  
+**Data de início:** 02/09/2019  
 **Data de término:** 08/09/2019  
 **Duração:** 7 dias  
 
