@@ -12,6 +12,7 @@
 23/09/19 | 1.7 | Adiciona diagrama de casos de uso| Bruna
 24/09/19 | 1.8 | Adiciona diagrama sequência visitante| Lucas
 24/09/19 | 1.9 | Adiciona diagramas atividades| Lucas
+24/09/19 | 2.0 | Adiciona visão lógica | Hugo
 
 # Índice
 1. [Introdução](#1)
@@ -158,7 +159,7 @@ O diagrama de colaboração exibe as interações entre os objetos e suas depend
 ### Diagrama de pacotes Django <a name="5.1.3"></a>
 O Diagrama de pacotes, ou diagrama de módulos, definido pela UML, descreve os pacotes ou pedaços do sistema divididos em agrupamentos lógicos mostrando as dependências entre eles. Este diagrama é utilizado para ilustrar a arquitetura de um sistema mostrando o agrupamento de suas classes. O Django organiza seus componentes em apps que possuem arquivos referentes a cada aplicação.
 
-* apps: cada app tem uma pasta com as suas models, views, formulários, testes, templates e arquivos estáticos.
+* apps: cada app tem uma pasta com as suas models, views, formulários, testes e arquivos estáticos.
 
     * migrations : pasta com as migrações para o banco de dados.
 
@@ -166,15 +167,11 @@ O Diagrama de pacotes, ou diagrama de módulos, definido pela UML, descreve os p
 
     * tests : arquivos de testes refente ao app.
 
-    * templates : arquivos html do app.
-
     * locale : traduções referentes ao app.
 
     * models : arquivos de models do app.
 
     * views : arquivos de views do app.
-
-    * forms : arquivos de formulários do app.
 
     * admin : arquivo de conexão do app com o admin.
 
