@@ -31,7 +31,7 @@ Pode-se se observar que o número de issues programadas foram bem mais que em sp
 ## 2- Retrospectiva da sprint
 |**Pontos Positivos**|**Pontos Negativos**|**Sugestão de melhoria**|
 |---|---|---|
-|As documentações de mds foram finalizadas|Equipe de MDS teve muita dificuldade para rodar o Docker|sempre q mds for programar, que seja pelo pareamento, para compartilhar conhecimento|
+|As documentações de mds foram finalizadas|Equipe de MDS teve muita dificuldade para rodar o Docker|sempre que mds for programar, que seja pelo pareamento, para compartilhar conhecimento|
 |A equipe está se esforçando para aprender a tecnologia|requisitos funcionais viraram dívida técnica|Tentar resolver as issues de código desde o primeiro dia da sprint |
 |O review foi bastante interessante, deu para perceber a dificuldade que cada mds estava tendo|Equipe de mds ainda tem algumas dúvidas em relação a arquitetura|---|
 |---|O pareamento aconteceu poucas vezes, pois eles acabaram tentando fazer sua parte sozinha|---|

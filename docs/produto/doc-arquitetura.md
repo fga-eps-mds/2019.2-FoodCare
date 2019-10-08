@@ -1,8 +1,10 @@
 # Documento de Arquitetura
+
 ## Historico de versão
+
  Data | Versão | Descrição | Autor
  ---- | ------ | --------- | -----
-19/09/19 | 1.0 | Abertura do documento, criação da introdução| Lucas , Geraldo
+19/09/19 | 1.0 | Abertura do documento, criação da introdução| Lucas, Geraldo
 20/09/19 | 1.1 | Adiciona Requisitos mínimos dos sistemas | Giovanna
 21/09/19 | 1.2 | Adiciona visão de dados | Giovanna
 21/09/19 | 1.3 | Adiciona introdução e representação de arquitetura| Geraldo
@@ -14,16 +16,17 @@
 24/09/19 | 1.9 | Adiciona diagramas atividades| Lucas
 24/09/19 | 2.0 | Adiciona visão lógica | Hugo
 
-# Índice
+## Índice
+
 1. [Introdução](#1)
     1. [Finalidade](#1.1)
     2. [Escopo](#1.2)
     3. [Definições, acrônimos, abreviações](#1.3)
 2. [Representação da arquitetura](#2)
-    1.  [Back-end](#2.1)
+    1. [Back-end](#2.1)
         1. [MVC](#2.1.1)
         2. [MTV](#2.1.1)
-    2.  [Front-end](#2.2)   
+    2. [Front-end](#2.2)
 3. [Metas e Restrições de Arquitetura](#3)
 4. [Visão de casos de uso](#4)
 5. [Visão lógica](#5)
@@ -68,7 +71,6 @@
         2. [Servidor Web](#12.2.2)
 13. [Referências](#13)
 
-
 # Introdução <a name="1"></a>
 
 ## Finalidade <a name="1.1"></a>
@@ -102,7 +104,7 @@ O sistema faz uso do Framework Django (versão 2.2.2), que faz uso do padrão MV
 A utilização de uma arquitetura em camadas é interessante por proporcionar uma clara separação de responsabilidades no código, proporcionando reusabilidade, e reduzindo o esforço de manutenção. Os conceitos de MVC e MTV serão apresentados nas seções seguintes.
 
 ### MVC <a name="2.1.1"></a>
-![Figura 1](mvc.png) 
+![Figura 1](img/mvc.png)
 
 Padrão arquitetural MVC.
 
@@ -112,7 +114,7 @@ Padrão arquitetural MVC.
 
 * **View:** camada de interface com o usuário, responsável pela representação dos dados;
 ### MTV <a name="2.1.1"></a>
-![Figura 2](mvt.png) 
+![Figura 2](img/mvt.png) 
 
 Padrão arquitetural MTV.
 
@@ -122,7 +124,7 @@ Padrão arquitetural MTV.
 
 * **View:** segue a mesma definição da controller no MVC.
 
-## Back-end <a name="2.2"></a>
+## Front-end <a name="2.2"></a>
 O sistema faz uso do angular 8, que traz vantagens como: componetização, módulos específicos para configurar PWA, sistema de rotas de páginas, framework material para parte de design do site.
 # Metas e Restrições de Arquitetura <a name="3"></a>
 Restrição|Descrição
@@ -136,7 +138,7 @@ Portabilidade|O projeto é uma aplicação web, o que facilita a portabilidade e
 Distribuição|Sempre será disponibilizada ao usuário a última versão da API, já que a distribuição sempre ocorrerá assim que a nova versão do software é enviada para produção.
 Reuso|A utilização dos frameworks Django e Angular certificam um bom reuso devido à padronização da criação de componentes do código.
 # Visão de casos de uso <a name="4"></a>
-![Diagrama de Casos de Uso](diagrama_casos_de_uso.png)
+![Diagrama de Casos de Uso](img/diagrama_casos_de_uso.png)
 # Visão lógica  <a name="5"></a>
 
 ## Diagramas significativos <a name="5.1"></a>
@@ -233,17 +235,17 @@ Os a relação de pacotes utilizados do Angular compõe:
 
 # diagrama de sequência <a name="7"></a>
 ## diagrama de sequência doador <a name="7.1"></a>
-![Diagrama de Sequência doador](seq_diag_doador.png)
+![Diagrama de Sequência doador](img/seq_diag_doador.png)
 
 ## diagrama de sequência visitante <a name="7.2"></a>
-![Diagrama de Sequência doador](seq_diag_visitante.png)
+![Diagrama de Sequência doador](img/seq_diag_visitante.png)
 
 # diagrama de usuário <a name="8"></a>
 ## diagrama de atividades doador <a name="8.1"></a>
-![Diagrama de Atividade doador](diag_act_doador.png)
+![Diagrama de Atividade doador](img/diag_act_doador.png)
 
 ## diagrama de atividades  visitante<a name="8.2"></a>
-![Diagrama de Atividade doador](diag_act_visitante.png)
+![Diagrama de Atividade doador](img/diag_act_visitante.png)
 
 # visão de implementação <a name="9"></a>
 ## finalidade <a name="9.1"></a>
@@ -252,10 +254,10 @@ Os a relação de pacotes utilizados do Angular compõe:
 
 # visão de dados <a name="10"></a>
 ## diagrama entidade-relacionamento <a name="10.1"></a>
-![diagrama entidade-relacionamento](https://github.com/fga-eps-mds/2019.2-FoodCare/blob/docs/docs/images/DER.png?raw=true)
+![diagrama entidade-relacionamento](../assets/images/doc-arquitetura/DER.png)
 ## diagrama lógico <a name="10.2"></a>
 ### diagrama lógico modelado <a name="10.1.1"></a>
-![diagrama lógico modelado](https://github.com/fga-eps-mds/2019.2-FoodCare/blob/docs/docs/images/MER.png?raw=true)
+![diagrama lógico modelado](../assets/images/doc-arquitetura/MER.png)
 
 # 11. Qualidade  <a name="11"></a>
 Os seguintes itens conferem ao sistema aspectos de qualidade, bem como a descrição da abordagem realizada para satisfazer esses aspectos. São estes aspectos, legais e reguladores, como as normas estabelecidas para bom funcionamento do sistema, atributos de qualidade, como padrões de usabilidade, confiabilidade, desempenho e suportabilidade.

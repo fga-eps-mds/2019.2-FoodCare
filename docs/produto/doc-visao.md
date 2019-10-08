@@ -1,6 +1,7 @@
-![FoodCare](https://raw.githubusercontent.com/fga-eps-mds/2019.2-FoodCare/docs/docs/images/logo-medium.png)
 # Documento de Visão
+
 ## Historico de versão
+
  Data | Versão | Descrição | Autor
  ---- | ------ | --------- | -----
 05/09/19 | 1.0 | Abertura do documento, criação da introdução e Posicionamento | Giovanna
@@ -14,7 +15,8 @@
 26/09/19 | 1.8 | Atualiza a tabela de resumo das capacidades | Giovanna
 26/09/19 | 1.9 | Atualiza o topico Outros Requisitos de Produto | Giovanna
 
-# Índice
+## Índice
+
 1. [Introdução](#1)
     1. [Referências](#1.1)
 2. [Posicionamento](#2)

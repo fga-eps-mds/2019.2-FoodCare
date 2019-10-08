@@ -5,6 +5,7 @@
 |Data|Versão|Descrição|Autores|
 |----|----|----|----|
 |27/09|1.0|Abertura do documento|Geovanne Santos|
+|29/09|1.1|Adiciona diagramas de nfr|Geovanne Santos|
 
 ## 1. Introdução
 
@@ -76,4 +77,18 @@ As informações de um usuário somente serão acessadas por ele mesmo, só ele 
 - Telegram(Gerenciamento)
 - Google Drive(Gerenciamento)
 
-## 9. Diagrama NFR
+## 9. Diagramas NFR
+
+### Diagrama de Usabilidade
+
+![Quadro de conhecimento](img/RNF-usabilidade.png)
+
+### Diagrama de Segurança
+
+![Quadro de conhecimento](img/RNF-segurança.png)
+
+### Diagrama de Qualidade
+![Quadro de conhecimento](img/RNF-qualidade.png)
+
+### Diagrama de Portabilidade
+![Quadro de conhecimento](img/RNF-portabilidade.png)
