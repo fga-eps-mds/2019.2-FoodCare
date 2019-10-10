@@ -8,8 +8,7 @@
 |0.2|08/09/2019|Adiciona versão 0.1|Igor Aragão|
 
 ## Introdução
-
-Esse documento visa expor os mapas mentais criados pela equipe.
+Um mapa mental é um diagrama usado para organizar visualmente as informações. Um mapa mental é hierárquico e mostra relações entre partes do todo. [1] Geralmente é criado em torno de um único conceito, desenhado como uma imagem no centro de uma página em branco, à qual são adicionadas representações associadas de idéias, como imagens, palavras e partes de palavras. As idéias principais estão conectadas diretamente ao conceito central, e outras idéias derivam dessas idéias principais. Esse documento visa expor os mapas mentais criados pela equipe, assim como suas versões.
 
 ## Versões
 
