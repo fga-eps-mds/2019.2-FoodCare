@@ -24,6 +24,7 @@ def index(n,e,m):
 @csrf_exempt
 def email(request):
     if request.method == "POST":
+        print(request.POST)
         index(request.POST.get('nome'),request.POST.get('email'),request.POST.get('msg'))
         return redirect('/admin/')
     return redirect('/admin/')
