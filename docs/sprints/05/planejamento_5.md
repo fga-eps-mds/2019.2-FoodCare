@@ -19,7 +19,7 @@
 
 ## Pareamento
 
-O fator de escolha para manter os pares de pareamento foi as dívidas técnicas, por mais que 2 requisitos funcionais tenham atrasado na Sprint 4, as duplas já estavam bem maduras na maneira como tratar o erro, que geralmente é de conectar o request do front com o padrão que a api tem de receber, por isso essa semana as duplas de mantiveram junto com a mesma supervisão de eps.
+O fator de escolha do pareamento foi uma nova estratégia, na qual um membro da issue atrasada ficava na mesma issues e a outra pessoa da dupla era realocada, o pessoa que ficou tinha que explicar as dificuldades e os erros que estavam aparecendo, além de mostrar tudo que já havia sido produzido, a realocação das pessoas foi feita com base no quadro de conhecimento.
 
 - Rafaella e Hugo, eps: Geovanne
 - Bruna e Lucas, eps: Igor
