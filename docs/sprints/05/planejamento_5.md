@@ -19,7 +19,7 @@
 
 ## Pareamento
 
-A definição de duplas de pareamento foram escolhidas analisando o quadro de conhecimento, a review da sprint passada também, uma nova estratégia também foi utilizada, mantemos um membro da dupla de pareamento, das issues que estavam atrasadas, e mudamos o outro membro, assim quem ficou vai ter que explicar pro novo integrante o que estava fazendo e onde estava dando problema. Cada dupla de pareamento será supervisionada por um EPS.
+O fator de escolha para manter os pares de pareamento foi as dívidas técnicas, por mais que 2 requisitos funcionais tenham atrasado na Sprint 4, as duplas já estavam bem maduras na maneira como tratar o erro, que geralmente é de conectar o request do front com o padrão que a api tem de receber, por isso essa semana as duplas de mantiveram junto com a mesma supervisão de eps.
 
 - Rafaella e Hugo, eps: Geovanne
 - Bruna e Lucas, eps: Igor
@@ -35,14 +35,14 @@ Essa Sprint terá como foco principal resolver as dívidas técnicas, e preparar
 
 - [#51 Gerenciamento de evento](https://github.com/fga-eps-mds/2019.2-foodcare/issues/51)
 
-- [# Montar Apresentação Release 1](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/43)
+- [#59 Montar Apresentação Release 1](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/59)
 
-- [# Refatorar git pages](https://github.com/fga-eps-mds/2019.2-foodcare/issues/54)
+- [#60 Refatorar git pages](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/60)
 
-- [# Entrar em Contato ](https://github.com/fga-eps-mds/2019.2-foodcare/issues/55)
+- [#55 Entrar em Contato ](https://github.com/fga-eps-mds/2019.2-foodcare/issues/55)
 
-- [# Deploy Continuo](https://github.com/fga-eps-mds/2019.2-foodcare/issues/56)
+- [#56 Deploy Continuo](https://github.com/fga-eps-mds/2019.2-foodcare/issues/56)
 
-- [# Documentar Sprint 5](https://github.com/fga-eps-mds/2019.2-foodcare/issues/52)
+- [#58 Documentar Sprint 5](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/58)
 
-- [# ROI](https://github.com/fga-eps-mds/2019.2-foodcare/issues/57)
+- [#63 Elaborar EVM](https://github.com/fga-eps-mds/2019.2-foodcare/issues/63)
