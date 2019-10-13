@@ -1,3 +1,8 @@
+branches:
+  except:
+    - docs
+    - gh-pages
+
 sudo: required
 
 services:

@@ -41,7 +41,7 @@ Pode-se observar que todas as histórias foram entregues, com mais artefatos da 
 |Aumento de produtividade da equipe|Equipe de MDS ficou bem perdida no começo da Sprint|equipe(MDS) olhar repositórios de trabalhos anteriores, para se familiarizarem com as documentações|
 |Com o protótipo já sabemos com mais clareza o que o produto virá a ser|Ainda não começamos a mexer com recursos funcionais|Fazer reunião de planejamento e planning poker com a equipe de MDS |
 |Ouvir mais a equipe de MDS e seus reviews da Sprint|---|Colocar os pareamentos pro desenvolvimento de requisitos funcionais|
-|Identificar possíveis riscos para a próxima Sprint|---|---|
+|---|---|Identificar possíveis riscos para a próxima Sprint|
 
 ## 3- Quadro de conhecimento
 ![Quadro de conhecimento](img2/conhecimento_2.png)
