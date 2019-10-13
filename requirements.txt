@@ -1,3 +1,6 @@
-django==2.2.2
+django==2.2.6
 djangorestframework
 django-cors-headers
+djangorestframework-jwt
+django-rest-auth
+django-allauth
