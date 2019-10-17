@@ -35,7 +35,7 @@ Essa Sprint terá como foco principal resolver as dívidas técnicas.
 
 - [#51 Gerenciamento de evento](https://github.com/fga-eps-mds/2019.2-foodcare/issues/51)
 
-- [#55 Entrar em Contato ](https://github.com/fga-eps-mds/2019.2-foodcare/issues/55)
+- [#55 Entrar em Contato](https://github.com/fga-eps-mds/2019.2-foodcare/issues/55)
 
 - [#56 Deploy Continuo](https://github.com/fga-eps-mds/2019.2-foodcare/issues/56)
 

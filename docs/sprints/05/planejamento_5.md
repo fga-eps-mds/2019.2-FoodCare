@@ -5,7 +5,7 @@
 **Data de início:** 30/09/2019  
 **Data de término:** 06/10/2019  
 **Duração:** 7 dias  
-**Pontos Planejados:** 35  
+**Pontos Planejados:** 30  
 **Membros Presentes:** Geovanne, Lucas, Geraldo, Bruna, Rafaella, Hugo e Giovanna.
 
 ### Papéis
@@ -39,9 +39,7 @@ Essa Sprint terá como foco principal resolver as dívidas técnicas, e preparar
 
 - [#60 Refatorar git pages](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/60)
 
-- [#55 Entrar em Contato ](https://github.com/fga-eps-mds/2019.2-foodcare/issues/55)
-
-- [#56 Deploy Continuo](https://github.com/fga-eps-mds/2019.2-foodcare/issues/56)
+- [#55 Entrar em Contato](https://github.com/fga-eps-mds/2019.2-foodcare/issues/55)
 
 - [#58 Documentar Sprint 5](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/58)
 
