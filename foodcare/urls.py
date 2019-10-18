@@ -5,7 +5,7 @@ from rest_framework import routers
 from rest_framework_jwt.views import obtain_jwt_token, refresh_jwt_token
 
 from doadores.views import DoadoresViewSet
-from evento.views import EventoViewSet, AlimentoViewSet, CategoriaViewSet
+from evento.views import EventoViewSet
 
 router = routers.DefaultRouter()
 router.register(
@@ -15,16 +15,6 @@ router.register(
 router_doador = routers.DefaultRouter()
 router_doador.register(
     'doadores',DoadoresViewSet, base_name='doadores'
-)
-
-router_alimento = routers.DefaultRouter()
-router_alimento.register(
-    'alimento', AlimentoViewSet, base_name='alimento'
-)
-
-router_categoria = routers.DefaultRouter()
-router_categoria.register(
-    'categoria', CategoriaViewSet, base_name='categoria'
 )
 
 urlpatterns = [
@@ -37,6 +27,5 @@ urlpatterns = [
     path('',include('emailfood.urls')),
     path('', include(router.urls)),
     path('', include(router_doador.urls)),
-    path('', include(router_alimento.urls)),
-    path('', include(router_categoria.urls)),
+
 ]
