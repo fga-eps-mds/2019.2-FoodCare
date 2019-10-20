@@ -15,6 +15,7 @@
 24/09/19 | 1.8 | Adiciona diagrama sequência visitante| Lucas
 24/09/19 | 1.9 | Adiciona diagramas atividades| Lucas
 24/09/19 | 2.0 | Adiciona visão lógica | Hugo
+20/10/19 | 2.1 | Refatora tópico "Requisitos funcionais" | Bruna
 
 ## Índice
 
@@ -266,18 +267,17 @@ Os seguintes itens conferem ao sistema aspectos de qualidade, bem como a descri�
 Identificador | Requisito funcional | Descrição
 ------- | ------- | -------
 RF001 | Cadastrar usuário | O sistema deve permitir que o usuário inclua infomrações para cadastro.
-RF002 | Consultar mapa com localização das doações | O sistema deve permitir que o usuário veja os eventos referentes às doações no formato de mapa.
-RF003 | Filtrar categorias de alimentos | O sistema deve permitir que o usuário filtre os eventos que deseja visualizar de acordo com o tipo de alimento disponível em cada evento.
-RF004 | Pesquisar evento | O sistema deve permitir que o usuário pesquise nominalmente o evento de seu interesse.
-RF005 | Consultar evento | O sistema deve permitir que o usuário consulte as informaçẽos específicas dos eventos, como local, hora, data e o tipo de alimento disponibilizado.
-RF006 | Listar eventos | O sistema deve permitir ao usuário escolha a visualização dos eventos em forma de lista.
-RF007 | Validar dados cadastrais do usuário | O sistema deve ser capaz de validar os dados do usuário no momento em que o logiin for realizado.
-RF008 | Enviar email | O sistema deve permitir que o usuário envie um email para o admin do site.
-RF009 | Criar evento | O sistema deve permitir que o usuário insira informações para criar eventos de doação, como nome e data do evento, quantidade e tipo de alimento disponibilizado.
-RF010 | Alterar evento | O sistema deve permirtir que o usuário altere o evento criado, editando informações.
-RF011 | Excluir evento | O sistema deve permitir que o usuário exclua um evento criado. 
-RF012 | Notificar usuário | O sistema deve ser capaz de notificar, via email, o usuário cadastrado a respeito das doaçẽos em vigor. 
-RF013 | Cadastrar admin | O sistema deve permitir cadastro de um administrador do site.
+RF002 | Filtrar categorias de alimentos | O sistema deve permitir que o usuário filtre os eventos que deseja visualizar de acordo com o tipo de alimento disponível em cada evento.
+RF003 | Pesquisar evento | O sistema deve permitir que o usuário pesquise nominalmente o evento de seu interesse.
+RF004 | Consultar evento | O sistema deve permitir que o usuário consulte as informaçẽos específicas dos eventos, como local, hora, data e o tipo de alimento disponibilizado.
+RF005 | Listar eventos | O sistema deve permitir ao usuário escolha a visualização dos eventos em forma de lista.
+RF006 | Validar dados cadastrais do usuário | O sistema deve ser capaz de validar os dados do usuário no momento em que o login for realizado.
+RF007 | Enviar email | O sistema deve permitir que o usuário envie um email para o admin do site.
+RF008 | Criar evento | O sistema deve permitir que o usuário insira informações para criar eventos de doação, como nome e data do evento, quantidade e tipo de alimento disponibilizado.
+RF009 | Alterar evento | O sistema deve permirtir que o usuário altere o evento criado, editando informações.
+RF010 | Excluir evento | O sistema deve permitir que o usuário exclua um evento criado. 
+RF011 | Notificar usuário | O sistema deve ser capaz de notificar, via email, o usuário cadastrado a respeito das doaçẽos em vigor. 
+RF012 | Cadastrar admin | O sistema deve permitir cadastro de um administrador do site.
 
 ## 11.2 Requisitos não funcionais <a name="11.2"></a>
 Identificador | Requisito não funcional | Descrição
