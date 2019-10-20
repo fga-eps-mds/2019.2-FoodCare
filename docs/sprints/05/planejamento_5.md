@@ -5,7 +5,7 @@
 **Data de início:** 30/09/2019  
 **Data de término:** 06/10/2019  
 **Duração:** 7 dias  
-**Pontos Planejados:** 35  
+**Pontos Planejados:** 30  
 **Membros Presentes:** Geovanne, Lucas, Geraldo, Bruna, Rafaella, Hugo e Giovanna.
 
 ### Papéis
@@ -19,7 +19,7 @@
 
 ## Pareamento
 
-A definição de duplas de pareamento foram escolhidas analisando o quadro de conhecimento, a review da sprint passada também, uma nova estratégia também foi utilizada, mantemos um membro da dupla de pareamento, das issues que estavam atrasadas, e mudamos o outro membro, assim quem ficou vai ter que explicar pro novo integrante o que estava fazendo e onde estava dando problema. Cada dupla de pareamento será supervisionada por um EPS.
+O fator de escolha do pareamento foi uma nova estratégia, na qual um membro da issue atrasada ficava na mesma issues e a outra pessoa da dupla era realocada, o pessoa que ficou tinha que explicar as dificuldades e os erros que estavam aparecendo, além de mostrar tudo que já havia sido produzido, a realocação das pessoas foi feita com base no quadro de conhecimento.
 
 - Rafaella e Hugo, eps: Geovanne
 - Bruna e Lucas, eps: Igor
@@ -35,14 +35,12 @@ Essa Sprint terá como foco principal resolver as dívidas técnicas, e preparar
 
 - [#51 Gerenciamento de evento](https://github.com/fga-eps-mds/2019.2-foodcare/issues/51)
 
-- [# Montar Apresentação Release 1](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/43)
+- [#59 Montar Apresentação Release 1](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/59)
 
-- [# Refatorar git pages](https://github.com/fga-eps-mds/2019.2-foodcare/issues/54)
+- [#60 Refatorar git pages](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/60)
 
-- [# Entrar em Contato ](https://github.com/fga-eps-mds/2019.2-foodcare/issues/55)
+- [#55 Entrar em Contato](https://github.com/fga-eps-mds/2019.2-foodcare/issues/55)
 
-- [# Deploy Continuo](https://github.com/fga-eps-mds/2019.2-foodcare/issues/56)
+- [#58 Documentar Sprint 5](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/58)
 
-- [# Documentar Sprint 5](https://github.com/fga-eps-mds/2019.2-foodcare/issues/52)
-
-- [# ROI](https://github.com/fga-eps-mds/2019.2-foodcare/issues/57)
+- [#63 Elaborar EVM](https://github.com/fga-eps-mds/2019.2-foodcare/issues/63)
