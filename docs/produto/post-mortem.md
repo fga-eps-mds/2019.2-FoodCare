@@ -10,6 +10,9 @@ Hugo (MDS): Aprendi bastante sobre a metodologia ágil, onde adotamos o sistema 
 
 Rafaella (MDS): O projeto me fez entender que desenvolver uma aplicação requer não apenas conhecimentos muito maiores que aqueles pelos quais eu estava acostumada, mas envolve também um modo de pensar diferente, mais amplo. Aprendi muitos conceitos importantes sobre funcionamento de backend e frontend, entrei em contato com tecnologias diferentes e a cada dia amplio minha visão sobre um processo de desenvolvimento de software completo.
 
+Bruna (MDS): Aprendi bastante sobre a metodologia ágil. meu conhecimento nessa área era bem superficial, entendi a importância de trabalhar com essa metodologia. Também aprendi a trabalhar melhor com a plataforma Git, já tinha utilizado, mas não tinha conhecimento de tantas ferramentas que o Git oferece.
+No começo tinha medo de não conseguir desenvolver nada do projeto, por não ter cohecimento profundo das tecnologias utilizadas, mas a divisão de trabalho nas Sprints fez com que eu conseguisse me organizar e estudar pra conseguir concluir as tarefas.
+
 
 ## O grupo também reconheceu pontos a melhorar
 
@@ -19,5 +22,7 @@ Giovanna (MDS): Sinceramente, há muitos pontos a melhorar, mas não adianta que
 
 Hugo (MDS): Desenvolver as tarefas de forma mais fracionada e constante, evitando o modo 'cascata' de trabalho. Entender melhor cada ponto do processo, o que cada peça contribui no sistema inteiro, como a comunicação das ferramentas entre si usadas nesse projeto.
 
-Rafaella (MDS): É difícil aprender tantas novas tecnologias ao mesmo tempo em que se desenvolve algo, de forma que aprender a ler as documentações é uma habilidade muito importante e que precisamos aprimorar. É preciso também ter uma visão melhor sobre como integrar cada parte do peojeto.
+Rafaella (MDS): É difícil aprender tantas novas tecnologias ao mesmo tempo em que se desenvolve algo, de forma que aprender a ler as documentações é uma habilidade muito importante e que precisamos aprimorar. É preciso também ter uma visão melhor sobre como integrar cada parte do projeto.
+
+Bruna (MDS): A comunicação pode ser melhorada. Precisamos retomar o foco, voltar a nos esforçar para conseguir finalizar o código e dar início aos testes. Também é importante pensar, enquanto desenvolvemos o código, na melhor forma de otimizá-lo. Tentar otimizar o código não é andar em círculos.
 
