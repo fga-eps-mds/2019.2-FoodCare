@@ -14,13 +14,14 @@
 25/09/19 | 1.7 | Atualiza a descrição dos envolvidos e usúarios | Giovanna
 26/09/19 | 1.8 | Atualiza a tabela de resumo das capacidades | Giovanna
 26/09/19 | 1.9 | Atualiza o topico Outros Requisitos de Produto | Giovanna
+22/09/19 | 2.0 | Atualização dos Recusos do Produto | Hugo
 
 ## Índice
 
 1. [Introdução](#1)
     1. [Referências](#1.1)
 2. [Posicionamento](#2)
-    1. [Descriação do problema](#2.1)
+    1. [Descrição do problema](#2.1)
     2. [Posição do produto](#2.2)
 3. [Descrição dos envolvidos e usuários](#3)
     1. [Perfil da parte interessada](#3.1)
@@ -39,7 +40,6 @@
     3. [Pesquisar evento](#5.3)
     4. [Tipificar alimento](#5.4)
     5. [Login](#5.5)
-    6. [Notificações](#5.6)
 6. [Outros requisitos do produto](#6)
     1. [Requisito de usuário](#6.1)
     2. [Requisito do sistema](#6.2)
@@ -143,17 +143,13 @@ Todos os usuários serão capazes de visualizar os eventos com status de ativo n
 
 ## Tipificar alimento <a name="5.4"></a>
 
-O doador será capaz de adicionar informações sobre o alimento como: quantidade, nome e categoria alimentícia.
+O doador será capaz de escolher informações sobre o alimento como: quantidade, nome e categoria alimentícia.
 
 Esse recurso poderá ser visualizado pelos demais usuários da plataforma.
 
 ## Login <a name="5.5"></a>
 
 O usuário cadastrado poderá entrar no sistema por meio de login.
-
-## Notificações <a name="5.6"></a>
-
-Usuários não cadastrados estarão aptos a receber notificações de acordo com a sua necessidade de uso.
 
 # Outros requisitos do produto <a name="6"></a>
 
