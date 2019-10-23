@@ -17,7 +17,8 @@
 24/09/19 | 2.0 | Adiciona visão lógica | Hugo
 20/10/19 | 2.1 | Refatora tópico "Requisitos funcionais" | Bruna
 22/10/2019 | 2.2 | Refatora tópicos "Requisitos funcionais" e "Confiabilidade" | Rafaella
-23/10/19 | 2.3 || Substitui diagrama de casos de uso | Bruna
+23/10/19 | 2.3 | Substitui diagrama de casos de uso | Bruna
+
 ## Índice
 
 1. [Introdução](#1)
@@ -140,7 +141,7 @@ Portabilidade|O projeto é uma aplicação web, o que facilita a portabilidade e
 Distribuição|Sempre será disponibilizada ao usuário a última versão da API, já que a distribuição sempre ocorrerá assim que a nova versão do software é enviada para produção.
 Reuso|A utilização dos frameworks Django e Angular certificam um bom reuso devido à padronização da criação de componentes do código.
 # Visão de casos de uso <a name="4"></a>
-![Diagrama de Casos de Uso](img/Diagrama_casos_de_uso_refatorado.png)
+![Diagrama de Casos de Uso](.../img/caso-de-uso-v02.png)
 # Visão lógica  <a name="5"></a>
 
 ## Diagramas significativos <a name="5.1"></a>
