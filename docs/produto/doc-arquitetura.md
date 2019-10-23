@@ -16,6 +16,7 @@
 24/09/19 | 1.9 | Adiciona diagramas atividades| Lucas
 24/09/19 | 2.0 | Adiciona visão lógica | Hugo
 20/10/19 | 2.1 | Refatora tópico "Requisitos funcionais" | Bruna
+22/10/2019 | 2,2 | Refatora tópicos "Requisitos funcionais" e "Confiabilidade" | Rafaella.
 
 ## Índice
 
@@ -151,10 +152,10 @@ Seguindo o modelo UML(Unfied Modeling Language), o nosso sistema se descreve em 
 
 Temos como principais classes:
 
-* Usuário: possui um endereço e pode criar eventos
-* Endereço: usado para criar um evento
-* Evento: contém informações do usuário e endereço, e expões o alimento a ser doado
-* Alimento: o alimento é usado como referência física do produto a ser doado, tendo ele categorias do produto como: quantidade e validade 
+* Usuário: capaz de criar eventos e detentor de um endereço.
+* Endereço: automaticamente gerado baseado na localização do doador no momento de criação do evento.
+* Evento: contém informações do usuário, endereço e o tipo de alimento a ser doado.
+* Alimento: utilizado como referência física do produto a ser doado e especificado quanto à: quantidade e validade. 
 
 ### Diagrama de colaboração <a name="5.1.2"></a>
 O diagrama de colaboração exibe as interações entre os objetos e suas dependências dentro de um sistema.
@@ -229,9 +230,9 @@ Os a relação de pacotes utilizados do Angular compõe:
 
 * polyfills.ts: traduz o código para diferentes navegadores web.
 
-# Visão de implantação  <a name="6"></a>
+<!-- # Visão de implantação  <a name="6"></a>
 ## Diagrama de implantação <a name="6.1"></a>
-
+ -->
 
 
 # diagrama de sequência <a name="7"></a>
@@ -248,10 +249,10 @@ Os a relação de pacotes utilizados do Angular compõe:
 ## diagrama de atividades  visitante<a name="8.2"></a>
 ![Diagrama de Atividade doador](img/diag_act_visitante.png)
 
-# visão de implementação <a name="9"></a>
+<!-- # visão de implementação <a name="9"></a>
 ## finalidade <a name="9.1"></a>
 ## diagramas significativos <a name="9.1"></a>
-### diagrama de componentes <a name="9.1.1"></a>
+### diagrama de componentes <a name="9.1.1"></a> -->
 
 # visão de dados <a name="10"></a>
 ## diagrama entidade-relacionamento <a name="10.1"></a>
@@ -276,8 +277,7 @@ RF007 | Enviar email | O sistema deve permitir que o usuário envie um email par
 RF008 | Criar evento | O sistema deve permitir que o usuário insira informações para criar eventos de doação, como nome e data do evento, quantidade e tipo de alimento disponibilizado.
 RF009 | Alterar evento | O sistema deve permirtir que o usuário altere o evento criado, editando informações.
 RF010 | Excluir evento | O sistema deve permitir que o usuário exclua um evento criado. 
-RF011 | Notificar usuário | O sistema deve ser capaz de notificar, via email, o usuário cadastrado a respeito das doaçẽos em vigor. 
-RF012 | Cadastrar admin | O sistema deve permitir cadastro de um administrador do site.
+RF011 | Cadastrar admin | O sistema deve permitir cadastro de um administrador do site.
 
 ## 11.2 Requisitos não funcionais <a name="11.2"></a>
 Identificador | Requisito não funcional | Descrição
@@ -309,7 +309,6 @@ A usabilidade definida como a efetividade, a eficiência e a satisfação com qu
 Qualidade do sistema que nos permite confiar, justificadamente, no serviço oferecido.
 
 * Disponibilidade: O sistema estará disponível no modo 24/7 (24 horas por dia, 7 dias por semana).
-* Autenticidade: O sistema irá cadastrar doares de alimentos utilizando o número de CNPJ da empresa, de modo a minimizar o risco de falsos doadores.
 * Segurança e Privacidade: O sistema deve assegurar a segurança e privacidade dos dados gerados, armazenando senhas e dados sensíveis de forma segura. O sistema deve ser transparente quanto às informações coletadas referentes a dados pessoais do usuário.
 
 ## 11.6 Desempenho <a name="11.6"></a>
@@ -324,7 +323,7 @@ O usuário será capaz de utilizar o sistema através de um navegador de interne
 
 ## 11.8 Restrições de design <a name="11.8"></a>
 * O nome da página sempre estará no topo do layout e sempre que clicado, direcionará à página para a interface inicial (home)
-* Para criar um novo evento, o usuário terá que passar pela teça de login.
+* Para criar um novo evento, o usuário terá que passar pela tela de login.
 
 ## 11.9 Interfaces de Hardware <a name="11.10"></a>
 O software oferece suporte aos dispositivos apresentados abaixo.
