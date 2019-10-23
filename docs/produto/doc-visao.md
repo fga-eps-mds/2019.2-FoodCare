@@ -14,7 +14,11 @@
 25/09/19 | 1.7 | Atualiza a descrição dos envolvidos e usúarios | Giovanna
 26/09/19 | 1.8 | Atualiza a tabela de resumo das capacidades | Giovanna
 26/09/19 | 1.9 | Atualiza o topico Outros Requisitos de Produto | Giovanna
+<<<<<<< HEAD
 22/09/19 | 2.0 | Atualização dos Recusos do Produto | Hugo
+=======
+22/10/19 | 2.0 | Refatora documento | Bruna
+>>>>>>> 14bac9bc549e8bfdae9714a2e2d7e55cfa70cd2c
 
 ## Índice
 
@@ -64,7 +68,7 @@ Uma possível solução para essa situação, é garantir a comunicação entre 
 ## Posição do produto <a name="2.2"></a>
 O FoodCare é uma aplicação web que facilita o acesso a comida doada. De outro modo, uma aplicação semelhante, o app Cópia, além de necessitar de número de telefone internacional, é um aplicativo que deve ser baixado. 
 
-Nosso app, é um Progressive Web App(PWA) e não precisa instalar nenhum aplicativo e além de oferecer Web Push Notifications(notificações exibidas em navegadores), ao acessar o site e aceitar as notificações, o usuário vai receber mensagens diretamente em seu navegador.
+Nosso app é um Progressive Web App(PWA), pode ser acessado através de qualquer navegador, não é necessário instalar nenhum aplicativo.
 
 # Descrições dos envolvidos e usuários <a name="3"></a>
 O produto visa facilitar a interação entre aqueles que possuem recursos alimentícios a serem doados e aqueles que necessitam desses produtos. Desta forma, o FoodCare terá usuários doadores e usuários receptores,  visando minimizar o problema relacionado ao desperdício de alimentos.
@@ -78,13 +82,13 @@ O produto visa facilitar a interação entre aqueles que possuem recursos alimen
 ## Perfil do usuário <a name="3.2"></a>
 
 * Representante: Receptor
-* Descrição: O usuário receptor trata-se de ONG’s ou pessoas físicas interessadas em captar o recurso alimentício que será disponibilizado pelo doador, no caso das ONG's a fim de distribuir esse alimento às pessoas necessitadas.
-* Envolvimento no projeto: Acessar o site, vizualizar eventos de doação e aceitar as notificações, para que receba mensagens diretamente em seu navegador.
+* Descrição: O usuário receptor trata-se de ONG’s ou pessoas físicas interessadas em captar o recurso alimentício que será disponibilizado pelo doador.
+* Envolvimento no projeto: Acessar o site e vizualizar eventos de doação.
 
 ## Demográficos de Mercado <a name="3.3"></a>
 Atualmente, os alimentos que perdem o prazo de validade ou refeições prontas e não consumidas em restaurantes são descartados. Estima-se que por ano, no Brasil, mais de 26 milhões de toneladas de comida sejam jogadas fora.
 
-O FoodCare ao oferecer um serviço de integração entre o doador e o receptor, faz o papel de divulgar o alimento que seria perdido àqueles que necessitam.
+O FoodCare, ao oferecer um serviço de integração entre o doador e o receptor, faz o papel de divulgar o alimento que seria perdido àqueles que necessitam.
 ## Alternativas e Concorrência <a name="3.4"></a>
 A vantagem competitiva do FoodCare se dá no fato de poder ser acessado em qualquer rede desde que haja acesso à internet, sem a obrigatoriedade da instalação de um aplicativo.
 
@@ -107,10 +111,9 @@ Nosso produto tem algumas semelhanças com produtos já feitos, como o aplicativ
 ## Resumo das Capacidades <a name="4.2"></a>
 Benefício para o Cliente | Recursos de Suporte
 ------------------------ | -------------------
-Aproxima a informação de onde e quando estão havendo doações de alimentos. | ONG’s e pessoas poderão pesquisar eventos que são no caso os de doações de alimento de acordo com a localização desejada.
-Aproxima quem quer doar alimentos com quem deseja receber doações dos mesmo. | Através da criação de eventos por parte das instituições que querem doar gera-se a informação de quando e onde haverá doação para quem deseja receber doação.
-Recebe notificações de eventos e alimentos | Notificações para os usuários (ONG’s e pessoas).
-Cadastro de instituições que querem doar alimentos para que fique mais automático criar eventos com endereços cadastrados. | Após o cadastro a instituição pode ver uma lista dos endereços cadastrados.
+Aproxima a informação de onde e quando estão havendo doações de alimentos. | ONG’s e pessoas poderão pesquisar eventos de doações de alimento de acordo com a localização desejada.
+Aproxima quem quer doar alimentos com quem deseja receber doações dos mesmos. | Através da criação de eventos por parte das instituições que querem doar, gera-se a informação de quando e onde haverá doação para quem deseja receber.
+Cadastro de instituições que querem doar alimentos para que facilite a criação de eventos com endereços cadastrados. | Após o cadastro a instituição pode ver uma lista dos endereços cadastrados.
 Apresenta a localização de eventos de doação de alimentos. | Através do endereço cadastrado pelas as instituições é possível apresentar ao usuário, que deseja doações, a localização do evento .
 
 ## Suposições de dependências <a name="4.3"></a>
@@ -129,13 +132,13 @@ Por se tratar de um site não é necessário instalação do nosso software, par
 
 ## Cadastro <a name="5.1"></a>
 
-O usuário poderá se cadastrar na plataforma para ter acesso às funcionalidades do software. O cadastro discrimina o tipo de usuário, podendo ele ser: empresa, ONG's desde que tenham CNPJ ou pessoas físicas.
+O futuro doador poderá se cadastrar na plataforma para ter acesso às funcionalidades do software.
 
 Essa funcionalidade também atenderá as necessidades de edição do conteúdo informado no momento do cadastro como: endereço, nome fantasia, etc.
 
 ## Criar evento <a name="5.2"></a>
 
-Essa funcionalidade permite que qualquer instituição com CNPJ inicie um evento de doação que estará disponível no sistema, para que Ongs e pessoas físicas visualizem.
+Essa funcionalidade permite que qualquer instituição com CNPJ, que previamente cadastrou-se no site, inicie um evento de doação que estará disponível no sistema, para que Ongs e pessoas físicas visualizem.
 
 ## Pesquisar evento <a name="5.3"></a>
 
@@ -149,13 +152,17 @@ Esse recurso poderá ser visualizado pelos demais usuários da plataforma.
 
 ## Login <a name="5.5"></a>
 
+<<<<<<< HEAD
 O usuário cadastrado poderá entrar no sistema por meio de login.
+=======
+O doador cadastrado poderá entrar no sistema por meio de login.
+>>>>>>> 14bac9bc549e8bfdae9714a2e2d7e55cfa70cd2c
 
 # Outros requisitos do produto <a name="6"></a>
 
 ## Requisito de usuário <a name="6.1"></a>
 
-O usuário da aplicação deverá possui um dispositivo com acesso a internet e sistema de localização integrado para poder usufruir das funcionalidades disponíveis da aplicação.
+O usuário da aplicação deverá possuir um dispositivo com acesso a internet para poder usufruir das funcionalidades disponíveis da aplicação.
 
 ## Requisistos do sistema <a name="6.2"></a>
 
