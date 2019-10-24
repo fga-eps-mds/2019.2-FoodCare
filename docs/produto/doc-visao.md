@@ -14,16 +14,12 @@
 25/09/19 | 1.7 | Atualiza a descrição dos envolvidos e usúarios | Giovanna
 26/09/19 | 1.8 | Atualiza a tabela de resumo das capacidades | Giovanna
 26/09/19 | 1.9 | Atualiza o topico Outros Requisitos de Produto | Giovanna
-<<<<<<< HEAD
 22/09/19 | 2.0 | Atualização dos Recusos do Produto | Hugo
-=======
-22/10/19 | 2.0 | Refatora documento | Bruna
->>>>>>> 14bac9bc549e8bfdae9714a2e2d7e55cfa70cd2c
+22/10/19 | 2.1 | Refatora documento | Bruna
 
 ## Índice
 
 1. [Introdução](#1)
-    1. [Referências](#1.1)
 2. [Posicionamento](#2)
     1. [Descrição do problema](#2.1)
     2. [Posição do produto](#2.2)
@@ -47,6 +43,7 @@
 6. [Outros requisitos do produto](#6)
     1. [Requisito de usuário](#6.1)
     2. [Requisito do sistema](#6.2)
+7.  [Referências](#7)
 
 # Introdução <a name="1"></a>
 Este documento tem como propósito coletar, analisar e definir necessidades e recursos de nível superior do FoodCare para a matéria Métodos de Desenvolvimento de Software (MDS) que tem como tema à Objetivos de Desenvolvimento Sustentável (ODS) 2.1. Esse objetivo defende: Fome Zero e Agricultura Sustentável - Acabar com a fome, alcançar a segurança alimentar e melhoria da nutrição e promover a agricultura sustentável.
@@ -54,10 +51,6 @@ Este documento tem como propósito coletar, analisar e definir necessidades e re
 Nesse objetivo a meta 2.1 especifica que: até 2030, irá acabar com a fome e garantir o acesso de todas as pessoas, em particular os pobres e pessoas em situações vulneráveis, incluindo crianças, a alimentos seguros, nutritivos e suficientes durante todo o ano.
 
 O programa desenvolvido tem como intuito facilitar o acesso a alimentos para famílias em situação de risco e organizações não governamentais que distribuem comida.
-
-## Referências <a name="1.1"></a>
-* ONU. **Agenda 2030** [<http://www.agenda2030.org.br/ods/2/>](http://www.agenda2030.org.br/ods/2/). Acesso em 5 de setembro de 2019.
-* Copia. **Waste Less. Feed More**. [<http://www.gocopia.com/>](http://www.gocopia.com/>). Acesso em 5 de setembro de 2019;
 
 # Posicionamento <a name="2"></a>
 ## Descrição do Problema <a name="2.1"></a>
@@ -152,11 +145,7 @@ Esse recurso poderá ser visualizado pelos demais usuários da plataforma.
 
 ## Login <a name="5.5"></a>
 
-<<<<<<< HEAD
-O usuário cadastrado poderá entrar no sistema por meio de login.
-=======
 O doador cadastrado poderá entrar no sistema por meio de login.
->>>>>>> 14bac9bc549e8bfdae9714a2e2d7e55cfa70cd2c
 
 # Outros requisitos do produto <a name="6"></a>
 
@@ -178,3 +167,6 @@ O usuário da aplicação deverá possuir um dispositivo com acesso a internet p
 * Os testes unitários serão feitos usando a ferramenta JEST
 * A arquitetura utilizará o padrão de microserviços
 * Para sistema de autenticação será usado JWT
+## Referências <a name="7"></a>
+* ONU. **Agenda 2030** [<http://www.agenda2030.org.br/ods/2/>](http://www.agenda2030.org.br/ods/2/). Acesso em 5 de setembro de 2019.
+* Copia. **Waste Less. Feed More**. [<http://www.gocopia.com/>](http://www.gocopia.com/>). Acesso em 5 de setembro de 2019;
