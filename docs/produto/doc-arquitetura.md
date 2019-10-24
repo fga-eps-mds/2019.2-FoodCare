@@ -96,6 +96,7 @@ Este documento apresenta as características arquiteturais do projeto **FoodCare
 **FoodCare** - Aplicação web, desenvolvida em Django REST e Angular, que tem como objetivo aproximar pessoas que querem doar com pessoas que desejam receber, estimulando doações, tendo em vista a quantidade de comida que é desperdiçada todos os dias.
 
 # Representação da arquitetura <a name="2"></a>
+![diagrama-arq](img/diagrama-arq.png)
 
 ## Back-end <a name="2.1"></a>
 
