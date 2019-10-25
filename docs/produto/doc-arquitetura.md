@@ -142,11 +142,7 @@ Portabilidade|O projeto é uma aplicação web, o que facilita a portabilidade e
 Distribuição|Sempre será disponibilizada ao usuário a última versão da API, já que a distribuição sempre ocorrerá assim que a nova versão do software é enviada para produção.
 Reuso|A utilização dos frameworks Django e Angular certificam um bom reuso devido à padronização da criação de componentes do código.
 # Visão de casos de uso <a name="4"></a>
-<<<<<<< HEAD
-![Diagrama de Casos de Uso](produto/img/caso-de-uso-v02.png)
-=======
 ![Diagrama de Casos de Uso](https://raw.githubusercontent.com/fga-eps-mds/2019.2-FoodCare/docs/docs/produto/img/caso-de-uso-v02.png)
->>>>>>> 1da2a70d101555619eb4ce4df85f2905ddd38007
 # Visão lógica  <a name="5"></a>
 
 ## Diagramas significativos <a name="5.1"></a>
