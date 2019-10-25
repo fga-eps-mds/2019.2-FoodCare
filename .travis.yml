@@ -17,7 +17,7 @@ install:
   - docker-compose up --build -d
 
 script:
-  - docker exec -it foodcare-api python3 manage.py test
+  - docker exec -it foodcare-api coverage run manage.py test
   - docker exec -it foodcare-api coveralls
 
 after_script:
