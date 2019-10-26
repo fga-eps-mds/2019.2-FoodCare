@@ -9,10 +9,16 @@ services:
   - docker
 
 install:
+  - echo "ENV COVERALLS_REPO_TOKEN ${COVERALLS_REPO_TOKEN}" >> Dockerfile
+  - echo "ENV TRAVIS_BRANCH ${TRAVIS_BRANCH}" >> Dockerfile
+  - echo "ENV TRAVIS_JOB_ID ${TRAVIS_JOB_ID}" >> Dockerfile
+  - echo "ENV CI ${CI}" >> Dockerfile
+  - echo "ENV TRAVIS ${TRAVIS}" >> Dockerfile
   - docker-compose up --build -d
 
 script:
-  - docker exec -it foodcare-api python3 manage.py test
+  - docker exec -it foodcare-api coverage run manage.py test
+  - docker exec -it foodcare-api coveralls
 
 after_script:
-  - docker-compose down
+  - docker-compose down --remove-orphans

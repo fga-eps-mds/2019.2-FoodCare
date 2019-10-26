@@ -1,0 +1,6 @@
+[report]
+omit =
+    manage.py
+    *foodcare/*
+    */migrations/*
+    */python?.?/*
