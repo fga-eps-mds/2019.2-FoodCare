@@ -14,6 +14,10 @@
 23/09/19 | 1.7 | Adiciona diagrama de casos de uso| Bruna
 24/09/19 | 1.8 | Adiciona diagrama sequência visitante| Lucas
 24/09/19 | 1.9 | Adiciona diagramas atividades| Lucas
+24/09/19 | 2.0 | Adiciona visão lógica | Hugo
+20/10/19 | 2.1 | Refatora tópico "Requisitos funcionais" | Bruna
+22/10/2019 | 2.2 | Refatora tópicos "Requisitos funcionais" e "Confiabilidade" | Rafaella
+23/10/19 | 2.3 | Substitui diagrama de casos de uso | Bruna
 
 ## Índice
 
@@ -96,6 +100,7 @@ Este documento apresenta as características arquiteturais do projeto **FoodCare
 **FoodCare** - Aplicação web, desenvolvida em Django REST e Angular, que tem como objetivo aproximar pessoas que querem doar com pessoas que desejam receber, estimulando doações, tendo em vista a quantidade de comida que é desperdiçada todos os dias.
 
 # Representação da arquitetura <a name="2"></a>
+![diagrama-arq](img/diagrama-arq.png)
 
 ## Back-end <a name="2.1"></a>
 
@@ -137,7 +142,7 @@ Portabilidade|O projeto é uma aplicação web, o que facilita a portabilidade e
 Distribuição|Sempre será disponibilizada ao usuário a última versão da API, já que a distribuição sempre ocorrerá assim que a nova versão do software é enviada para produção.
 Reuso|A utilização dos frameworks Django e Angular certificam um bom reuso devido à padronização da criação de componentes do código.
 # Visão de casos de uso <a name="4"></a>
-![Diagrama de Casos de Uso](img/diagrama_casos_de_uso.png)
+![Diagrama de Casos de Uso](https://raw.githubusercontent.com/fga-eps-mds/2019.2-FoodCare/docs/docs/produto/img/caso-de-uso-v02.png)
 # Visão lógica  <a name="5"></a>
 
 ## Diagramas significativos <a name="5.1"></a>
@@ -149,10 +154,10 @@ Seguindo o modelo UML(Unfied Modeling Language), o nosso sistema se descreve em 
 
 Temos como principais classes:
 
-* Usuário: possui um endereço e pode criar eventos
-* Endereço: usado para criar um evento
-* Evento: contém informações do usuário e endereço, e expões o alimento a ser doado
-* Alimento: o alimento é usado como referência física do produto a ser doado, tendo ele categorias do produto como: quantidade e validade 
+* Usuário: capaz de criar eventos e detentor de um endereço.
+* Endereço: automaticamente gerado baseado na localização do doador no momento de criação do evento.
+* Evento: contém informações do usuário, endereço e o tipo de alimento a ser doado.
+* Alimento: utilizado como referência física do produto a ser doado e especificado quanto à: quantidade e validade. 
 
 ### Diagrama de colaboração <a name="5.1.2"></a>
 O diagrama de colaboração exibe as interações entre os objetos e suas dependências dentro de um sistema.
@@ -160,7 +165,7 @@ O diagrama de colaboração exibe as interações entre os objetos e suas depend
 ### Diagrama de pacotes Django <a name="5.1.3"></a>
 O Diagrama de pacotes, ou diagrama de módulos, definido pela UML, descreve os pacotes ou pedaços do sistema divididos em agrupamentos lógicos mostrando as dependências entre eles. Este diagrama é utilizado para ilustrar a arquitetura de um sistema mostrando o agrupamento de suas classes. O Django organiza seus componentes em apps que possuem arquivos referentes a cada aplicação.
 
-* apps: cada app tem uma pasta com as suas models, views, formulários, testes, templates e arquivos estáticos.
+* apps: cada app tem uma pasta com as suas models, views, formulários, testes e arquivos estáticos.
 
     * migrations : pasta com as migrações para o banco de dados.
 
@@ -168,15 +173,11 @@ O Diagrama de pacotes, ou diagrama de módulos, definido pela UML, descreve os p
 
     * tests : arquivos de testes refente ao app.
 
-    * templates : arquivos html do app.
-
     * locale : traduções referentes ao app.
 
     * models : arquivos de models do app.
 
     * views : arquivos de views do app.
-
-    * forms : arquivos de formulários do app.
 
     * admin : arquivo de conexão do app com o admin.
 
@@ -231,9 +232,9 @@ Os a relação de pacotes utilizados do Angular compõe:
 
 * polyfills.ts: traduz o código para diferentes navegadores web.
 
-# Visão de implantação  <a name="6"></a>
+<!-- # Visão de implantação  <a name="6"></a>
 ## Diagrama de implantação <a name="6.1"></a>
-
+ -->
 
 
 # diagrama de sequência <a name="7"></a>
@@ -250,10 +251,10 @@ Os a relação de pacotes utilizados do Angular compõe:
 ## diagrama de atividades  visitante<a name="8.2"></a>
 ![Diagrama de Atividade doador](img/diag_act_visitante.png)
 
-# visão de implementação <a name="9"></a>
+<!-- # visão de implementação <a name="9"></a>
 ## finalidade <a name="9.1"></a>
 ## diagramas significativos <a name="9.1"></a>
-### diagrama de componentes <a name="9.1.1"></a>
+### diagrama de componentes <a name="9.1.1"></a> -->
 
 # visão de dados <a name="10"></a>
 ## diagrama entidade-relacionamento <a name="10.1"></a>
@@ -269,18 +270,16 @@ Os seguintes itens conferem ao sistema aspectos de qualidade, bem como a descri�
 Identificador | Requisito funcional | Descrição
 ------- | ------- | -------
 RF001 | Cadastrar usuário | O sistema deve permitir que o usuário inclua infomrações para cadastro.
-RF002 | Consultar mapa com localização das doações | O sistema deve permitir que o usuário veja os eventos referentes às doações no formato de mapa.
-RF003 | Filtrar categorias de alimentos | O sistema deve permitir que o usuário filtre os eventos que deseja visualizar de acordo com o tipo de alimento disponível em cada evento.
-RF004 | Pesquisar evento | O sistema deve permitir que o usuário pesquise nominalmente o evento de seu interesse.
-RF005 | Consultar evento | O sistema deve permitir que o usuário consulte as informaçẽos específicas dos eventos, como local, hora, data e o tipo de alimento disponibilizado.
-RF006 | Listar eventos | O sistema deve permitir ao usuário escolha a visualização dos eventos em forma de lista.
-RF007 | Validar dados cadastrais do usuário | O sistema deve ser capaz de validar os dados do usuário no momento em que o logiin for realizado.
-RF008 | Enviar email | O sistema deve permitir que o usuário envie um email para o admin do site.
-RF009 | Criar evento | O sistema deve permitir que o usuário insira informações para criar eventos de doação, como nome e data do evento, quantidade e tipo de alimento disponibilizado.
-RF010 | Alterar evento | O sistema deve permirtir que o usuário altere o evento criado, editando informações.
-RF011 | Excluir evento | O sistema deve permitir que o usuário exclua um evento criado. 
-RF012 | Notificar usuário | O sistema deve ser capaz de notificar, via email, o usuário cadastrado a respeito das doaçẽos em vigor. 
-RF013 | Cadastrar admin | O sistema deve permitir cadastro de um administrador do site.
+RF002 | Filtrar categorias de alimentos | O sistema deve permitir que o usuário filtre os eventos que deseja visualizar de acordo com o tipo de alimento disponível em cada evento.
+RF003 | Pesquisar evento | O sistema deve permitir que o usuário pesquise nominalmente o evento de seu interesse.
+RF004 | Consultar evento | O sistema deve permitir que o usuário consulte as informaçẽos específicas dos eventos, como local, hora, data e o tipo de alimento disponibilizado.
+RF005 | Listar eventos | O sistema deve permitir ao usuário escolha a visualização dos eventos em forma de lista.
+RF006 | Validar dados cadastrais do usuário | O sistema deve ser capaz de validar os dados do usuário no momento em que o login for realizado.
+RF007 | Enviar email | O sistema deve permitir que o usuário envie um email para o admin do site.
+RF008 | Criar evento | O sistema deve permitir que o usuário insira informações para criar eventos de doação, como nome e data do evento, quantidade e tipo de alimento disponibilizado.
+RF009 | Alterar evento | O sistema deve permirtir que o usuário altere o evento criado, editando informações.
+RF010 | Excluir evento | O sistema deve permitir que o usuário exclua um evento criado. 
+RF011 | Cadastrar admin | O sistema deve permitir cadastro de um administrador do site.
 
 ## 11.2 Requisitos não funcionais <a name="11.2"></a>
 Identificador | Requisito não funcional | Descrição
@@ -312,7 +311,6 @@ A usabilidade definida como a efetividade, a eficiência e a satisfação com qu
 Qualidade do sistema que nos permite confiar, justificadamente, no serviço oferecido.
 
 * Disponibilidade: O sistema estará disponível no modo 24/7 (24 horas por dia, 7 dias por semana).
-* Autenticidade: O sistema irá cadastrar doares de alimentos utilizando o número de CNPJ da empresa, de modo a minimizar o risco de falsos doadores.
 * Segurança e Privacidade: O sistema deve assegurar a segurança e privacidade dos dados gerados, armazenando senhas e dados sensíveis de forma segura. O sistema deve ser transparente quanto às informações coletadas referentes a dados pessoais do usuário.
 
 ## 11.6 Desempenho <a name="11.6"></a>
@@ -327,7 +325,7 @@ O usuário será capaz de utilizar o sistema através de um navegador de interne
 
 ## 11.8 Restrições de design <a name="11.8"></a>
 * O nome da página sempre estará no topo do layout e sempre que clicado, direcionará à página para a interface inicial (home)
-* Para criar um novo evento, o usuário terá que passar pela teça de login.
+* Para criar um novo evento, o usuário terá que passar pela tela de login.
 
 ## 11.9 Interfaces de Hardware <a name="11.10"></a>
 O software oferece suporte aos dispositivos apresentados abaixo.
