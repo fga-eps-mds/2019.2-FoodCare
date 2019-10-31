@@ -134,6 +134,8 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.BasicAuthentication',
     ),
     'NON_FIELD_ERRORS_KEY': 'global',
+    'TEST_REQUEST_DEFAULT_FORMAT': 'json'
+
 }
 
 JWT_AUTH = {
