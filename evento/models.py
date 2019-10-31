@@ -1,6 +1,6 @@
 from django.db import models
 from datetime import datetime, date
-from doadores.models import Doadores
+
 
 class Evento(models.Model):
     id = models.AutoField(primary_key=True)
