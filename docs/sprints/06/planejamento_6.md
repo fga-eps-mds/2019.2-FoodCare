@@ -1,12 +1,10 @@
-# Sprint 6
+# Planejamento Sprint 6
 
-## Resumo da Sprint
+## Duração da Sprint
 
 **Data de início:** 07/10/2019  
 **Data de término:** 13/10/2019  
 **Duração:** 7 dias  
-**Pontos Planejados:**  
-**Membros Presentes:** Geovanne, Lucas, Geraldo, Bruna, Rafaella, Hugo e Giovanna.
 
 ### Papéis
 
@@ -17,26 +15,36 @@
 |**DevOps**|William Almeida|
 |**Desenvolvedores**|Bruna Almeida </br> Geraldo Victor </br> Giovanna Bottino </br> Hugo Aragão </br> Lucas Lopes </br> Rafaella Junqueira|
 
-## Pareamento
-
-O fator de escolha para manter os pares de pareamento foi as dívidas técnicas, por mais que 3 requisitos funcionais tenham atrasado na Sprint 5, as duplas já estavam bem maduras na maneira como tratar o erro, que geralmente é de conectar o request do front com o padrão que a api tem de receber, por isso essa semana as duplas de mantiveram junto com a mesma supervisão de eps.
-
-- Rafaella e Hugo, eps: Geovanne
-- Bruna e Lucas, eps: Igor
-- Geovanna e Geraldo, eps: Willian
-
-## Planejamento da Sprint
+## Objetivo da Sprint
 
 Essa Sprint terá como foco principal resolver as dívidas técnicas.
 
-### Sprint Backlog
+### Pareamento
 
-- [#41 Criar cadastro e login de doador](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/41)
+O fator de escolha para manter os pares de pareamento foi as dívidas técnicas, por mais que 3 requisitos funcionais tenham atrasado na Sprint 5, as duplas já estavam bem maduras na maneira como tratar o erro, que geralmente é de conectar o request do front com o padrão que a api tem de receber, por isso essa semana as duplas de mantiveram junto com a mesma supervisão de eps.
 
-- [#51 Gerenciamento de evento](https://github.com/fga-eps-mds/2019.2-foodcare/issues/51)
+|Pares|Supervisor|
+|---|---|
+|Rafaella e Hugo|Geovanne|
+|Bruna e Lucas|Igor|
+|Geovanna e Geraldo|Willian|
 
-- [#55 Entrar em Contato](https://github.com/fga-eps-mds/2019.2-foodcare/issues/55)
+## Sprint Backlog
 
-- [#56 Deploy Continuo](https://github.com/fga-eps-mds/2019.2-foodcare/issues/56)
+### Issues adicionadas
 
-- [#58 Documentar Sprint 6](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/58)
+- [#62 Configurar Deploy do Frontend](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/62) - 5 pontos
+- [#71 Documentar Sprint 6](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/71) - 2 pontos
+- [#72 Criar Postmortem R1](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/72) - 3 pontos
+
+### Dívidas Técnicas
+
+- [#41 Criar Cadastro e Login de Doador](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/41) - 8 pontos
+- [#51 Gerenciamento de eventos](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/51) - 8 pontos
+- [#61 Criar Formulário de Contato](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/61) - 5 pontos
+
+### Pontuação da Sprint
+
+**Issues adicionadas:** 10 pontos  
+**Dívidas técnicas:** 21 pontos  
+**Pontuação total:** 31 pontos  
