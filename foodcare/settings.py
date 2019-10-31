@@ -36,6 +36,7 @@ INSTALLED_APPS = [
     'rest_auth.registration',
     'emailfood',
     'evento',
+    'users',
 ]
 
 MIDDLEWARE = [
