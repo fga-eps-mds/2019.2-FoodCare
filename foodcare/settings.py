@@ -27,7 +27,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'doadores',
     'corsheaders',
     'django.contrib.sites',
     'allauth',
@@ -35,6 +34,7 @@ INSTALLED_APPS = [
     'rest_auth',
     'rest_auth.registration',
     'emailfood',
+    'users',
     'evento',
 ]
 
