@@ -1,4 +1,5 @@
 from django.db import models
+from doadores.models import Doadores
 from datetime import datetime, date
 from doadores.models import Doadores
     
@@ -10,5 +11,4 @@ class Evento(models.Model):
     data_final = models.DateTimeField(default=datetime.now)
     # local = models.CharField(max_length=50, blank=False)
     desc = models.TextField(max_length=300, blank=False)
-
-    
+    doador  = models.ForeignKey(Doadores,on_delete=modesl.CASCADE)
