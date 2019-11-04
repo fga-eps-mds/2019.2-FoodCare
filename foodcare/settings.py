@@ -27,7 +27,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'doadores',
     'corsheaders',
     'django.contrib.sites',
     'allauth',
@@ -35,8 +34,8 @@ INSTALLED_APPS = [
     'rest_auth',
     'rest_auth.registration',
     'emailfood',
-    'evento',
     'users',
+    'evento',
 ]
 
 MIDDLEWARE = [
@@ -52,6 +51,7 @@ MIDDLEWARE = [
 
 CORS_ORIGIN_WHITELIST = (
     'http://localhost:4200',
+    'http://0.0.0.0:4200',
 )
 
 ROOT_URLCONF = 'foodcare.urls'
@@ -124,10 +124,6 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-CORS_ORIGIN_WHITELIST = (
-    'http://localhost:4200',
-)
-
 REST_FRAMEWORK = {
     'DEFAULT_PERMISSION_CLASSES': (
         'rest_framework.permissions.IsAuthenticated',
@@ -138,6 +134,8 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.BasicAuthentication',
     ),
     'NON_FIELD_ERRORS_KEY': 'global',
+    'TEST_REQUEST_DEFAULT_FORMAT': 'json'
+
 }
 
 JWT_AUTH = {
