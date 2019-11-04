@@ -25,5 +25,5 @@ urlpatterns = [
     path('auth/refresh-token/', refresh_jwt_token),
     path('',include('emailfood.urls')),
     path('', include(router.urls)),
-
+    
 ]
