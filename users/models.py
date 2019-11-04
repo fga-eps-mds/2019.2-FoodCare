@@ -3,11 +3,14 @@ from django.contrib.auth.models import User
 from django.db.models.signals import post_save
 from django.dispatch import receiver
 from operator import itemgetter
+#from evento.models import Evento
+
 # Create your models here.
 
 class Usuario(models.Model):
     user = models.OneToOneField(User, on_delete=models.CASCADE)
     cnpj = models.CharField(max_length=14,blank=True)
+    #eventos = models.OneToManyField(Evento, on_delete=models.CASCADE)
 
     class Meta:
         ordering = ['user__username']

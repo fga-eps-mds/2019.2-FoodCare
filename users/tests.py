@@ -1,7 +1,8 @@
 from django.test import TestCase
 from users.models import Usuario
 from django.contrib.auth.models import User
-
+from evento.models import Evento
+from datetime import datetime, date
 
 # Create your tests here.
 class TesteUsuario(TestCase):

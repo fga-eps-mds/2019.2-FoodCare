@@ -1,9 +1,33 @@
 from django.test import TestCase
 from .models  import Evento
 from users.models import Usuario
+from django.contrib.auth.models import User
 from datetime import datetime, date
 import unittest
 
+class TesteEvento(TestCase):
+    def testa_evento(self):
+        User.objects.create_user(
+                username="lucas",
+                first_name="Lucao",
+                last_name="lulu",
+                password="123"
+                )
+        usuario = Usuario.objects.filter(user__username="lucas")[0]
+        usuario.save()
+
+        evento = Evento.objects.create(
+
+                nome = "dia da pizza",
+                id_doador = usuario,
+                data_inicio = datetime.now(),
+                data_final = datetime.now(),
+                local = "samambaia",
+                desc = "lalala"
+        )
+
+        self.assertEqual(str(evento), "dia da pizza {}".format(usuario.id))
+'''
 class EventoTest(unittest.TestCase):
     def setUp(self):
         # o id do doador nao ta funcionando corretamente, o restante esta
@@ -24,7 +48,6 @@ class EventoTest(unittest.TestCase):
         print("Criacao de evento testado")
 
 
-'''
 class TestEvento(TestCase):
     def testa_str_do_objeto(self):
         id_doador = Usuario.objects.create(
