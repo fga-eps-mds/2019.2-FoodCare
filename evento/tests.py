@@ -1,5 +1,5 @@
 from django.test import TestCase
-from .models  import Evento
+from .models  import Evento, Categoria
 from users.models import Usuario
 from django.contrib.auth.models import User
 from datetime import datetime, date
@@ -27,6 +27,12 @@ class TesteEvento(TestCase):
         )
 
         self.assertEqual(str(evento), "dia da pizza {}".format(usuario.id))
+
+class TesteCategoria(TestCase):
+    def testa_categoria(self):
+        categoria = Categoria.objects.create(nome="Fruta")
+        categoria.save()
+        self.assertEqual(str(categoria), "Fruta")
 '''
 class EventoTest(unittest.TestCase):
     def setUp(self):
