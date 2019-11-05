@@ -27,7 +27,6 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
-    'doadores',
     'corsheaders',
     'django.contrib.sites',
     'allauth',
@@ -35,6 +34,7 @@ INSTALLED_APPS = [
     'rest_auth',
     'rest_auth.registration',
     'emailfood',
+    'users',
     'evento',
 ]
 
@@ -134,6 +134,8 @@ REST_FRAMEWORK = {
         'rest_framework.authentication.BasicAuthentication',
     ),
     'NON_FIELD_ERRORS_KEY': 'global',
+    'TEST_REQUEST_DEFAULT_FORMAT': 'json'
+
 }
 
 JWT_AUTH = {
