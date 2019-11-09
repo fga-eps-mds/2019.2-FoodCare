@@ -15,16 +15,15 @@ class IsOwner(permissions.BasePermission):
         a = obj.id_doador.id
         b = request.user.id
         print(a,b)
-        return obj.id_doador == request.user.username
-'''
         if request.method in permissions.SAFE_METHODS:
             return True
-'''
+        return obj.id_doador.id == request.user.id
+
 
 class EventoViewSet(viewsets.ModelViewSet):
     serializer_class = EventoSerializer
     queryset = Evento.objects.all()
-    permission_classes = [IsOwner]
+    permission_classes = [IsOwner] or [ReadOnly]
     #permission_classes_2 = [IsOwner]
 
 class CategoriaViewSet(viewsets.ModelViewSet):
