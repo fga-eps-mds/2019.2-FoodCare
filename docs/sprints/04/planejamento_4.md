@@ -1,12 +1,10 @@
-# Sprint 4
+# Planejamento Sprint 4
 
-## Resumo da Sprint
+## Duração da Sprint
 
 **Data de início:** 23/09/2019  
 **Data de término:** 29/09/2019  
 **Duração:** 7 dias  
-**Pontos Planejados:** 40  
-**Membros Presentes:** Geovanne, Lucas, Geraldo, Bruna, Rafaella, Hugo e Giovanna.
 
 ### Papéis
 
@@ -17,36 +15,40 @@
 |**DevOps**|William Almeida|
 |**Desenvolvedores**|Bruna Almeida </br> Geraldo Victor </br> Giovanna Bottino </br> Hugo Aragão </br> Lucas Lopes </br> Rafaella Junqueira|
 
-## Pareamento
-
-A definição de duplas de pareamento foram escolhidas analisando o quadro de conhecimento, a review da sprint passada também, onde foi relatado para o Scrum como cada membro está se relacionando com a equipe e possíveis problemas pessoais e técnicos que poderão ocorrer. Cada dupla de pareamento será supervisionada por um EPS, devido também ter issues atrasadas da sprint 3 o pareamento terá de ocorrer todos os dias.
-
-- Geraldo e Bruna, com a supervisão do EPS Igor.
-- Giovanna e Hugo, com a supervisão dos EPS William.
-- Rafaella e Lucas, com a supervisão do EPS Geovanne.
-
-## Planejamento da Sprint
+## Objetivo da Sprint
 
 Essa Sprint como será a última antes da release 1, terá foco no resolução das dívidas técnicas da Sprint passada, assim como a refatoração de alguns artefatos, para que o código e as tecnologias estejam de acordo com a documentação. A comunicação com a equipe foi feita domingo, com o planning poker, para justamente se certificar que a equipe entendeu o que deve ser feito.
 
-### Sprint Backlog
+### Pareamento
 
-- [#40 Criar home](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/40)
+A definição de duplas de pareamento foram escolhidas analisando o quadro de conhecimento, a review da sprint passada também, onde foi relatado para o Scrum como cada membro está se relacionando com a equipe e possíveis problemas pessoais e técnicos que poderão ocorrer. Cada dupla de pareamento será supervisionada por um EPS, devido também ter issues atrasadas da sprint 3 o pareamento terá de ocorrer todos os dias.
 
-- [#41 Criar cadastro e login de doador](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/41)
+|Pares|Supervisor|
+|---|---|
+|Geraldo e Bruna|Igor|
+|Giovanna e Hugo|Willian|
+|Rafaella e Lucas|Geovanne|
 
-- [#51 Gerenciamento de evento](https://github.com/fga-eps-mds/2019.2-foodcare/issues/51)
+## Sprint Backlog
 
-- [#53 Refatorar documentação](https://github.com/fga-eps-mds/2019.2-foodcare/issues/53)
+### Issues adicionadas
 
-- [#43 Criar termo de compromisso](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/43)
+- [#51 Gerenciamento de eventos](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/51) - 8 pontos
+- [#52 Documentar Sprint 4](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/52) - 2 pontos
+- [#53 Refatorar documentos](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/53) - 3 pontos
+- [#54 Criar Plano de Gerenciamento de Qualidade](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/54) - 2 pontos
+- [#55 Criar Código de Conduta](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/55) - 2 pontos
+- [#56 Criar Guia de Contribuição](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/56) - 2 pontos
+- [#57 Criar Especificação Suplementar](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/57) - 3 pontos
 
-- [#54 Criar plano de gerenciamento de qualidade](https://github.com/fga-eps-mds/2019.2-foodcare/issues/54)
+### Dívidas Técnicas
 
-- [#55 Criar código de conduta ](https://github.com/fga-eps-mds/2019.2-foodcare/issues/55)
+- [#40 Criar Home](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/40) - 8 pontos
+- [#41 Criar Cadastro e Login de Doador](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/41) - 8 pontos
+- [#43 Criar Termo de Compromisso](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/43) - 2 pontos
 
-- [#56 Criar guia de contribuição](https://github.com/fga-eps-mds/2019.2-foodcare/issues/56)
+### Pontuação da Sprint
 
-- [#52 Documentar Sprint 4](https://github.com/fga-eps-mds/2019.2-foodcare/issues/52)
-
-- [#57 Criar especificação suplementar ](https://github.com/fga-eps-mds/2019.2-foodcare/issues/57)
+**Issues adicionadas:** 22 pontos  
+**Dívidas técnicas:** 18 pontos  
+**Pontuação total:** 40 pontos  
