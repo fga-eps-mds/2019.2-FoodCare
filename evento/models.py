@@ -1,23 +1,25 @@
 from django.db import models
 from datetime import datetime, date
+from users.models import Usuario
+
+class Evento(models.Model):
+
+    id = models.AutoField(primary_key=True)
+    nome = models.CharField(max_length=60, blank=False)
+    desc = models.TextField(max_length=300, blank=False)
+    local = models.CharField(max_length=50, blank=False)
+    data_inicio = models.DateTimeField(default=datetime.now)
+    data_final = models.DateTimeField(default=datetime.now)
+    id_doador = models.ForeignKey('users.Usuario', on_delete=models.CASCADE)
+    id_categoria = models.ForeignKey('Categoria', on_delete=models.CASCADE)
+
+    def __str__(self):
+        return "{} {}".format(self.nome, self.id_doador.id)
 
 class Categoria(models.Model):
     id = models.AutoField(primary_key=True)
-    nome = models.CharField(max_length=60)
-    
+    nome = models.CharField(max_length=60, blank=False) 
 
-class Alimento(models.Model):
-    id = models.AutoField(primary_key=True)
-    nome = models.CharField(max_length=60)
-    un_medida = models.CharField(max_length=60)
-    quantidade = models.IntegerField()
-    id_categoria = models.ManyToManyField(Categoria)
-    
+    def __str__(self):
+        return "{}".format(self.nome)
 
-class Evento(models.Model):
-    id = models.AutoField(primary_key=True)
-    #id_doador = models.ForeignKey("Doador", on_delete=models.CASCADE, related_name = 'evento')
-    #id_endereco = models.ForeignKey("Endereco", on_delete=models.CASCADE, related_name = 'evento')
-    id_alimento = models.ManyToManyField(Alimento)
-    data_inicio = models.DateTimeField(default=datetime.now)
-    data_final = models.DateTimeField(default=datetime.now)

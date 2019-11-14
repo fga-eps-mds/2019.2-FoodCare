@@ -20,6 +20,8 @@
     <a href="https://www.gnu.org/licenses/gpl-3.0" alt="Licença: GPL v3" >
         <img src="https://img.shields.io/badge/License-GPLv3-blue.svg" />
     </a>
+    <a href='https://coveralls.io/github/fga-eps-mds/2019.2-FoodCare?branch=master'><img src='https://coveralls.io/repos/github/fga-eps-mds/2019.2-FoodCare/badge.svg?branch=master' alt='Coverage Status' />
+    </a>
 </p>
 
 <p align="center">
@@ -72,6 +74,15 @@ A aplicação estará disponível em `http://localhost:8000`.
 <!-- ## Testes
 
 Descreva e mostre como rodar testes. -->
+## Ambientes
+
+### Homologação
+
+`https://foodcarehomol.netlify.com/`
+
+### Produção
+
+`https://foodcare.netlify.com/`
 
 ## Contribuição
 

@@ -1,67 +1,68 @@
-<!-- # Fechamento da Sprint 4
+# Resultado Sprint 5
 
-## 1- Resumo da Sprint
-**Membros Presentes:** Geovanne, Lucas, Geraldo, Bruna, Rafaella e Giovanna.
+## Sprint Backlog
 
+### Pontuação da Sprint
 
-##### Pontos concluídos: 24 pontos
+**Pontos planejados:** 31 pontos  
+**Pontos concluídos:** 7 pontos  
+**Dívidas geradas:** 24 pontos  
 
-- Histórias Entregues:
+### Issues Entregues
 
-- [#40 Criar home](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/40)
+- [#58 Documentar Sprint 5](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/58) - 2 pontos
+- [#59 Montar apresentação da R1](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/59) - 2 pontos
+- [#60 Refatorar GitHub Pages](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/60) - 3 pontos
 
-- [#53 Refatorar documentação](https://github.com/fga-eps-mds/2019.2-foodcare/issues/53)
+### Dividas técnicas
 
-- [#43 Criar termo de compromisso](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/43)
+- [#41 Criar Cadastro e Login de Doador](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/41) - 8 pontos
+- [#51 Gerenciamento de eventos](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/51) - 8 pontos
+- [#61 Criar Formulário de Contato](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/61) - 5 pontos
+- [#63 Elaborar EVM](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/63) - 3 pontos
 
-- [#54 Criar plano de gerenciamento de qualidade](https://github.com/fga-eps-mds/2019.2-foodcare/issues/54)
+## Retrospectiva da Sprint
 
-- [#55 Criar código de conduta ](https://github.com/fga-eps-mds/2019.2-foodcare/issues/55)
+### Pontos Positivos
 
-- [#56 Criar guia de contribuição](https://github.com/fga-eps-mds/2019.2-foodcare/issues/56)
+- A equipe está estudando e vendo as sugestões de soluções que eps dá nas issues de RF
 
-- [#52 Documentar Sprint 4](https://github.com/fga-eps-mds/2019.2-foodcare/issues/52)
+### Pontos Negativos
 
-- [#57 Criar especificação suplementar ](https://github.com/fga-eps-mds/2019.2-foodcare/issues/57)
+- Dificuldade em conectar a request do Angular com o que a API tem de receber
+- Requisitos funcionais viraram dívida técnica
+- Dificuldade em passar os PR no Travis
+- Falta de comunicação de MDS, no quesito dúvidas no código, o que gerou baixa produtividade por essas dúvidas não terem sido colocadas com antecedência.
 
-- Histórias Não Entregues:
+### Sugestão de melhoria
 
-- [#41 Criar cadastro e login de doador](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/41)
+- Tentar resolver as issues de código desde o primeiro dia da sprint
+- Fazer mais encontros presenciais para tentar solucionar os erros dos requisitos funcionais
 
-- [#51 Gerenciamento de evento](https://github.com/fga-eps-mds/2019.2-foodcare/issues/51)
+## Burndown
 
-Nessa Sprint praticamente mantivemos o número de pontos da Sprint passada, e o número de pontos entregue foi bem parecido com o da Sprint 3, mas nessa teve uma diferença, a primeira issue de código foi entregue, e as outras duas issues de código que não foram entregue estão encaminhadas.
+![Burndown](img/burndown_5.png)
 
-## 2- Retrospectiva da sprint
-|**Pontos Positivos**|**Pontos Negativos**|**Sugestão de melhoria**|
-|---|---|---|
-|A equipe se empenhou para entregar os requisitos funcionais|Dificuldade em conectar a request do Angular com o que a API tem de receber|Tentar resolver as issues de código desde o primeiro dia da sprint|
-|A equipe de mds começou a realizar o pareamento da maneira certa, programando juntos|requisitos funcionais viraram dívida técnica|Fazer mais encontros presenciais para tentar solucionar os erros dos requisitos funcionais|
-|Em relação aos problemas do código, deu pra perceber onde estava o erro e  deu para pensar numa solução para o erro que será executado na próxima sprint |Equipe de mds ainda tem algumas dúvidas em relação a arquitetura|Maior comunicação na hora de desenvolver as models, para que ela esteja modelada da melhor maneira|
-|Equipe de mds está com cada vez menos problemas com Docker|---|---|
+Foram 31 pontos planejados, onde desses 31, foram entregues 7. Mesmo com alguns tutoriais para fixar o aprendizado e supervisão dos EPS, houveram muitas dúvidas na hora de programar (principalmente na hora de passar os pull request pelo Travis), essa foi a terceira Sprint com código, a comunicação terá que ser feita de forma mais constante, mesmo que não haja dúvidas, a supervisão ocorrerá, para evitar que dúvidas de mds sejam acumuladas e que se tornem conhecidas somente no final da Sprint, e as dailys serão bem mais detalhadas.
 
-## 3- Quadro de conhecimento
-![Quadro de conhecimento](img4/conhecimento_3.png)
+## Velocity
 
-Este quadro aborda o conhecimento depois de cinco sprints, vemos que todos já sabem a metodologia, a parte de backend o desenvolvimento está em crescimento, o maior problema são com as tecnologias relacionadas ao Angular, onde a maioria dos membros tem dificuldade, nessa como os pareamentos foram feitos mais vezes, e as issues envolvem tanto a api quanto o front, o conhecimento dos membros aumentaram, e isso faz com que nas próximas sprints toda a funcionalidade seja entregue, e não só um parte dela, [tabela de horas trabalhadas](https://docs.google.com/spreadsheets/d/1NrR6Oh-tJsaAimDdOja_gvTsL-g2F_3fklMY8SX_2AQ/edit#gid=1276363480), pelas horas trabalhadas percebe-se que algumas pessoas que estavam com foco no backend sprint passada, nessa sprint teve de focar no Angular devido a nova distribuição de atividades, fazendo com que o time fique cada vez mais full stack.
+![Velocity](img/velocity_5.png)
 
-## 4- Burndown
-![Burndown](img4/burndown_4.png)
+Novamente não aumentamos o número de pontos planejados, devido as dívidas técnicas que poderiam dar trabalho, o Velocity deu uma caída considerável, pois estamos indo pro segundo processo de entregas, que é o de código e a equipe está ainda ficando  madura na tecnologia.
 
-Foram 40 pontos planejados, onde desses 40, foram entregues 24. Mesmo com alguns tutoriais para fixar o aprendizado e  supervisão dos EPS, houve muitas dúvidas na hora de programar(principalmente na hora de conseguir integrar o front com a api), essa foi a segunda Sprint com código, no qual eles tiveram que parear e mexer tanto na API quanto no Angular, dessa vez um requisito funcional foi entregue.
+## Quadro de Conhecimento
 
-## 5- Velocity
-![Velocity](img4/velocity_4.png)
+![Quadro de conhecimento](img5/conhecimento_5.png)
 
-Dessa vez decidimos manter o número de pontos planejados, e não aumentar mais os pontos para essa Sprint, devido as dívidas técnicas que poderiam dar trabalho, o Velocity se manteve regular, estamos cada vez mais chegando a um padrão saudável de produtividade, apesar que com a experiência maior da equipe os requisitos funcionais devem ser entregues com maior velocidade.
+Este quadro aborda o conhecimento depois de seis sprints, podemos observar um conhecimento médio da equipe de mds na parte do Angular, a api o conhecimento vem se espalhando pelos pareamentos, assim que todos os quadros mais para a direita estejam amarelos e verdes como os da esquerda, as dívidas técnicas irão se tornar cada vez menos frequentes e terá uma entrega contínua de funcionalidades.
 
-## 6- Burndown de Risco
+<!-- ## 6- Burndown de Risco
 
-![Burndown de Risco](img4/risco_4.png)
+![Burndown de Risco](img5/risco_5.png)
 
-Esse tópico faz com que possamos analisar todos os possíveis riscos de cada Sprint, e ver como esses riscos se comportam conforme as Sprints vão passando, os riscos diminuíram em relação a arquitetura, decisões de priorização e comunicação, mas dificuldade com tecnologia continua sendo o maior risco, as ações de aumento de pareamento, mais tutoriais e supervisão dos eps estão começando a surgir efeito e esse risco tende a cair daqui umas 2-3 Sprints.
+Esse tópico faz com que possamos analisar todos os possíveis riscos de cada Sprint, e ver como esses riscos se comportam conforme as Sprints vão passando, houve um aumento total dos riscos, pois por conselho da professora o escopo foi modificado, ou seja, foi reduzido, a risco da comunicação aumentou, devido as dificuldades de mds serem conhecidas somente no final da Sprint, e os outros tópicos se mantiveram como antes. -->
 
 ## Análise do Scrum Master
 
-Essa Sprint teve como objetivo principal focar nas dívidas técnicas, ver como as novas duplas de pareamento se comportam, como o quadro de conhecimento está evoluindo, pois agora o time de mds está cada vez mais focado nos requisitos funcionais, a parte de documentação foi refatorada em alguns tópicos, só que mais uma revisão será feita antes da release 1.  
-A review da Sprint deu para identificar que mds está com dificuldade em integrar os dados do front com o que api recebe, logo soluções serão propostas para a sprint 5. -->
+Essa Sprint teve como objetivo tentar terminar as dívidas técnicas e montar a apresentação da R1. Lições foram aprendidas, e isso vai nos ajudar a gerenciar melhor a Sprint 6, que será praticamente de código para mds, um outro fator será controlar as horas de trabalho, principalmente no tópico pareamento, para que possamos garantir que o conhecimento e a produção está sendo compartilhada.

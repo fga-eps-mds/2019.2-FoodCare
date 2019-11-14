@@ -1,19 +1,12 @@
 from rest_framework import viewsets
-from .models import Evento, Alimento, Categoria
-from .serializers import EventoSerializer, AlimentoSerializer, CategoriaSerializer
+from .models import Evento, Categoria
+from .serializers import EventoSerializer, CategoriaSerializer
 
 
 class EventoViewSet(viewsets.ModelViewSet):
 
     serializer_class = EventoSerializer
     queryset = Evento.objects.all()
-
-
-class AlimentoViewSet(viewsets.ModelViewSet):
-
-    serializer_class = AlimentoSerializer
-    queryset = Alimento.objects.all()
-
 
 class CategoriaViewSet(viewsets.ModelViewSet):
 
