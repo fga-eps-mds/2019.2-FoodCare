@@ -4,6 +4,7 @@ from rest_framework import routers
 from rest_framework_jwt.views import obtain_jwt_token, refresh_jwt_token
 
 from evento.views import EventoViewSet
+from evento.views import CategoriaViewSet
 from users.views import UsuarioSerializerViewSet
 
 router = routers.DefaultRouter()
@@ -13,6 +14,10 @@ router.register(
 
 router.register(
     'usuario', UsuarioSerializerViewSet, base_name='usuario'
+)
+
+router.register(
+    'categoria', CategoriaViewSet, base_name='categoria'
 )
 
 
