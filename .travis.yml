@@ -20,5 +20,18 @@ script:
   - docker exec -it foodcare-api coverage run manage.py test
   - docker exec -it foodcare-api coveralls
 
+deploy:
+  skip_cleanup: true
+  provider: heroku
+  api_key:
+    secure: PLdNINw2yAdOKKw+LnFHO0OsjLblSWls3HteUUUGC9ZKl6H7mNwd207y2rL0Be+02Hkg02JY50y9MxX9aGAjCsE1/i9cG881BCkpEofSpK/a5+j9cmJmTng+Q0fQxeW+0X4KHOmoPNe827AEN1duadi/qq7DJXf8c8fRQNR/532knI/Qym/SUibH4Nt6b9EDiC1miqfvuS+Fv4EHqfu0XpO33zFxRM/ZlP2qIVv88BeFw0hci58OmSR67xmy0QrZFXiLKGx+3PGz8ouSbF2CGi4p4RCWzGqRsa3dlfH9mAwObrYhoc3d04zSE9BR326mWcA+LTD+DcOfCKhn4GLTaw07umw9fg4IfbjgXdlZ2BzM0iD7g5mwAoiZcwi0sgbyYVnEC0+tfxRdpXLqRDx5m+Ia1C9rUtefNwLodL6irhL2un61lop3ATD7yTu0QI95wUCYYLcNFqyZTivHLmEeItOWlbloiZXmY9GieVqVLi3bQlvW9CUSBg17Zaowc7/d7EJdPB4uSIsAtl5XE0Eo7Ciwy+Gkp7S7KAhGoaUXVlxq1Jo82+aGP8ykOaR1oW9iD8AAsg2mWi6oi0p3+CjS+j1Kj/LgXHsRBfQxuEpeSoN9kRMzoJ7MLf6+1u+382ulq2WOYfksaK9VN9mrxUjttdSdk8OTrDLZPAXxffEjIvQ=
+  app:
+    master: food-care
+    develop: foodcarehomol
+  run:
+  - python3 manage.py makemigrations
+  - python3 manage.py migrate
+ 
+
 after_script:
   - docker-compose down --remove-orphans
