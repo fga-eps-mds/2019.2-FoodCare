@@ -1,36 +1,43 @@
 from django.test import TestCase
-from .models  import Evento, Categoria
-from users.models import Usuario
+from django.conf import settings
+from django.utils.timezone import make_aware
 from django.contrib.auth.models import User
+from users.models import Usuario
 from datetime import datetime, date
+from .models  import Evento, Categoria
 import unittest
 
 class TesteEvento(TestCase):
     def testa_evento(self):
         User.objects.create_user(
-                username="lucas",
-                first_name="Lucao",
-                last_name="lulu",
-                password="123"
-                )
-        usuario = Usuario.objects.filter(user__username="lucas")[0]
+            username="doador",
+            first_name="Doador",
+            last_name="Teste",
+            password="123456"
+        )
+        usuario = Usuario.objects.filter(user__username="doador")[0]
         usuario.save()
 
-        categoria = Categoria.objects.create(nome="Fruta")
+        categoria = Categoria.objects.create(nome="Frutas")
         categoria.save()
 
-        evento = Evento.objects.create(
+        # ajusta tipo de data
+        settings.TIME_ZONE
+        data_inicio_utc = make_aware(datetime.now())
+        data_final_utc = make_aware(datetime.now())
 
-                nome = "dia da pizza",
-                desc = "lalala",
-                local = "samambaia",
-                data_inicio = datetime.now(),
-                data_final = datetime.now(),
-                id_doador = usuario,
-                id_categoria = categoria
+        evento = Evento.objects.create(
+            nome="Doação de banana",
+            desc="Bananas entregues sem custos",
+            latitude=-15.99033,
+            longitude=-48.0455655,
+            data_inicio=data_inicio_utc,
+            data_final=data_final_utc,
+            id_doador=usuario,
+            id_categoria=categoria
         )
 
-        self.assertEqual(str(evento), "dia da pizza {}".format(usuario.id))
+        self.assertEqual(str(evento), "Doação de banana {}".format(usuario.id))
 
 class TesteCategoria(TestCase):
     def testa_categoria(self):
