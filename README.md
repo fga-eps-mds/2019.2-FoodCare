@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="docs/assets/images/id-visual/vertical-normal.png" alt="Logo">
+    <img src="docs/assets/images/id-visual/logo-green.png" alt="Logo">
 </p>
 
 <h1 align="center">FoodCare API</h1>

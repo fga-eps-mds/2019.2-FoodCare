@@ -1,6 +1,6 @@
 # FoodCare
 
-![foodcare-logo](assets/images/id-visual/vertical-normal.png)
+![foodcare-logo](assets/images/id-visual/logo-green.png)
 
 ## Sobre
 
