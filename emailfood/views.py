@@ -8,12 +8,7 @@ import json
 
 # Create your views here.
 def mensagem(nome,email,mensagem):
-    msg = """
-
-    Nome: {}
-    Mensagem: {}    
-    Email: {}
-    """.format(nome,mensagem,email)
+    msg = "\n\nNome: {}\nMensagem: {}\nEmail: {}\n".format(nome,mensagem,email)
     return msg
 
 def index(n,e,m):
