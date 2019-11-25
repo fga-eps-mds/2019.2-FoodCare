@@ -1,9 +1,8 @@
 from rest_framework import viewsets
 from .models import Evento, Categoria
 from .serializers import EventoSerializer, CategoriaSerializer
-from rest_framework.permissions import BasePermission, IsAuthenticated, SAFE_METHODS
+from rest_framework.permissions import BasePermission, IsAuthenticated, SAFE_METHODS,IsAuthenticatedOrReadOnly
 from rest_framework import permissions
-from users.models import Usuario
 from django.contrib.auth.models import User
 
 class ReadOnly(BasePermission):
@@ -23,9 +22,11 @@ class IsOwner(permissions.BasePermission):
 class EventoViewSet(viewsets.ModelViewSet):
     serializer_class = EventoSerializer
     queryset = Evento.objects.all()
-    permission_classes = [IsOwner] or [ReadOnly]
+    permission_classes = [IsAuthenticatedOrReadOnly,]
     #permission_classes_2 = [IsOwner]
 
 class CategoriaViewSet(viewsets.ModelViewSet):
     serializer_class = CategoriaSerializer
     queryset = Categoria.objects.all()
+    permission_classes = (IsAuthenticatedOrReadOnly,)
+
