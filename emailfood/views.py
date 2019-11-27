@@ -18,6 +18,7 @@ def index(nome, email, mensagem):
     recipient_list = [settings.EMAIL_HOST_USER,]
     send_mail( subject, message, email_from, recipient_list )
 
+
 @csrf_exempt
 def email(request):
     if request.method == "POST":
