@@ -10,16 +10,16 @@
 
 ### Issues Entregues
 
-- [#58 Documentar Sprint 5](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/58) - 2 pontos
-- [#59 Montar apresentação da R1](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/59) - 2 pontos
-- [#60 Refatorar GitHub Pages](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/60) - 3 pontos
+- [#58 Documentar Sprint 5](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/58) - 2 pontos
+- [#59 Montar apresentação da R1](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/59) - 2 pontos
+- [#60 Refatorar GitHub Pages](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/60) - 3 pontos
 
 ### Dividas técnicas
 
-- [#41 Criar Cadastro e Login de Doador](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/41) - 8 pontos
-- [#51 Gerenciamento de eventos](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/51) - 8 pontos
-- [#61 Criar Formulário de Contato](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/61) - 5 pontos
-- [#63 Elaborar EVM](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/63) - 3 pontos
+- [#41 Criar Cadastro e Login de Doador](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/41) - 8 pontos
+- [#51 Gerenciamento de eventos](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/51) - 8 pontos
+- [#61 Criar Formulário de Contato](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/61) - 5 pontos
+- [#63 Elaborar EVM](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/63) - 3 pontos
 
 ## Retrospectiva da Sprint
 
@@ -53,7 +53,7 @@ Novamente não aumentamos o número de pontos planejados, devido as dívidas té
 
 ## Quadro de Conhecimento
 
-![Quadro de conhecimento](img5/conhecimento_5.png)
+![Quadro de conhecimento](img/conhecimento_5.png)
 
 Este quadro aborda o conhecimento depois de seis sprints, podemos observar um conhecimento médio da equipe de mds na parte do Angular, a api o conhecimento vem se espalhando pelos pareamentos, assim que todos os quadros mais para a direita estejam amarelos e verdes como os da esquerda, as dívidas técnicas irão se tornar cada vez menos frequentes e terá uma entrega contínua de funcionalidades.
 

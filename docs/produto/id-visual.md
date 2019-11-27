@@ -5,56 +5,32 @@
 |Versão|Data|Descrição|Nome|
 |---|---|---|---|
 |1.0|14/09/2019|Abertura do documento|Igor Aragão|
+|2.0|20/11/2019|Atualiza identidade visual do projeto|Igor Aragão|
 
 ## Introdução
 
 Este documento visa apresentar a Identidade Visual do projeto FoodCare.
 
-## Perfil da Marca
+## FoodCare Visual ID
 
-### A Marca
+![1](img/id_visual-1.png)
+![2](img/id_visual-2.png)
+![3](img/id_visual-3.png)
+![4](img/id_visual-4.png)
+![5](img/id_visual-5.png)
+![6](img/id_visual-6.png)
+![7](img/id_visual-7.png)
+![8](img/id_visual-8.png)
 
-**FoodCare** é um sistema online que gerencia o encontro entre doadores de alimento, com pessoas e ONGs que precisam desse alimento.  
-Os dados do último levantamento da Organização das Nações Unidas para Alimentação e Agricultura (FAO), em 2018, permitem estimar que mais de 5 milhões de brasileiros ainda sofrem com a escassez de alimentos.  
-Esse mesmo levantamento, nos diz que dos 268,1 milhões de toneladas de alimentos disponíveis no País em 2013, 26,3 milhões, ou quase 10%, foram perdidos.  
-Diante desse quadro, nosso propósito, é evitar que as pessoas, ou empresas, joguem fora alimentos que ainda são próprios para consumo, conectando-as com quem precisa desses alimentos, ajudando a combater a fome no Brasil.  
+Faça o download da [Identidade Visual do FoodCare em PDF](../assets/IDVisual-FoodCare.pdf).
 
-### Nome
+### Versões anteriores
 
-**FoodCare** é uma junção das palavras *food*, que significa comida, e *care*, que significa cuidado. Portanto, a marca diz muito a respeito do nosso propósito: Cuidar para que restos e sobras de comida, não sejam disperdiçados.
-
-### Logo
-
-![principal](https://imgur.com/frQARU7.png)
-> Logo principal  
-
-![secundaria](https://imgur.com/6plA6cr.png)
-> Logo secundária
-
-## Estilo e Design
-
-### Cores
-
-|Tipo|Cor|Hex|
-|:---:|---|---|
-|Primária Verde  |![color-1](https://www.colorhexa.com/456C54.png)|#456C54|
-|Secundária Verde|![color-1](https://www.colorhexa.com/5B8F6F.png)|#5B8F6F|
-|Primária Azul   |![color-1](https://www.colorhexa.com/45546C.png)|#45546C|
-|Secundária Azul |![color-1](https://www.colorhexa.com/5B6F8F.png)|#5B6F8F|
-|Complementar    |![color-3](https://www.colorhexa.com/CC7941.png)|#CC7941|
-
-![paleta](https://imgur.com/1y0vLfB.png)
-> Paleta de Cores
-
-### Tipografia
-
-Para a logo e títulos a fonte utilizada será a [MontSerrat](https://fonts.google.com/specimen/Montserrat).  
-
-Para textos e artigosa fonte utilizada será a [Barlow Semi Condensed](https://fonts.google.com/specimen/Barlow+Semi+Condensed).
+Confira a [versão 0.1](old/id-visual-old.md) da Identidade Visual do FoodCare.
 
 ## Referências
 
-Canva. Canva. Disponível em <https://www.canva.com>. Último acesso em 15/09/2019.
+Canva. Canva. Disponível em <https://www.canva.com>. Último acesso em 20/11/2019.
 
 Fonts Google. Google. Disponível em <https://fonts.google.com/>. Último acesso em 15/09/2019.
 

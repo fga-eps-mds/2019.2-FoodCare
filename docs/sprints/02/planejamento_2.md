@@ -25,26 +25,26 @@ Essa sprint terá como foco principal o conhecimento das linguagens e tecnologia
 
 ### Issues adicionadas
 
-- [#20 Documentar Sprint 2](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/20) - 2 pontos
-- [#22 Criar Canvas do projeto](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/22) - 1 ponto
-- [#23 Criar Identidade Visual do projeto](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/23) - 3 pontos
-- [#24 Criar Estrutura Analítica do Projeto (EAP)](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/24) - 3 pontos
-- [#25 Criar RoadMap de Produto](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/25) - 3 pontos
-- [#26 Criar RoadMap de papéis](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/26) - 1 ponto
-- [#27 Configurar Docker](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/27) - 2 pontos
-- [#28 Criar Protótipo de Alta Fidelidade](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/28) - 8 pontos
-- [#29 Criar Folha de Estilo do projeto](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/29) - 1 ponto
-- [#30 Dojo: Tecnologias & Arquitetura](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/30) - 3 pontos
-- [#31 Configurar Travis](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/31) - 2 pontos
-- [#32 Configurar Codeclimate](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/32) - 1 ponto
-- [#36 Adicionar Licença](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/36) - 1 ponto
+- [#20 Documentar Sprint 2](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/20) - 2 pontos
+- [#22 Criar Canvas do projeto](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/22) - 1 ponto
+- [#23 Criar Identidade Visual do projeto](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/23) - 3 pontos
+- [#24 Criar Estrutura Analítica do Projeto (EAP)](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/24) - 3 pontos
+- [#25 Criar RoadMap de Produto](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/25) - 3 pontos
+- [#26 Criar RoadMap de papéis](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/26) - 1 ponto
+- [#27 Configurar Docker](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/27) - 2 pontos
+- [#28 Criar Protótipo de Alta Fidelidade](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/28) - 8 pontos
+- [#29 Criar Folha de Estilo do projeto](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/29) - 1 ponto
+- [#30 Dojo: Tecnologias & Arquitetura](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/30) - 3 pontos
+- [#31 Configurar Travis](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/31) - 2 pontos
+- [#32 Configurar Codeclimate](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/32) - 1 ponto
+- [#36 Adicionar Licença](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/36) - 1 ponto
 
 ### Dívidas Técnicas
 
-- [#16 Criar Termo de Abertura de Projeto (TAP)](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/16) - 2 pontos
+- [#16 Criar Termo de Abertura de Projeto (TAP)](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/16) - 2 pontos
 
 ### Pontuação da Sprint
 
 **Issues adicionadas:** 31 pontos  
 **Dívidas técnicas:** 2 pontos  
-**Pontuação total:** 33 pontos  
+**Pontuação total:** 33 pontos planejados  
