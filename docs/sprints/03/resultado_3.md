@@ -10,19 +10,19 @@
 
 ### Issues Entregues
 
-- [#38 Documentar Sprint 3](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/38) - 2 pontos
-- [#39 Criar README](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/39) - 1 ponto
-- [#42 Criar Documento de Arquitetura](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/42) - 8 pontos
-- [#44 Criar Backlog do Produto](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/44) - 3 pontos
-- [#45 Criar Pipeline de Deploy Contínuo](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/45) - 2 pontos
-- [#46 Criar Plano de Gerenciamento de Riscos](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/46) - 5 pontos
-- [#47 Criar Documento de Ferramentas](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/47) - 1 ponto
+- [#38 Documentar Sprint 3](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/38) - 2 pontos
+- [#39 Criar README](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/39) - 1 ponto
+- [#42 Criar Documento de Arquitetura](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/42) - 8 pontos
+- [#44 Criar Backlog do Produto](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/44) - 3 pontos
+- [#45 Criar Pipeline de Deploy Contínuo](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/45) - 2 pontos
+- [#46 Criar Plano de Gerenciamento de Riscos](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/46) - 5 pontos
+- [#47 Criar Documento de Ferramentas](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/47) - 1 ponto
 
 ### Dividas técnicas
 
-- [#40 Criar Home](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/40) - 8 pontos
-- [#41 Criar Cadastro e Login de Doador](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/41) - 8 pontos
-- [#43 Criar Termo de Compromisso](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/43) - 2 pontos
+- [#40 Criar Home](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/40) - 8 pontos
+- [#41 Criar Cadastro e Login de Doador](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/41) - 8 pontos
+- [#43 Criar Termo de Compromisso](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/43) - 2 pontos
 
 ## Retrospectiva da Sprint
 

@@ -27,25 +27,25 @@ O fator de escolha do pareamento foi uma nova estratégia, na qual um membro da 
 |---|---|
 |Rafaella e Hugo|Geovanne|
 |Bruna e Lucas|Igor|
-|Geovanna e Geraldo|Willian|
+|Giovanna e Geraldo|William|
 
 ## Sprint Backlog
 
 ### Issues adicionadas
 
-- [#58 Documentar Sprint 5](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/58) - 2 pontos
-- [#59 Montar apresentação da R1](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/59) - 2 pontos
-- [#60 Refatorar GitHub Pages](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/60) - 3 pontos
-- [#61 Criar Formulário de Contato](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/61) - 5 pontos
-- [#63 Elaborar EVM](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/63) - 3 pontos
+- [#58 Documentar Sprint 5](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/58) - 2 pontos
+- [#59 Montar apresentação da R1](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/59) - 2 pontos
+- [#60 Refatorar GitHub Pages](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/60) - 3 pontos
+- [#61 Criar Formulário de Contato](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/61) - 5 pontos
+- [#63 Elaborar EVM](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/63) - 3 pontos
 
 ### Dívidas Técnicas
 
-- [#41 Criar Cadastro e Login de Doador](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/41) - 8 pontos
-- [#51 Gerenciamento de eventos](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/51) - 8 pontos
+- [#41 Criar Cadastro e Login de Doador](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/41) - 8 pontos
+- [#51 Gerenciamento de eventos](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/51) - 8 pontos
 
 ### Pontuação da Sprint
 
 **Issues adicionadas:** 15 pontos  
 **Dívidas técnicas:** 16 pontos  
-**Pontuação total:** 31 pontos  
+**Pontuação total:** 31 pontos planejados  

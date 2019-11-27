@@ -10,19 +10,19 @@
 
 ### Issues Entregues
 
-- [#40 Criar Home](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/40) - 8 pontos
-- [#43 Criar Termo de Compromisso](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/43) - 2 pontos
-- [#52 Documentar Sprint 4](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/52) - 2 pontos
-- [#53 Refatorar documentos](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/53) - 3 pontos
-- [#54 Criar Plano de Gerenciamento de Qualidade](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/54) - 2 pontos
-- [#55 Criar Código de Conduta](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/55) - 2 pontos
-- [#56 Criar Guia de Contribuição](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/56) - 2 pontos
-- [#57 Criar Especificação Suplementar](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/57) - 3 pontos
+- [#40 Criar Home](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/40) - 8 pontos
+- [#43 Criar Termo de Compromisso](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/43) - 2 pontos
+- [#52 Documentar Sprint 4](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/52) - 2 pontos
+- [#53 Refatorar documentos](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/53) - 3 pontos
+- [#54 Criar Plano de Gerenciamento de Qualidade](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/54) - 2 pontos
+- [#55 Criar Código de Conduta](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/55) - 2 pontos
+- [#56 Criar Guia de Contribuição](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/56) - 2 pontos
+- [#57 Criar Especificação Suplementar](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/57) - 3 pontos
 
 ### Dividas técnicas
 
-- [#41 Criar Cadastro e Login de Doador](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/41) - 8 pontos
-- [#51 Gerenciamento de eventos](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/51) - 8 pontos
+- [#41 Criar Cadastro e Login de Doador](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/41) - 8 pontos
+- [#51 Gerenciamento de eventos](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/51) - 8 pontos
 
 ## Retrospectiva da Sprint
 

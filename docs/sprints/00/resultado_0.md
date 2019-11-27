@@ -10,13 +10,13 @@
 
 ### Issues Entregues
 
-- [#1 Adicionar templates de issues e pull requests](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/1) - 2 pontos
-- [#2 Dojo: Fundamentos Git](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/2) - 3 pontos
-- [#4 Dojo: Metodologia Ágil-Scrum](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/4) - 3 pontos
-- [#5 Configurar ZenHub](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/5) - 1 ponto
-- [#6 Configurar GitPages](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/6) - 3 pontos
-- [#7 Definir política de contribuição](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/7) - 2 pontos
-- [#8 Documentar Sprint 0](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/8) - 2 pontos
+- [#1 Adicionar templates de issues e pull requests](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/1) - 2 pontos
+- [#2 Dojo: Fundamentos Git](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/2) - 3 pontos
+- [#4 Dojo: Metodologia Ágil-Scrum](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/4) - 3 pontos
+- [#5 Configurar ZenHub](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/5) - 1 ponto
+- [#6 Configurar GitPages](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/6) - 3 pontos
+- [#7 Definir política de contribuição](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/7) - 2 pontos
+- [#8 Documentar Sprint 0](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/8) - 2 pontos
 
 ### Dívidas Técnicas
 

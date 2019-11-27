@@ -26,25 +26,25 @@ Portanto, a única feature em desenvolvimento permanece com o mesmo par.
 
 |Pares|Supervisor|
 |---|---|
-|Geovanna e Geraldo|Willian|
+|Giovanna e Geraldo|William|
 
 ## Sprint Backlog
 
 ### Issues adicionadas
 
-- [#73 Refatorar Documentos de Produto](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/73) - 8 pontos
-- [#74 Criar documento ROI](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/71) - 3 pontos
-- [#75 Configurar PWA](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/75) - 3 pontos
-- [#76 Documentar Sprint 7](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/72) - 2 pontos
+- [#73 Refatorar Documentos de Produto](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/73) - 8 pontos
+- [#74 Criar documento ROI](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/71) - 3 pontos
+- [#75 Configurar PWA](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/75) - 3 pontos
+- [#76 Documentar Sprint 7](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/72) - 2 pontos
 
 ### Dívidas Técnicas
 
-- [#51 Gerenciamento de eventos](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/51) - 8 pontos
-- [#62 Configurar Deploy do Frontend](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/62) - 5 pontos
-- [#72 Criar Postmortem R1](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/72) - 3 pontos
+- [#51 Gerenciamento de eventos](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/51) - 8 pontos
+- [#62 Configurar Deploy do Frontend](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/62) - 5 pontos
+- [#72 Criar Postmortem R1](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/72) - 3 pontos
 
 ### Pontuação da Sprint
 
 **Issues adicionadas:** 16 pontos  
 **Dívidas técnicas:** 16 pontos  
-**Pontuação total:** 32 pontos  
+**Pontuação total:** 32 pontos planejados  

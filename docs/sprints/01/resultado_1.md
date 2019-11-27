@@ -10,18 +10,18 @@
 
 ### Issues Entregues
 
-- [#10 Criar Documento de Visão](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/10) - 3 pontos
-- [#12 Criar Documento de Metodologia](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/12) - 1 ponto
-- [#13 Documentar Sprint 1](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/13) - 2 pontos
-- [#14 Dojo: Documentação](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/14) - 3 pontos
-- [#15 Iniciar projetos](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/15) - 2 pontos
-- [#17 Criar Mapa Mental](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/17) - 2 pontos
-- [#18 Criar Protótipo de Baixa Fidelidade](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/18) - 3 pontos
-- [#19 Estudar tecnologias](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/19) - 3 pontos
+- [#10 Criar Documento de Visão](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/10) - 3 pontos
+- [#12 Criar Documento de Metodologia](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/12) - 1 ponto
+- [#13 Documentar Sprint 1](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/13) - 2 pontos
+- [#14 Dojo: Documentação](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/14) - 3 pontos
+- [#15 Iniciar projetos](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/15) - 2 pontos
+- [#17 Criar Mapa Mental](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/17) - 2 pontos
+- [#18 Criar Protótipo de Baixa Fidelidade](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/18) - 3 pontos
+- [#19 Estudar tecnologias](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/19) - 3 pontos
 
 ### Dívidas Técnicas
 
-- [#16 Criar Termo de Abertura de Projeto (TAP)](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/16) - 2 pontos
+- [#16 Criar Termo de Abertura de Projeto (TAP)](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/16) - 2 pontos
 
 ## Retrospectiva da Sprint
 

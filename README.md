@@ -38,10 +38,9 @@
 
 ## Funcionalidades principais
 
+- Lista de Eventos
 - Cadastro de Doadores
 - Gerenciamento de Eventos
-- Mapa e Lista de Eventos
-- Notificação de Eventos
 
 ## Tecnologias utilizadas
 
