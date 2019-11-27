@@ -1,4 +1,1412 @@
-<!doctype html><html lang="en" class="no-js"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta http-equiv="x-ua-compatible" content="ie=edge"><meta name="lang:clipboard.copy" content="Copy to clipboard"><meta name="lang:clipboard.copied" content="Copied to clipboard"><meta name="lang:search.language" content="en"><meta name="lang:search.pipeline.stopwords" content="True"><meta name="lang:search.pipeline.trimmer" content="True"><meta name="lang:search.result.none" content="No matching documents"><meta name="lang:search.result.one" content="1 matching document"><meta name="lang:search.result.other" content="# matching documents"><meta name="lang:search.tokenizer" content="[\s\-]+"><link rel="shortcut icon" href="../../assets/images/favicon.png"><meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.3.0"><title>Documento de Arquitetura - FoodCare Docs</title><link rel="stylesheet" href="../../assets/stylesheets/application.4031d38b.css"><link rel="stylesheet" href="../../assets/stylesheets/application-palette.224b79ff.css"><meta name="theme-color" content="#009688"><script src="../../assets/javascripts/modernizr.74668098.js"></script><link href="https://fonts.gstatic.com" rel="preconnect" crossorigin><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow:300,400,400i,700|&display=swap"><style>body,input{font-family:"Barlow","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"","Courier New",Courier,monospace}</style><link rel="stylesheet" href="../../assets/fonts/material-icons.css"></head><body dir="ltr" data-md-color-primary="teal" data-md-color-accent="teal"><svg class="md-svg"><defs><svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="__github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg></defs></svg> <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off"> <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off"> <label class="md-overlay" data-md-component="overlay" for="__drawer"></label><a href="#documento-de-arquitetura" tabindex="1" class="md-skip">Skip to content </a><header class="md-header" data-md-component="header"><nav class="md-header-nav md-grid"><div class="md-flex"><div class="md-flex__cell md-flex__cell--shrink"><a href="../.." title="FoodCare Docs" class="md-header-nav__button md-logo"><img src="../../assets/images/id-visual/icon-white.png" width="24" height="24"></a></div><div class="md-flex__cell md-flex__cell--shrink"><label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label></div><div class="md-flex__cell md-flex__cell--stretch"><div class="md-flex__ellipsis md-header-nav__title" data-md-component="title"><span class="md-header-nav__topic">FoodCare Docs</span><span class="md-header-nav__topic">Documento de Arquitetura</span></div></div><div class="md-flex__cell md-flex__cell--shrink"><label class="md-icon md-icon--search md-header-nav__button" for="__search"></label><div class="md-search" data-md-component="search" role="dialog"><label class="md-search__overlay" for="__search"></label><div class="md-search__inner" role="search"><form class="md-search__form" name="search"><input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active"> <label class="md-icon md-search__icon" for="__search"></label> <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">&#xE5CD;</button></form><div class="md-search__output"><div class="md-search__scrollwrap" data-md-scrollfix><div class="md-search-result" data-md-component="result"><div class="md-search-result__meta">Type to start searching</div><ol class="md-search-result__list"></ol></div></div></div></div></div></div><div class="md-flex__cell md-flex__cell--shrink"><div class="md-header-nav__source"><a href="https://github.com/fga-eps-mds/2019.2-FoodCare/" title="Go to repository" class="md-source" data-md-source="github"><div class="md-source__icon"><svg viewBox="0 0 24 24" width="24" height="24"><use xlink:href="#__github" width="24" height="24"></use></svg></div><div class="md-source__repository">fga-eps-mds/2019.2-FoodCare</div></a></div></div></div></nav></header><div class="md-container"><nav class="md-tabs md-tabs--active" data-md-component="tabs"><div class="md-tabs__inner md-grid"><ul class="md-tabs__list"><li class="md-tabs__item"><a href="../.." title="Início" class="md-tabs__link">Início</a></li><li class="md-tabs__item"><a href="../doc-visao/" title="Produto" class="md-tabs__link md-tabs__link--active">Produto</a></li><li class="md-tabs__item"><a href="../tap/" title="Projeto" class="md-tabs__link">Projeto</a></li><li class="md-tabs__item"><a href="../../sprints/00/planejamento_0/" title="Sprints" class="md-tabs__link">Sprints</a></li></ul></div></nav><main class="md-main"><div class="md-main__inner md-grid" data-md-component="container"><div class="md-sidebar md-sidebar--primary" data-md-component="navigation"><div class="md-sidebar__scrollwrap"><div class="md-sidebar__inner"><nav class="md-nav md-nav--primary" data-md-level="0"><label class="md-nav__title md-nav__title--site" for="__drawer"><a href="../.." title="FoodCare Docs" class="md-nav__button md-logo"><img src="../../assets/images/id-visual/icon-white.png" width="48" height="48"></a>FoodCare Docs</label><div class="md-nav__source"><a href="https://github.com/fga-eps-mds/2019.2-FoodCare/" title="Go to repository" class="md-source" data-md-source="github"><div class="md-source__icon"><svg viewBox="0 0 24 24" width="24" height="24"><use xlink:href="#__github" width="24" height="24"></use></svg></div><div class="md-source__repository">fga-eps-mds/2019.2-FoodCare</div></a></div><ul class="md-nav__list" data-md-scrollfix><li class="md-nav__item md-nav__item--nested"><input class="md-toggle md-nav__toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1"><label class="md-nav__link" for="nav-1">Início</label><nav class="md-nav" data-md-component="collapsible" data-md-level="1"><label class="md-nav__title" for="nav-1">Início</label><ul class="md-nav__list" data-md-scrollfix><li class="md-nav__item"><a href="../.." title="Home" class="md-nav__link">Home</a></li></ul></nav></li><li class="md-nav__item md-nav__item--active md-nav__item--nested"><input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked><label class="md-nav__link" for="nav-2">Produto</label><nav class="md-nav" data-md-component="collapsible" data-md-level="1"><label class="md-nav__title" for="nav-2">Produto</label><ul class="md-nav__list" data-md-scrollfix><li class="md-nav__item"><a href="../doc-visao/" title="Documento de Visão" class="md-nav__link">Documento de Visão</a></li><li class="md-nav__item md-nav__item--active"><input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc"><label class="md-nav__link md-nav__link--active" for="__toc">Documento de Arquitetura</label><a href="./" title="Documento de Arquitetura" class="md-nav__link md-nav__link--active">Documento de Arquitetura</a><nav class="md-nav md-nav--secondary"><label class="md-nav__title" for="__toc">Table of contents</label><ul class="md-nav__list" data-md-scrollfix><li class="md-nav__item"><a href="#historico-de-versao" title="Historico de versão" class="md-nav__link">Historico de versão</a></li><li class="md-nav__item"><a href="#indice" title="Índice" class="md-nav__link">Índice</a></li></ul></nav></li><li class="md-nav__item"><a href="../mapa-mental/" title="Mapa Mental" class="md-nav__link">Mapa Mental</a></li><li class="md-nav__item"><a href="../canvas/" title="Canvas" class="md-nav__link">Canvas</a></li><li class="md-nav__item"><a href="../id-visual/" title="Identidade Visual" class="md-nav__link">Identidade Visual</a></li><li class="md-nav__item"><a href="../prototipo-baixa/" title="Protótipo de Baixa Fidelidade" class="md-nav__link">Protótipo de Baixa Fidelidade</a></li><li class="md-nav__item"><a href="../prototipo-alta/" title="Protótipo de Alta Fidelidade" class="md-nav__link">Protótipo de Alta Fidelidade</a></li><li class="md-nav__item"><a href="../../projeto/plano_qualidade/" title="Plano de Gerenciamento de Qualidade" class="md-nav__link">Plano de Gerenciamento de Qualidade</a></li><li class="md-nav__item"><a href="../especificacao_suplementar/" title="Especificação Suplementar" class="md-nav__link">Especificação Suplementar</a></li></ul></nav></li><li class="md-nav__item md-nav__item--nested"><input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3"><label class="md-nav__link" for="nav-3">Projeto</label><nav class="md-nav" data-md-component="collapsible" data-md-level="1"><label class="md-nav__title" for="nav-3">Projeto</label><ul class="md-nav__list" data-md-scrollfix><li class="md-nav__item"><a href="../tap/" title="Termo de Abertura de Projeto" class="md-nav__link">Termo de Abertura de Projeto</a></li><li class="md-nav__item"><a href="../eap/" title="Estrutura Analítica do Projeto" class="md-nav__link">Estrutura Analítica do Projeto</a></li><li class="md-nav__item"><a href="../../projeto/gcs/" title="Plano de Gerência de Configuração de Software" class="md-nav__link">Plano de Gerência de Configuração de Software</a></li><li class="md-nav__item"><a href="../../projeto/metodologia/" title="Metodologia" class="md-nav__link">Metodologia</a></li><li class="md-nav__item"><a href="../../projeto/roadmap-projeto/" title="RoadMap do Projeto" class="md-nav__link">RoadMap do Projeto</a></li><li class="md-nav__item"><a href="../../projeto/roadmap-papeis/" title="RoadMap de Papéis" class="md-nav__link">RoadMap de Papéis</a></li><li class="md-nav__item"><a href="../../projeto/pipeline/" title="Pipeline" class="md-nav__link">Pipeline</a></li><li class="md-nav__item"><a href="../../projeto/ferramentas/" title="Ferramentas" class="md-nav__link">Ferramentas</a></li><li class="md-nav__item"><a href="../../projeto/plano-risco/" title="Plano de Risco" class="md-nav__link">Plano de Risco</a></li><li class="md-nav__item"><a href="../../projeto/product-backlog/" title="Product Backlog" class="md-nav__link">Product Backlog</a></li><li class="md-nav__item md-nav__item--nested"><input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-11" type="checkbox" id="nav-3-11"><label class="md-nav__link" for="nav-3-11">Reuniões</label><nav class="md-nav" data-md-component="collapsible" data-md-level="2"><label class="md-nav__title" for="nav-3-11">Reuniões</label><ul class="md-nav__list" data-md-scrollfix><li class="md-nav__item"><a href="../../projeto/reunioes/reuniao_01/" title="Reunião 01" class="md-nav__link">Reunião 01</a></li><li class="md-nav__item"><a href="../../projeto/reunioes/reuniao_02/" title="Reunião 02" class="md-nav__link">Reunião 02</a></li><li class="md-nav__item"><a href="../../projeto/reunioes/reuniao_03/" title="Reunião 03" class="md-nav__link">Reunião 03</a></li><li class="md-nav__item"><a href="../../projeto/reunioes/reuniao_04/" title="Reunião 04" class="md-nav__link">Reunião 04</a></li><li class="md-nav__item"><a href="../../projeto/reunioes/reuniao_05/" title="Reunião 05" class="md-nav__link">Reunião 05</a></li></ul></nav></li></ul></nav></li><li class="md-nav__item md-nav__item--nested"><input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4"><label class="md-nav__link" for="nav-4">Sprints</label><nav class="md-nav" data-md-component="collapsible" data-md-level="1"><label class="md-nav__title" for="nav-4">Sprints</label><ul class="md-nav__list" data-md-scrollfix><li class="md-nav__item md-nav__item--nested"><input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-1" type="checkbox" id="nav-4-1"><label class="md-nav__link" for="nav-4-1">Sprint 0</label><nav class="md-nav" data-md-component="collapsible" data-md-level="2"><label class="md-nav__title" for="nav-4-1">Sprint 0</label><ul class="md-nav__list" data-md-scrollfix><li class="md-nav__item"><a href="../../sprints/00/planejamento_0/" title="Planejamento Sprint 0" class="md-nav__link">Planejamento Sprint 0</a></li><li class="md-nav__item"><a href="../../sprints/00/resultado_0/" title="Resultado Sprint 0" class="md-nav__link">Resultado Sprint 0</a></li></ul></nav></li><li class="md-nav__item md-nav__item--nested"><input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-2" type="checkbox" id="nav-4-2"><label class="md-nav__link" for="nav-4-2">Sprint 1</label><nav class="md-nav" data-md-component="collapsible" data-md-level="2"><label class="md-nav__title" for="nav-4-2">Sprint 1</label><ul class="md-nav__list" data-md-scrollfix><li class="md-nav__item"><a href="../../sprints/01/planejamento_1/" title="Planejamento Sprint 1" class="md-nav__link">Planejamento Sprint 1</a></li><li class="md-nav__item"><a href="../../sprints/01/resultado_1/" title="Resultado Sprint 1" class="md-nav__link">Resultado Sprint 1</a></li></ul></nav></li><li class="md-nav__item md-nav__item--nested"><input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-3" type="checkbox" id="nav-4-3"><label class="md-nav__link" for="nav-4-3">Sprint 2</label><nav class="md-nav" data-md-component="collapsible" data-md-level="2"><label class="md-nav__title" for="nav-4-3">Sprint 2</label><ul class="md-nav__list" data-md-scrollfix><li class="md-nav__item"><a href="../../sprints/02/planejamento_2/" title="Planejamento Sprint 2" class="md-nav__link">Planejamento Sprint 2</a></li><li class="md-nav__item"><a href="../../sprints/02/resultado_2/" title="Resultado Sprint 2" class="md-nav__link">Resultado Sprint 2</a></li></ul></nav></li><li class="md-nav__item md-nav__item--nested"><input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-4" type="checkbox" id="nav-4-4"><label class="md-nav__link" for="nav-4-4">Sprint 3</label><nav class="md-nav" data-md-component="collapsible" data-md-level="2"><label class="md-nav__title" for="nav-4-4">Sprint 3</label><ul class="md-nav__list" data-md-scrollfix><li class="md-nav__item"><a href="../../sprints/03/planejamento_3/" title="Planejamento Sprint 3" class="md-nav__link">Planejamento Sprint 3</a></li><li class="md-nav__item"><a href="../../sprints/03/resultado_3/" title="Resultado Sprint 3" class="md-nav__link">Resultado Sprint 3</a></li></ul></nav></li><li class="md-nav__item md-nav__item--nested"><input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-5" type="checkbox" id="nav-4-5"><label class="md-nav__link" for="nav-4-5">Sprint 4</label><nav class="md-nav" data-md-component="collapsible" data-md-level="2"><label class="md-nav__title" for="nav-4-5">Sprint 4</label><ul class="md-nav__list" data-md-scrollfix><li class="md-nav__item"><a href="../../sprints/04/planejamento_4/" title="Planejamento Sprint 4" class="md-nav__link">Planejamento Sprint 4</a></li><li class="md-nav__item"><a href="../../sprints/04/resultado_4/" title="Resultado Sprint 4" class="md-nav__link">Resultado Sprint 4</a></li></ul></nav></li><li class="md-nav__item md-nav__item--nested"><input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-6" type="checkbox" id="nav-4-6"><label class="md-nav__link" for="nav-4-6">Sprint 5</label><nav class="md-nav" data-md-component="collapsible" data-md-level="2"><label class="md-nav__title" for="nav-4-6">Sprint 5</label><ul class="md-nav__list" data-md-scrollfix><li class="md-nav__item"><a href="../../sprints/05/planejamento_5/" title="Planejamento Sprint 5" class="md-nav__link">Planejamento Sprint 5</a></li><li class="md-nav__item"><a href="../../sprints/05/resultado_5/" title="Resultado Sprint 5" class="md-nav__link">Resultado Sprint 5</a></li></ul></nav></li></ul></nav></li></ul></nav></div></div></div><div class="md-sidebar md-sidebar--secondary" data-md-component="toc"><div class="md-sidebar__scrollwrap"><div class="md-sidebar__inner"><nav class="md-nav md-nav--secondary"><label class="md-nav__title" for="__toc">Table of contents</label><ul class="md-nav__list" data-md-scrollfix><li class="md-nav__item"><a href="#historico-de-versao" title="Historico de versão" class="md-nav__link">Historico de versão</a></li><li class="md-nav__item"><a href="#indice" title="Índice" class="md-nav__link">Índice</a></li></ul></nav></div></div></div><div class="md-content"><article class="md-content__inner md-typeset"><a href="https://github.com/fga-eps-mds/2019.2-FoodCare/edit/master/docs/produto/doc-arquitetura.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a><h1 id="documento-de-arquitetura">Documento de Arquitetura</h1>
+
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      <meta http-equiv="x-ua-compatible" content="ie=edge">
+      
+      
+      
+      
+        <meta name="lang:clipboard.copy" content="Copy to clipboard">
+      
+        <meta name="lang:clipboard.copied" content="Copied to clipboard">
+      
+        <meta name="lang:search.language" content="en">
+      
+        <meta name="lang:search.pipeline.stopwords" content="True">
+      
+        <meta name="lang:search.pipeline.trimmer" content="True">
+      
+        <meta name="lang:search.result.none" content="No matching documents">
+      
+        <meta name="lang:search.result.one" content="1 matching document">
+      
+        <meta name="lang:search.result.other" content="# matching documents">
+      
+        <meta name="lang:search.tokenizer" content="[\s\-]+">
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.0.4, mkdocs-material-4.5.0">
+    
+    
+      
+        <title>Documento de Arquitetura - FoodCare Docs</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/application.1b62728e.css">
+      
+        <link rel="stylesheet" href="../../assets/stylesheets/application-palette.a8b3c06d.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#009688">
+      
+    
+    
+      <script src="../../assets/javascripts/modernizr.268332fc.js"></script>
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Barlow:300,400,400i,700|&display=fallback">
+        <style>body,input{font-family:"Barlow","Helvetica Neue",Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"","Courier New",Courier,monospace}</style>
+      
+    
+    <link rel="stylesheet" href="../../assets/fonts/material-icons.css">
+    
+    
+    
+      
+    
+    
+  </head>
+  
+    
+    
+    <body dir="ltr" data-md-color-primary="teal" data-md-color-accent="teal">
+  
+    <svg class="md-svg">
+      <defs>
+        
+        
+          <svg xmlns="http://www.w3.org/2000/svg" width="416" height="448" viewBox="0 0 416 448" id="__github"><path fill="currentColor" d="M160 304q0 10-3.125 20.5t-10.75 19T128 352t-18.125-8.5-10.75-19T96 304t3.125-20.5 10.75-19T128 256t18.125 8.5 10.75 19T160 304zm160 0q0 10-3.125 20.5t-10.75 19T288 352t-18.125-8.5-10.75-19T256 304t3.125-20.5 10.75-19T288 256t18.125 8.5 10.75 19T320 304zm40 0q0-30-17.25-51T296 232q-10.25 0-48.75 5.25Q229.5 240 208 240t-39.25-2.75Q130.75 232 120 232q-29.5 0-46.75 21T56 304q0 22 8 38.375t20.25 25.75 30.5 15 35 7.375 37.25 1.75h42q20.5 0 37.25-1.75t35-7.375 30.5-15 20.25-25.75T360 304zm56-44q0 51.75-15.25 82.75-9.5 19.25-26.375 33.25t-35.25 21.5-42.5 11.875-42.875 5.5T212 416q-19.5 0-35.5-.75t-36.875-3.125-38.125-7.5-34.25-12.875T37 371.5t-21.5-28.75Q0 312 0 260q0-59.25 34-99-6.75-20.5-6.75-42.5 0-29 12.75-54.5 27 0 47.5 9.875t47.25 30.875Q171.5 96 212 96q37 0 70 8 26.25-20.5 46.75-30.25T376 64q12.75 25.5 12.75 54.5 0 21.75-6.75 42 34 40 34 99.5z"/></svg>
+        
+      </defs>
+    </svg>
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" data-md-component="overlay" for="__drawer"></label>
+    
+      <a href="#documento-de-arquitetura" tabindex="1" class="md-skip">
+        Skip to content
+      </a>
+    
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid">
+    <div class="md-flex">
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <a href="../.." title="FoodCare Docs" class="md-header-nav__button md-logo">
+          
+            <img src="../../assets/images/id-visual/icon-white.png" width="24" height="24">
+          
+        </a>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        <label class="md-icon md-icon--menu md-header-nav__button" for="__drawer"></label>
+      </div>
+      <div class="md-flex__cell md-flex__cell--stretch">
+        <div class="md-flex__ellipsis md-header-nav__title" data-md-component="title">
+          
+            <span class="md-header-nav__topic">
+              FoodCare Docs
+            </span>
+            <span class="md-header-nav__topic">
+              
+                Documento de Arquitetura
+              
+            </span>
+          
+        </div>
+      </div>
+      <div class="md-flex__cell md-flex__cell--shrink">
+        
+          <label class="md-icon md-icon--search md-header-nav__button" for="__search"></label>
+          
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="query" data-md-state="active">
+      <label class="md-icon md-search__icon" for="__search"></label>
+      <button type="reset" class="md-icon md-search__icon" data-md-component="reset" tabindex="-1">
+        &#xE5CD;
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="result">
+          <div class="md-search-result__meta">
+            Type to start searching
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+        
+      </div>
+      
+        <div class="md-flex__cell md-flex__cell--shrink">
+          <div class="md-header-nav__source">
+            
+
+
+  
+
+<a href="https://github.com/fga-eps-mds/2019.2-FoodCare/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    fga-eps-mds/2019.2-FoodCare
+  </div>
+</a>
+          </div>
+        </div>
+      
+    </div>
+  </nav>
+</header>
+    
+    <div class="md-container">
+      
+        
+      
+      
+        
+
+  
+
+<nav class="md-tabs md-tabs--active" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../.." class="md-tabs__link">
+          Início
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../doc-visao/" class="md-tabs__link md-tabs__link--active">
+          Produto
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../tap/" class="md-tabs__link">
+          Projeto
+        </a>
+      
+    </li>
+  
+
+      
+        
+  
+  
+    
+    
+  
+  
+    <li class="md-tabs__item">
+      
+        <a href="../../sprints/00/planejamento_0/" class="md-tabs__link">
+          Sprints
+        </a>
+      
+    </li>
+  
+
+  
+
+      
+    </ul>
+  </div>
+</nav>
+      
+      <main class="md-main" role="main">
+        <div class="md-main__inner md-grid" data-md-component="container">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" data-md-level="0">
+  <label class="md-nav__title md-nav__title--site" for="__drawer">
+    <a href="../.." title="FoodCare Docs" class="md-nav__button md-logo">
+      
+        <img src="../../assets/images/id-visual/icon-white.png" width="48" height="48">
+      
+    </a>
+    FoodCare Docs
+  </label>
+  
+    <div class="md-nav__source">
+      
+
+
+  
+
+<a href="https://github.com/fga-eps-mds/2019.2-FoodCare/" title="Go to repository" class="md-source" data-md-source="github">
+  
+    <div class="md-source__icon">
+      <svg viewBox="0 0 24 24" width="24" height="24">
+        <use xlink:href="#__github" width="24" height="24"></use>
+      </svg>
+    </div>
+  
+  <div class="md-source__repository">
+    fga-eps-mds/2019.2-FoodCare
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1">
+    
+    <label class="md-nav__link" for="nav-1">
+      Início
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-1">
+        Início
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../.." title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
+    
+    <label class="md-nav__link" for="nav-2">
+      Produto
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        Produto
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../doc-visao/" title="Documento de Visão" class="md-nav__link">
+      Documento de Visão
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-toggle md-nav__toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Documento de Arquitetura
+      </label>
+    
+    <a href="./" title="Documento de Arquitetura" class="md-nav__link md-nav__link--active">
+      Documento de Arquitetura
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versao" class="md-nav__link">
+    Historico de versão
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#indice" class="md-nav__link">
+    Índice
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../mapa-mental/" title="Mapa Mental" class="md-nav__link">
+      Mapa Mental
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../canvas/" title="Canvas" class="md-nav__link">
+      Canvas
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../id-visual/" title="Identidade Visual" class="md-nav__link">
+      Identidade Visual
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../prototipo-baixa/" title="Protótipo de Baixa Fidelidade" class="md-nav__link">
+      Protótipo de Baixa Fidelidade
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../prototipo-alta/" title="Protótipo de Alta Fidelidade" class="md-nav__link">
+      Protótipo de Alta Fidelidade
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../projeto/plano_qualidade/" title="Plano de Gerenciamento de Qualidade" class="md-nav__link">
+      Plano de Gerenciamento de Qualidade
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../especificacao_suplementar/" title="Especificação Suplementar" class="md-nav__link">
+      Especificação Suplementar
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3" type="checkbox" id="nav-3">
+    
+    <label class="md-nav__link" for="nav-3">
+      Projeto
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-3">
+        Projeto
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../tap/" title="Termo de Abertura de Projeto" class="md-nav__link">
+      Termo de Abertura de Projeto
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../eap/" title="Estrutura Analítica do Projeto" class="md-nav__link">
+      Estrutura Analítica do Projeto
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../projeto/gcs/" title="Plano de Gerência de Configuração de Software" class="md-nav__link">
+      Plano de Gerência de Configuração de Software
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../projeto/metodologia/" title="Metodologia" class="md-nav__link">
+      Metodologia
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../projeto/roadmap-projeto/" title="RoadMap do Projeto" class="md-nav__link">
+      RoadMap do Projeto
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../projeto/roadmap-papeis/" title="RoadMap de Papéis" class="md-nav__link">
+      RoadMap de Papéis
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../projeto/pipeline/" title="Pipeline" class="md-nav__link">
+      Pipeline
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../projeto/ferramentas/" title="Ferramentas" class="md-nav__link">
+      Ferramentas
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../projeto/plano-risco/" title="Plano de Risco" class="md-nav__link">
+      Plano de Risco
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../projeto/roi/" title="ROI" class="md-nav__link">
+      ROI
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../projeto/product-backlog/" title="Product Backlog" class="md-nav__link">
+      Product Backlog
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-3-12" type="checkbox" id="nav-3-12">
+    
+    <label class="md-nav__link" for="nav-3-12">
+      Reuniões
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-3-12">
+        Reuniões
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../projeto/reunioes/reuniao_01/" title="Reunião 01" class="md-nav__link">
+      Reunião 01
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../projeto/reunioes/reuniao_02/" title="Reunião 02" class="md-nav__link">
+      Reunião 02
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../projeto/reunioes/reuniao_03/" title="Reunião 03" class="md-nav__link">
+      Reunião 03
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../projeto/reunioes/reuniao_04/" title="Reunião 04" class="md-nav__link">
+      Reunião 04
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../projeto/reunioes/reuniao_05/" title="Reunião 05" class="md-nav__link">
+      Reunião 05
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../projeto/reunioes/reuniao_06/" title="Reunião 06" class="md-nav__link">
+      Reunião 06
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4" type="checkbox" id="nav-4">
+    
+    <label class="md-nav__link" for="nav-4">
+      Sprints
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="1">
+      <label class="md-nav__title" for="nav-4">
+        Sprints
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-1" type="checkbox" id="nav-4-1">
+    
+    <label class="md-nav__link" for="nav-4-1">
+      Sprint 0
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-1">
+        Sprint 0
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../sprints/00/planejamento_0/" title="Planejamento Sprint 0" class="md-nav__link">
+      Planejamento Sprint 0
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../sprints/00/resultado_0/" title="Resultado Sprint 0" class="md-nav__link">
+      Resultado Sprint 0
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-2" type="checkbox" id="nav-4-2">
+    
+    <label class="md-nav__link" for="nav-4-2">
+      Sprint 1
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-2">
+        Sprint 1
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../sprints/01/planejamento_1/" title="Planejamento Sprint 1" class="md-nav__link">
+      Planejamento Sprint 1
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../sprints/01/resultado_1/" title="Resultado Sprint 1" class="md-nav__link">
+      Resultado Sprint 1
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-3" type="checkbox" id="nav-4-3">
+    
+    <label class="md-nav__link" for="nav-4-3">
+      Sprint 2
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-3">
+        Sprint 2
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../sprints/02/planejamento_2/" title="Planejamento Sprint 2" class="md-nav__link">
+      Planejamento Sprint 2
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../sprints/02/resultado_2/" title="Resultado Sprint 2" class="md-nav__link">
+      Resultado Sprint 2
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-4" type="checkbox" id="nav-4-4">
+    
+    <label class="md-nav__link" for="nav-4-4">
+      Sprint 3
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-4">
+        Sprint 3
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../sprints/03/planejamento_3/" title="Planejamento Sprint 3" class="md-nav__link">
+      Planejamento Sprint 3
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../sprints/03/resultado_3/" title="Resultado Sprint 3" class="md-nav__link">
+      Resultado Sprint 3
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-5" type="checkbox" id="nav-4-5">
+    
+    <label class="md-nav__link" for="nav-4-5">
+      Sprint 4
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-5">
+        Sprint 4
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../sprints/04/planejamento_4/" title="Planejamento Sprint 4" class="md-nav__link">
+      Planejamento Sprint 4
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../sprints/04/resultado_4/" title="Resultado Sprint 4" class="md-nav__link">
+      Resultado Sprint 4
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-6" type="checkbox" id="nav-4-6">
+    
+    <label class="md-nav__link" for="nav-4-6">
+      Sprint 5
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-6">
+        Sprint 5
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../sprints/05/planejamento_5/" title="Planejamento Sprint 5" class="md-nav__link">
+      Planejamento Sprint 5
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../sprints/05/resultado_5/" title="Resultado Sprint 5" class="md-nav__link">
+      Resultado Sprint 5
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-7" type="checkbox" id="nav-4-7">
+    
+    <label class="md-nav__link" for="nav-4-7">
+      Sprint 6
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-7">
+        Sprint 6
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../sprints/06/planejamento_6/" title="Planejamento Sprint 6" class="md-nav__link">
+      Planejamento Sprint 6
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-8" type="checkbox" id="nav-4-8">
+    
+    <label class="md-nav__link" for="nav-4-8">
+      Sprint 7
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-8">
+        Sprint 7
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../sprints/07/planejamento_7/" title="Planejamento Sprint 7" class="md-nav__link">
+      Planejamento Sprint 7
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-9" type="checkbox" id="nav-4-9">
+    
+    <label class="md-nav__link" for="nav-4-9">
+      Sprint 8
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-9">
+        Sprint 8
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../sprints/08/planejamento_8/" title="Planejamento Sprint 8" class="md-nav__link">
+      Planejamento Sprint 8
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-10" type="checkbox" id="nav-4-10">
+    
+    <label class="md-nav__link" for="nav-4-10">
+      Sprint 9
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-10">
+        Sprint 9
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../sprints/09/planejamento_9/" title="Planejamento Sprint 9" class="md-nav__link">
+      Planejamento Sprint 9
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-11" type="checkbox" id="nav-4-11">
+    
+    <label class="md-nav__link" for="nav-4-11">
+      Sprint 10
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-11">
+        Sprint 10
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../sprints/10/planejamento_10/" title="Planejamento Sprint 10" class="md-nav__link">
+      Planejamento Sprint 10
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-12" type="checkbox" id="nav-4-12">
+    
+    <label class="md-nav__link" for="nav-4-12">
+      Sprint 11
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-12">
+        Sprint 11
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../sprints/11/planejamento_11/" title="Planejamento Sprint 11" class="md-nav__link">
+      Planejamento Sprint 11
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-13" type="checkbox" id="nav-4-13">
+    
+    <label class="md-nav__link" for="nav-4-13">
+      Sprint 12
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-13">
+        Sprint 12
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../sprints/12/planejamento_12/" title="Planejamento Sprint 12" class="md-nav__link">
+      Planejamento Sprint 12
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-toggle md-nav__toggle" data-md-toggle="nav-4-14" type="checkbox" id="nav-4-14">
+    
+    <label class="md-nav__link" for="nav-4-14">
+      Sprint 13
+    </label>
+    <nav class="md-nav" data-md-component="collapsible" data-md-level="2">
+      <label class="md-nav__title" for="nav-4-14">
+        Sprint 13
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../sprints/13/planejamento_13/" title="Planejamento Sprint 13" class="md-nav__link">
+      Planejamento Sprint 13
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">Table of contents</label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#historico-de-versao" class="md-nav__link">
+    Historico de versão
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#indice" class="md-nav__link">
+    Índice
+  </a>
+  
+</li>
+      
+      
+      
+      
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                  <a href="https://github.com/fga-eps-mds/2019.2-FoodCare/edit/master/docs/produto/doc-arquitetura.md" title="Edit this page" class="md-icon md-content__icon">&#xE3C9;</a>
+                
+                
+                <h1 id="documento-de-arquitetura">Documento de Arquitetura</h1>
 <h2 id="historico-de-versao">Historico de versão</h2>
 <table>
 <thead>
@@ -69,6 +1477,30 @@
 <td>1.9</td>
 <td>Adiciona diagramas atividades</td>
 <td>Lucas</td>
+</tr>
+<tr>
+<td>24/09/19</td>
+<td>2.0</td>
+<td>Adiciona visão lógica</td>
+<td>Hugo</td>
+</tr>
+<tr>
+<td>20/10/19</td>
+<td>2.1</td>
+<td>Refatora tópico "Requisitos funcionais"</td>
+<td>Bruna</td>
+</tr>
+<tr>
+<td>22/10/2019</td>
+<td>2.2</td>
+<td>Refatora tópicos "Requisitos funcionais" e "Confiabilidade"</td>
+<td>Rafaella</td>
+</tr>
+<tr>
+<td>23/10/19</td>
+<td>2.3</td>
+<td>Substitui diagrama de casos de uso</td>
+<td>Bruna</td>
 </tr>
 </tbody>
 </table>
@@ -175,6 +1607,7 @@
 <p><strong>PWA</strong> - Progressive Web App (PWA) é um termo usado para denotar aplicativos da web que usam as últimas tecnologias da web. Os aplicativos da web progressivos são páginas web (ou sites) tecnicamente regulares, mas podem aparecer ao usuário como aplicativos tradicionais ou aplicativos móveis (nativos).</p>
 <p><strong>FoodCare</strong> - Aplicação web, desenvolvida em Django REST e Angular, que tem como objetivo aproximar pessoas que querem doar com pessoas que desejam receber, estimulando doações, tendo em vista a quantidade de comida que é desperdiçada todos os dias.</p>
 <h1 id="representacao-da-arquitetura">Representação da arquitetura <a name="2"></a></h1>
+<p><img alt="diagrama-arq" src="../img/diagrama-arq.png" /></p>
 <h2 id="back-end">Back-end <a name="2.1"></a></h2>
 <p>O sistema faz uso do Framework Django (versão 2.2.2), que faz uso do padrão MVC. No entanto, tal plataforma possui uma interpretação singular em relação à organização de camadas. O indicado é considerar que a própria plataforma faz o papel da camada de controle, enquanto a camada de Modelo e de Visão devem ser adaptadas e reinterpretadas conforme o necessário. Por este motivo, ainda que o Django implemente o MVC, considera-se que o padrão de camadas externalizado pela plataforma é o MTV (Model-Template-View). Para auxiliar no protocolo http utilizamos a ferramenta REST.
 A utilização de uma arquitetura em camadas é interessante por proporcionar uma clara separação de responsabilidades no código, proporcionando reusabilidade, e reduzindo o esforço de manutenção. Os conceitos de MVC e MTV serão apresentados nas seções seguintes.</p>
@@ -206,7 +1639,7 @@ A utilização de uma arquitetura em camadas é interessante por proporcionar um
 <p><strong>View:</strong> segue a mesma definição da controller no MVC.</p>
 </li>
 </ul>
-<h2 id="back-end_1">Back-end <a name="2.2"></a></h2>
+<h2 id="front-end">Front-end <a name="2.2"></a></h2>
 <p>O sistema faz uso do angular 8, que traz vantagens como: componetização, módulos específicos para configurar PWA, sistema de rotas de páginas, framework material para parte de design do site.</p>
 <h1 id="metas-e-restricoes-de-arquitetura">Metas e Restrições de Arquitetura <a name="3"></a></h1>
 <table>
@@ -254,7 +1687,7 @@ A utilização de uma arquitetura em camadas é interessante por proporcionar um
 <td align="left"></td>
 </tr>
 <tr>
-<td align="center"><img alt="Diagrama de Casos de Uso" src="../img/diagrama_casos_de_uso.png" /></td>
+<td align="center"><img alt="Diagrama de Casos de Uso" src="https://raw.githubusercontent.com/fga-eps-mds/2019.2-FoodCare/docs/docs/produto/img/caso-de-uso-v02.png" /></td>
 <td align="left"></td>
 </tr>
 <tr>
@@ -269,10 +1702,10 @@ A utilização de uma arquitetura em camadas é interessante por proporcionar um
 <p>Seguindo o modelo UML(Unfied Modeling Language), o nosso sistema se descreve em sua estrutura de funcionamento, relacionando seus subsistemas dependentes.</p>
 <p>Temos como principais classes:</p>
 <ul>
-<li>Usuário: possui um endereço e pode criar eventos</li>
-<li>Endereço: usado para criar um evento</li>
-<li>Evento: contém informações do usuário e endereço, e expões o alimento a ser doado</li>
-<li>Alimento: o alimento é usado como referência física do produto a ser doado, tendo ele categorias do produto como: quantidade e validade </li>
+<li>Usuário: capaz de criar eventos e detentor de um endereço.</li>
+<li>Endereço: automaticamente gerado baseado na localização do doador no momento de criação do evento.</li>
+<li>Evento: contém informações do usuário, endereço e o tipo de alimento a ser doado.</li>
+<li>Alimento: utilizado como referência física do produto a ser doado e especificado quanto à: quantidade e validade. </li>
 </ul>
 <h3 id="diagrama-de-colaboracao">Diagrama de colaboração <a name="5.1.2"></a></h3>
 <p>O diagrama de colaboração exibe as interações entre os objetos e suas dependências dentro de um sistema.</p>
@@ -280,7 +1713,7 @@ A utilização de uma arquitetura em camadas é interessante por proporcionar um
 <p>O Diagrama de pacotes, ou diagrama de módulos, definido pela UML, descreve os pacotes ou pedaços do sistema divididos em agrupamentos lógicos mostrando as dependências entre eles. Este diagrama é utilizado para ilustrar a arquitetura de um sistema mostrando o agrupamento de suas classes. O Django organiza seus componentes em apps que possuem arquivos referentes a cada aplicação.</p>
 <ul>
 <li>
-<p>apps: cada app tem uma pasta com as suas models, views, formulários, testes, templates e arquivos estáticos.</p>
+<p>apps: cada app tem uma pasta com as suas models, views, formulários, testes e arquivos estáticos.</p>
 <ul>
 <li>
 <p>migrations : pasta com as migrações para o banco de dados.</p>
@@ -292,9 +1725,6 @@ A utilização de uma arquitetura em camadas é interessante por proporcionar um
 <p>tests : arquivos de testes refente ao app.</p>
 </li>
 <li>
-<p>templates : arquivos html do app.</p>
-</li>
-<li>
 <p>locale : traduções referentes ao app.</p>
 </li>
 <li>
@@ -302,9 +1732,6 @@ A utilização de uma arquitetura em camadas é interessante por proporcionar um
 </li>
 <li>
 <p>views : arquivos de views do app.</p>
-</li>
-<li>
-<p>forms : arquivos de formulários do app.</p>
 </li>
 <li>
 <p>admin : arquivo de conexão do app com o admin.</p>
@@ -390,8 +1817,10 @@ A utilização de uma arquitetura em camadas é interessante por proporcionar um
 <p>polyfills.ts: traduz o código para diferentes navegadores web.</p>
 </li>
 </ul>
-<h1 id="visao-de-implantacao">Visão de implantação  <a name="6"></a></h1>
-<h2 id="diagrama-de-implantacao">Diagrama de implantação <a name="6.1"></a></h2>
+<!-- # Visão de implantação  <a name="6"></a>
+## Diagrama de implantação <a name="6.1"></a>
+ -->
+
 <h1 id="diagrama-de-sequencia">diagrama de sequência <a name="7"></a></h1>
 <h2 id="diagrama-de-sequencia-doador">diagrama de sequência doador <a name="7.1"></a></h2>
 <p><img alt="Diagrama de Sequência doador" src="../img/seq_diag_doador.png" /></p>
@@ -402,10 +1831,11 @@ A utilização de uma arquitetura em camadas é interessante por proporcionar um
 <p><img alt="Diagrama de Atividade doador" src="../img/diag_act_doador.png" /></p>
 <h2 id="diagrama-de-atividades-visitante">diagrama de atividades  visitante<a name="8.2"></a></h2>
 <p><img alt="Diagrama de Atividade doador" src="../img/diag_act_visitante.png" /></p>
-<h1 id="visao-de-implementacao">visão de implementação <a name="9"></a></h1>
-<h2 id="finalidade_1">finalidade <a name="9.1"></a></h2>
-<h2 id="diagramas-significativos_1">diagramas significativos <a name="9.1"></a></h2>
-<h3 id="diagrama-de-componentes">diagrama de componentes <a name="9.1.1"></a></h3>
+<!-- # visão de implementação <a name="9"></a>
+## finalidade <a name="9.1"></a>
+## diagramas significativos <a name="9.1"></a>
+### diagrama de componentes <a name="9.1.1"></a> -->
+
 <h1 id="visao-de-dados">visão de dados <a name="10"></a></h1>
 <h2 id="diagrama-entidade-relacionamento">diagrama entidade-relacionamento <a name="10.1"></a></h2>
 <p><img alt="diagrama entidade-relacionamento" src="../../assets/images/doc-arquitetura/DER.png" /></p>
@@ -431,61 +1861,51 @@ A utilização de uma arquitetura em camadas é interessante por proporcionar um
 </tr>
 <tr>
 <td>RF002</td>
-<td>Consultar mapa com localização das doações</td>
-<td>O sistema deve permitir que o usuário veja os eventos referentes às doações no formato de mapa.</td>
-</tr>
-<tr>
-<td>RF003</td>
 <td>Filtrar categorias de alimentos</td>
 <td>O sistema deve permitir que o usuário filtre os eventos que deseja visualizar de acordo com o tipo de alimento disponível em cada evento.</td>
 </tr>
 <tr>
-<td>RF004</td>
+<td>RF003</td>
 <td>Pesquisar evento</td>
 <td>O sistema deve permitir que o usuário pesquise nominalmente o evento de seu interesse.</td>
 </tr>
 <tr>
-<td>RF005</td>
+<td>RF004</td>
 <td>Consultar evento</td>
 <td>O sistema deve permitir que o usuário consulte as informaçẽos específicas dos eventos, como local, hora, data e o tipo de alimento disponibilizado.</td>
 </tr>
 <tr>
-<td>RF006</td>
+<td>RF005</td>
 <td>Listar eventos</td>
 <td>O sistema deve permitir ao usuário escolha a visualização dos eventos em forma de lista.</td>
 </tr>
 <tr>
-<td>RF007</td>
+<td>RF006</td>
 <td>Validar dados cadastrais do usuário</td>
-<td>O sistema deve ser capaz de validar os dados do usuário no momento em que o logiin for realizado.</td>
+<td>O sistema deve ser capaz de validar os dados do usuário no momento em que o login for realizado.</td>
 </tr>
 <tr>
-<td>RF008</td>
+<td>RF007</td>
 <td>Enviar email</td>
 <td>O sistema deve permitir que o usuário envie um email para o admin do site.</td>
 </tr>
 <tr>
-<td>RF009</td>
+<td>RF008</td>
 <td>Criar evento</td>
 <td>O sistema deve permitir que o usuário insira informações para criar eventos de doação, como nome e data do evento, quantidade e tipo de alimento disponibilizado.</td>
 </tr>
 <tr>
-<td>RF010</td>
+<td>RF009</td>
 <td>Alterar evento</td>
 <td>O sistema deve permirtir que o usuário altere o evento criado, editando informações.</td>
 </tr>
 <tr>
-<td>RF011</td>
+<td>RF010</td>
 <td>Excluir evento</td>
 <td>O sistema deve permitir que o usuário exclua um evento criado.</td>
 </tr>
 <tr>
-<td>RF012</td>
-<td>Notificar usuário</td>
-<td>O sistema deve ser capaz de notificar, via email, o usuário cadastrado a respeito das doaçẽos em vigor.</td>
-</tr>
-<tr>
-<td>RF013</td>
+<td>RF011</td>
 <td>Cadastrar admin</td>
 <td>O sistema deve permitir cadastro de um administrador do site.</td>
 </tr>
@@ -575,7 +1995,6 @@ A utilização de uma arquitetura em camadas é interessante por proporcionar um
 <p>Qualidade do sistema que nos permite confiar, justificadamente, no serviço oferecido.</p>
 <ul>
 <li>Disponibilidade: O sistema estará disponível no modo 24/7 (24 horas por dia, 7 dias por semana).</li>
-<li>Autenticidade: O sistema irá cadastrar doares de alimentos utilizando o número de CNPJ da empresa, de modo a minimizar o risco de falsos doadores.</li>
 <li>Segurança e Privacidade: O sistema deve assegurar a segurança e privacidade dos dados gerados, armazenando senhas e dados sensíveis de forma segura. O sistema deve ser transparente quanto às informações coletadas referentes a dados pessoais do usuário.</li>
 </ul>
 <h2 id="116-desempenho">11.6 Desempenho <a name="11.6"></a></h2>
@@ -590,7 +2009,7 @@ A utilização de uma arquitetura em camadas é interessante por proporcionar um
 <h2 id="118-restricoes-de-design">11.8 Restrições de design <a name="11.8"></a></h2>
 <ul>
 <li>O nome da página sempre estará no topo do layout e sempre que clicado, direcionará à página para a interface inicial (home)</li>
-<li>Para criar um novo evento, o usuário terá que passar pela teça de login.</li>
+<li>Para criar um novo evento, o usuário terá que passar pela tela de login.</li>
 </ul>
 <h2 id="119-interfaces-de-hardware">11.9 Interfaces de Hardware <a name="11.10"></a></h2>
 <p>O software oferece suporte aos dispositivos apresentados abaixo.</p>
@@ -666,4 +2085,80 @@ A utilização de uma arquitetura em camadas é interessante por proporcionar um
 <li>Software Architecture: MVC Design Pattern, Medium. Disponível em: //medium.com/@dennisvera.z/software-architecture-mvc-design-pattern-ceae5d5083d7)).</li>
 <li>Django's Structure – A Heretic's Eye View, The django book. Disponível em: <a href="https://djangobook.com/mdj2-django-structure/">https://djangobook.com/mdj2-django-structure/</a></li>
 <li>O que é PWA (Progressive Web App). Disponível em <a href="https://vizir.com.br/2017/08/o-que-e-pwa-progressive-web-app-porque-isso-pode-aumentar-seus-resultados-mobile/">https://vizir.com.br/2017/08/o-que-e-pwa-progressive-web-app-porque-isso-pode-aumentar-seus-resultados-mobile/</a></li>
-</ul></article></div></div></main><footer class="md-footer"><div class="md-footer-nav"><nav class="md-footer-nav__inner md-grid"><a href="../doc-visao/" title="Documento de Visão" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev"><div class="md-flex__cell md-flex__cell--shrink"><i class="md-icon md-icon--arrow-back md-footer-nav__button"></i></div><div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title"><span class="md-flex__ellipsis"><span class="md-footer-nav__direction">Previous</span>Documento de Visão</span></div></a><a href="../mapa-mental/" title="Mapa Mental" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next"><div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title"><span class="md-flex__ellipsis"><span class="md-footer-nav__direction">Next</span>Mapa Mental</span></div><div class="md-flex__cell md-flex__cell--shrink"><i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i></div></a></nav></div><div class="md-footer-meta md-typeset"><div class="md-footer-meta__inner md-grid"><div class="md-footer-copyright">powered by <a href="https://www.mkdocs.org">MkDocs</a> and <a href="https://squidfunk.github.io/mkdocs-material/">Material for MkDocs</a></div></div></div></footer></div><script src="../../assets/javascripts/application.b260a35d.js"></script><script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script></body></html>
+</ul>
+                
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid">
+        
+          <a href="../doc-visao/" title="Documento de Visão" class="md-flex md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-back md-footer-nav__button"></i>
+            </div>
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Documento de Visão
+              </span>
+            </div>
+          </a>
+        
+        
+          <a href="../mapa-mental/" title="Mapa Mental" class="md-flex md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-flex__cell md-flex__cell--stretch md-footer-nav__title">
+              <span class="md-flex__ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Mapa Mental
+              </span>
+            </div>
+            <div class="md-flex__cell md-flex__cell--shrink">
+              <i class="md-icon md-icon--arrow-forward md-footer-nav__button"></i>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        powered by
+        <a href="https://www.mkdocs.org">MkDocs</a>
+        and
+        <a href="https://squidfunk.github.io/mkdocs-material/">
+          Material for MkDocs</a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/application.a8b5e56f.js"></script>
+      
+      <script>app.initialize({version:"1.0.4",url:{base:"../.."}})</script>
+      
+    
+  </body>
+</html>
