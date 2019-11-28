@@ -42,3 +42,38 @@ Como sugerido durante a release 1, diminuímos o escopo do projeto para termos a
 Com a diminuição do escopo, conseguimos trabalhar melhor em cada funcionalidade, pois o trabalho foi melhor distribuído entre as sprints.
 
 Mais informações em: [Arquitetura](https://github.com/fga-eps-mds/2019.2-FoodCare/blob/master/docs/produto/doc-arquitetura.md)
+
+## Conclusão
+
+No início do projeto foram divididos os papéis e as responsabilidades entre a equipe de EPS, já a equipe de MDS ficou responsável por desenvolver o código. A experiência vivida na matéria de MDS trouxe para todos os membros do grupo um grande amadurecimento em relação a tecnologias e metodologias de desenvolvimento de software. Terminamos a matéria com um sentimento de cansaço e satisfação. Apesar dos erros aprendemos muito. 
+
+
+## Citações
+```
+Hoje eles riem do seu esforço amanhã do seu fracasso. Victor Geraldo.
+```
+ 
+```
+Se não tem código ele não precisa ser testado. Aragão Hugo.
+```
+
+```
+Uma boa ação nunca fica sem punição. Aragão Hugo.
+```
+
+```
+Desistir é para os fracos, faça que nem eu, nem tente. Almeida Bruna.
+```
+
+```
+Desisto. Bottino Giovanna. 
+```
+
+```
+Na hora certa vai dar tudo errado. Bottino Giovanna. 
+```
+
+```
+Não estamos mais atrasados, obrigado. Aragão Hugo.
+```
+
