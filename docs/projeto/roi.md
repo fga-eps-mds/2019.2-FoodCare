@@ -4,7 +4,7 @@
 
 |Versão|Data|Descrição|Nome|
 |---|---|---|---|
-|0.1|03/11/2019|Primeira versão do ROI|Geovanne Santos Saraiva|
+|0.1|03/11/2019|Primeira versão do RoadMap|Geovanne Santos Saraiva|
 
 ## Como fazer o cálculo do ROI
 
@@ -30,4 +30,4 @@ O resultado do retorno de investimento será feito numa margem de 8 anos, como n
 96(meses) * 5000(reais) = R$ 480000  
 ROI = [(480000 - 185559)/185.559]*100   
 ROI = 200%   
-O retorno em 8 anos é de 200%, uma margem bem saudável pro negócio que foi proposto e pro ciclo de vida do projeto. 
+O retorno em 8 anos é de 200%, uma margem bem saudável pro negócio que foi proposto e pro ciclo de vida do projeto.
