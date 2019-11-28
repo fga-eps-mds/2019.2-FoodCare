@@ -7,6 +7,7 @@
 20/10/19 | 1.0 | Abertura do documento | Hugo
 27/10/19 | 2.0 | Atualiza para Release 2, Introdução, Definição de escopo e Metodologia | Hugo
 28/10/19 | 2.1 | Correções e complementação de metodologia | Lucas
+28/10/19 | 2.2 | Capacitação da equipe | Lucas
 
 ## Introdução
 
@@ -25,3 +26,7 @@ Com a decisão de criar uma Webapp para a facilidade de acesso de pessoas com co
 ## Metodologia
 
 A metodologia adotada seguiu o modelo Scrum e foi sendo incrementada ao longo do decorrer da disciplina, como a adoção e aplicação de prática abordadas de Clean Code do livro de Robert Cencil Martin,"Uncle Bob", e  de processos da metodologia de desenvolvimento unificado R.U.P.,Rational Unified Process.
+
+## Capacitação 
+
+Foram realizados treinamentos de teste usando a ferramenta de test runner Karma e Jasmine para teste unitários para o Front-end e  capacitação e treino em um dojo para utilização do Django em conjunto com Django-RestFramework, DRF, para extensão de suas classes e execução dos teste usando o Client da ferramenta para simulação do ambiente em produção para o Back-end da aplicação.
