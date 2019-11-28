@@ -25,20 +25,20 @@ nav:
     - Identidade Visual: produto/id-visual.md
     - Protótipo de Baixa Fidelidade: produto/prototipo-baixa.md
     - Protótipo de Alta Fidelidade: produto/prototipo-alta.md
-    - Plano de Gerenciamento de Qualidade: projeto/plano_qualidade.md
+    - Product Backlog: projeto/product-backlog.md
     - Especificação Suplementar: produto/especificacao_suplementar.md
   - Projeto:
     - Termo de Abertura de Projeto: produto/tap.md
     - Estrutura Analítica do Projeto: produto/eap.md
-    - Plano de Gerência de Configuração de Software: projeto/gcs.md
     - Metodologia: projeto/metodologia.md
-    - RoadMap do Projeto: projeto/roadmap-projeto.md
-    - RoadMap de Papéis: projeto/roadmap-papeis.md
-    - Pipeline: projeto/pipeline.md
     - Ferramentas: projeto/ferramentas.md
+    - Plano de Gerenciamento de Qualidade: projeto/plano_qualidade.md
+    - Plano de Gerência de Configuração de Software: projeto/gcs.md
+    - RoadMap de Papéis: projeto/roadmap-papeis.md
+    - RoadMap do Projeto: projeto/roadmap-projeto.md
+    - Pipeline de DevOps: projeto/pipeline.md
     - Plano de Risco: projeto/plano-risco.md
     - ROI: projeto/roi.md
-    - Product Backlog: projeto/product-backlog.md
     - Reuniões:
       - Reunião 01: projeto/reunioes/reuniao_01.md
       - Reunião 02: projeto/reunioes/reuniao_02.md
