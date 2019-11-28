@@ -8,7 +8,8 @@
 27/10/19 | 2.0 | Atualiza para Release 2, Introdução, Definição de escopo e Metodologia | Hugo
 28/10/19 | 2.1 | Correções e complementação de metodologia | Lucas
 28/10/19 | 2.2 | Adiciona Tecnologia | Giovanna
-28/10/19 | 2.3 | Adiciona Arquitetura | Bruna
+28/10/19 | 2.3 | Capacitação da equipe | Lucas
+28/10/19 | 2.4 | Adiciona Arquitetura | Bruna
 
 ## Introdução
 
@@ -29,6 +30,10 @@ Com a decisão de criar uma Webapp para a facilidade de acesso de pessoas com co
 A metodologia adotada seguiu o modelo Scrum e foi sendo incrementada ao longo do decorrer da disciplina, como a adoção e aplicação de prática abordadas de Clean Code do livro de Robert Cencil Martin,"Uncle Bob", e  de processos da metodologia de desenvolvimento unificado R.U.P.,Rational Unified Process.
 
 Mais informações em: [Metodologia](https://github.com/fga-eps-mds/2019.2-FoodCare/blob/docs/docs/projeto/metodologia.md)
+
+## Capacitação 
+
+Foram realizados treinamentos de teste usando a ferramenta de test runner Karma e Jasmine para teste unitários para o Front-end e  capacitação e treino em um dojo para utilização do Django em conjunto com Django-RestFramework, DRF, para extensão de suas classes e execução dos teste usando o Client da ferramenta para simulação do ambiente em produção para o Back-end da aplicação.
 
 ## Tecnologia
 
@@ -76,4 +81,3 @@ Na hora certa vai dar tudo errado. Bottino Giovanna.
 ```
 Não estamos mais atrasados, obrigado. Aragão Hugo.
 ```
-
