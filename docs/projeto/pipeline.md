@@ -5,6 +5,7 @@
 |Versão|Data|Descrição|Nome|
 |---|---|---|---|
 |1.0|16/09/2019|Abertura do documento|William Almeida|
+|2.0|23/11/2019|Atualização da pipeline|William Almeida|
 
 ## Introdução
 
@@ -16,7 +17,7 @@ Esse documento tem como finalidade resumir as etapas de DevOps a serem utilizada
 
 #### Controle de versão
 
-O GitHub será utilizado para a publicação dos códigos-fontes e o controle da versão dos mesmos. Também é importante para a separação do conteúdo utilizado nos ambientes de desenvolvimento, homologação e produção.
+O GitHub será utilizado para a publicação dos códigos-fontes e o controle da versão dos mesmos. Também é importante para a separação do conteúdo utilizado nos ambientes de homologação e produção.
 
 #### Análise de Qualidade
 
@@ -30,6 +31,9 @@ O Travis-CI será utilizado para a execução dessa etapa. Após a contrução d
 
 O código só poderá seguir para o pull request ao passar sem erros pelo script.
 
+#### Análise de cobertura de testes
+O coveralls será responsável por recolher os resultados dos testes e mostrar as trechos de códigos atingidos pelos testes e a porcentagem de quanto do total já foi coberto.
+
 #### Análise do Pull Request
 Nessa etapa o código deverá ter passado pela análise de qualidade e também pelos testes unitários requeridos. Se as duas análises derem resultados positivos então será requisitado que algum membro da gerência revise o código manualmente, para evitar problemas com merges e/ou trechos de códigos problemáticos/inúteis.
 
@@ -38,3 +42,11 @@ Nessa etapa o código deverá ter passado pela análise de qualidade e também p
 ### Pipeline v1.0
 
 ![Pipeline v1.0](img/pipeline_devops.png)
+
+### Pipeline v2.0 Backend
+
+![Pipeline v2.0 Backend](img/pipeline_devops_back.png)
+
+### Pipeline v2.0 Frontend
+
+![Pipeline v2.0 Frontend](img/pipeline_devops_front.png)
