@@ -6,6 +6,7 @@
  ---- | ------ | --------- | -----
 20/10/19 | 1.0 | Abertura do documento | Hugo
 27/10/19 | 2.0 | Atualiza para Release 2, Introdução, Definição de escopo e Metodologia | Hugo
+28/10/19 | 2.1 | Correções e complementação de metodologia | Lucas
 
 ## Introdução
 
@@ -23,7 +24,7 @@ Com a decisão de criar uma Webapp para a facilidade de acesso de pessoas com co
 
 ## Metodologia
 
-A metodologia inicialmente seguiu o modelo Scrum, e foi sendo incrementado ao longo do decorrer da disciplina como métodos de Clean Conde e R.U.P.
+A metodologia adotada seguiu o modelo Scrum e foi sendo incrementada ao longo do decorrer da disciplina, como a adoção e aplicação de prática abordadas de Clean Code do livro de Robert Cencil Martin,"Uncle Bob", e  de processos da metodologia de desenvolvimento unificado R.U.P.,Rational Unified Process.
 
 
 
