@@ -1,50 +1,68 @@
-# Fechamento da Sprint 0
+# Resultado Sprint 0
 
-## 1- Resumo da Sprint
+## Sprint Backlog
 
-##### Pontos concluídos: 14 pontos
+### Pontuação da Sprint
 
-- Histórias Entregues:
+**Pontos planejados:** 16 pontos  
+**Pontos concluídos:** 16 pontos  
+**Dívidas geradas:** 0 pontos  
 
-- [#1 Adicionar templates de issues e pull requests](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/1)
+### Issues Entregues
 
-- [#2 Dojo: Fundamentos Git](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/2)
+- [#1 Adicionar templates de issues e pull requests](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/1) - 2 pontos
+- [#2 Dojo: Fundamentos Git](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/2) - 3 pontos
+- [#4 Dojo: Metodologia Ágil-Scrum](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/4) - 3 pontos
+- [#5 Configurar ZenHub](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/5) - 1 ponto
+- [#6 Configurar GitPages](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/6) - 3 pontos
+- [#7 Definir política de contribuição](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/7) - 2 pontos
+- [#8 Documentar Sprint 0](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/8) - 2 pontos
 
-- [#4 Dojo: Metodologia Ágil-Scrum](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/4)
+### Dívidas Técnicas
 
-- [#5 Configurar ZenHub](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/5)
+Não houveram dívidas técnicas, todas histórias foram entregues.
 
-- [#6 Configurar GitPages](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/6)
+## Retrospectiva da Sprint
 
-- [#7 Definir política de contribuição](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/7)
+### Pontos Positivos
 
-Pode-se observar que todas as histórias previstas na Sprint foram entregues, devido a baixa complexidade, relacionadas a treinamento e organização do grupo.
+- Formação e integração do grupo.
+- Definição do tema confortável para todos.
+- Transferência inicial de conhecimento bastante produtiva.
+- Visão inicial do que o produto pode ser.
 
-## 2- Retrospectiva da sprint
-|**Pontos Positivos**|**Pontos Negativos**|**Sugestão de melhoria**|
-|---|---|---|
-|Formação e integração do grupo|Entrega tardia do tema do projeto|equipe(MDS) olhar repositórios de trabalhos anteriores, para se familiarizarem com as documentações|
-|Definição do tema confortável para todos|sprint 0 com término de mais de 2 semanas|---|
-|Transferência inicial de conhecimento bastante produtiva|não ter seguida a metodologia Scrum a risca(dailymeeting, reunião de término de Sprint)|---|
-|Visão inicial do que o produto pode ser|---|---|
+### Pontos Negativos
 
-## 3- Quadro de conhecimento
-![Quadro de conhecimento](img0/conhecimento_0.png)
+- Entrega tardia do tema do projeto.
+- Sprint 0 foi muito longa (2 semanas).
+- A metodologia Scrum não foi completamente adotada, faltou dailymeeting, e reunião de término de Sprint.
 
-Este quadro mostra o conhecimento inicial de cada membro do grupo em cada área abordada no Sprint 0, que foi o git e a metodologia ágil, vemos que boa parte de mds nunca tinha lidado com o Scrum e tinham pouco contato com git. As outras áreas serão preenchidas nas próximas sprints, quando ocorrerá o treinamento e estudo individual de cada coluna.
+### Sugestão de melhoria
 
-## 4- Burndown
-![Burndown](img0/burndown_0.png)
+- Equipe MDS olhar repositórios de trabalhos anteriores, para se familiarizarem com as documentações.
 
-Percebe-se no gráfico que todas as histórias foram entregues, e as issues da Sprint foram executadas no decorrer de todo sua duração.
+## Burndown
 
-## 5- Velocity
-![Velocity](img0/Velocity_0.png)
+![Burndown](img/burndown_0.png)
+
+Percebemos no gráfico que todas as histórias foram entregues, e as issues da Sprint foram executadas no decorrer de todo sua duração.
+
+## Velocity
+
+![Velocity](img/velocity_0.png)
 
 Como esta foi a Sprint 0, o velocity desta Sprint não pôde ser comparado com outros para determinar como está o desempenho da equipe, mas servirá como ponto de partida para os outros que virão futuramente.
+
+## Quadro de Conhecimento
+
+![Quadro de conhecimento](img/conhecimento_0.png)
+
+Este quadro mostra o conhecimento inicial de cada membro do grupo em cada área abordada no Sprint 0, que foi o git e a metodologia ágil, vemos que boa parte de mds nunca tinha lidado com o Scrum e tinham pouco contato com git. As outras áreas serão preenchidas nas próximas sprints, quando ocorrerá o treinamento e estudo individual de cada coluna.
 
 ## Análise do Scrum Master
 
 Esta Sprint teve como objetivo fazer com que os integrantes de MDS e EPS tivessem o primeiro contato, que também pudéssemos saber da especialidade técnica de cada um, para que quando o tema do projeto fosse dado o time de eps pudesse tomar a melhor estratégia possível.
+
+Pode-se observar que todas as issues previstas na Sprint foram entregues, devido a baixa complexidade, relacionadas a treinamento e organização do grupo.
 
 Na questão de passagem de conhecimento, foi bem produtivo os dojos, a metodologia de desenvolvimento junto com o git foi absorvido de maneira positiva pela equipe de MDS, teve um problema, mais tecnologias não puderam ser passadas justamente pela demora na definição dos temas de cada grupo.

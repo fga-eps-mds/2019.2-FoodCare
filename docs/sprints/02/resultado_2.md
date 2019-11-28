@@ -1,62 +1,70 @@
-# Fechamento da Sprint 2
+# Resultado Sprint 2
 
-## 1- Resumo da Sprint
+## Sprint Backlog
 
-##### Pontos concluídos: 29 pontos
+### Pontuação da Sprint
 
-- Histórias Entregues:
+**Pontos planejados:** 33 pontos  
+**Pontos concluídos:** 33 pontos  
+**Dívidas geradas:** 0 pontos  
 
-- [#1 Criar protótipo de alta fidelidade](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/28)
+### Issues Entregues
 
-- [#2 Estudar django](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/30)
+- [#20 Documentar Sprint 2](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/20) - 2 pontos
+- [#22 Criar Canvas do projeto](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/22) - 1 ponto
+- [#23 Criar Identidade Visual do projeto](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/23) - 3 pontos
+- [#24 Criar Estrutura Analítica do Projeto (EAP)](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/24) - 3 pontos
+- [#25 Criar RoadMap de Produto](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/25) - 3 pontos
+- [#26 Criar RoadMap de papéis](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/26) - 1 ponto
+- [#27 Configurar Docker](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/27) - 2 pontos
+- [#28 Criar Protótipo de Alta Fidelidade](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/28) - 8 pontos
+- [#29 Criar Folha de Estilo do projeto](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/29) - 1 ponto
+- [#30 Dojo: Tecnologias & Arquitetura](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/30) - 3 pontos
+- [#31 Configurar Travis](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/31) - 2 pontos
+- [#32 Configurar Codeclimate](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/32) - 1 ponto
+- [#36 Adicionar Licença](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/36) - 1 ponto
 
-- [#3 Estudar angular](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/30)
+### Dividas técnicas
 
-- [#4 Dojo de Django e Angular](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/30)
+Não houveram dívidas técnicas, todas histórias foram entregues.
 
-- [#5 Criar Tap](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/16)
+## Retrospectiva da Sprint
 
-- [#6 Criar Docker](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/27)
+### Pontos Positivos
 
-- [#7 Criar Canvas](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/22)
+- Aumento de produtividade da equipe
+- Com o protótipo já sabemos com mais clareza o que o produto virá a ser
+- Ouvir mais a equipe de MDS e seus reviews da Sprint
 
-- [#8 Criar EAP](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/24)
+### Pontos Negativos
 
-- [#9 Criar roadmap de papeis](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/26)
+- Equipe de MDS ficou bem perdida no começo da Sprint
+- Ainda não começamos a mexer com recursos funcionais
 
-- [#10 Criar roadmap de produto](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/25)
+### Sugestão de melhoria
 
-- [#11 Criar folha de estilo](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/29)
+- Equipe(MDS) olhar repositórios de trabalhos anteriores, para se familiarizarem com as documentações
+- Fazer reunião de planejamento e planning poker com a equipe de MDS
+- Colocar os pareamentos pro desenvolvimento de requisitos funcionais
+- Identificar possíveis riscos para a próxima Sprint
 
-- [#12 instalar o Travis](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/31)
+## Burndown
 
-- Histórias Não Entregues:
-Nenhuma.
+![Burndown](img/burndown_2.png)
 
-Pode-se observar que todas as histórias foram entregues, com mais artefatos da equipe de EPS, nessa Sprint o time de MDS ficou com a parte de criar o protótipo de alta fidelidade, também tiveram que estudar sobre a arquitetura do projeto para o dojo de arquitetura que aconteceu sexta.
+Foram 33 pontos planejados, com todos os pontos sendo concluídos até o final da Sprint. Devido a equipe de MDS ter ficado um pouco perdida no começo da Sprint, e não terem visto o documento de planejamento da sprint 2 no dia que foi lançado no git, a maior issue que é o protótipo de alta fidelidade foi começar a ser desenvolvida quinta-feira, trazendo um risco e exigindo maior horas de trabalho no final de semana.
 
-## 2- Retrospectiva da sprint
-|**Pontos Positivos**|**Pontos Negativos**|**Sugestão de melhoria**|
-|---|---|---|
-|Aumento de produtividade da equipe|Equipe de MDS ficou bem perdida no começo da Sprint|equipe(MDS) olhar repositórios de trabalhos anteriores, para se familiarizarem com as documentações|
-|Com o protótipo já sabemos com mais clareza o que o produto virá a ser|Ainda não começamos a mexer com recursos funcionais|Fazer reunião de planejamento e planning poker com a equipe de MDS |
-|Ouvir mais a equipe de MDS e seus reviews da Sprint|---|Colocar os pareamentos pro desenvolvimento de requisitos funcionais|
-|---|---|Identificar possíveis riscos para a próxima Sprint|
+## Velocity
 
-## 3- Quadro de conhecimento
-![Quadro de conhecimento](img2/conhecimento_2.png)
-
-Este quadro aborda o conhecimento depois de três sprints, houve um considerável aumento no conhecimento de django e do entendimento da arquitetura, [tabela de horas trabalhadas](https://docs.google.com/spreadsheets/d/1NrR6Oh-tJsaAimDdOja_gvTsL-g2F_3fklMY8SX_2AQ/edit#gid=644793269), por esta tabela dá para perceber que a equipe de MDS focou no aprendizado da API "Django Rest" o que ajudará no planejamento da sprint 3, em relação aos tópicos de estudo e distribuição de atividades.
-
-## 4- Burndown
-![Burndown](img2/burndown_2.png)
-
-Foram 29 pontos planejados, com todos os pontos sendo concluídos até o final da Sprint. Devido a equipe de MDS ter ficado um pouco perdida no começo da Sprint, e não terem visto o documento de planejamento da sprint 2 no dia que foi lançado no git, a maior issue que é o protótipo de alta fidelidade foi começar a ser desenvolvida quinta-feira, trazendo um risco e exigindo maior horas de trabalho no final de semana.
-
-## 5- Velocity
-![Velocity](img2/velocity_2.png)
+![Velocity](img/velocity_2.png)
 
 Essa Sprint foi um teste para o quanto a equipe de MDS e EPS poderiam produzir numa Sprint, o aumento progressivo de pontos está sendo feito para que possamos chegar na produtividade máxima da equipe, e com isso saber o quanto podemos puxar de cada membro da equipe.
+
+## Quadro de Conhecimento
+
+![Quadro de Conhecimento](img/conhecimento_2.png)
+
+Este quadro aborda o conhecimento depois de três sprints, houve um considerável aumento no conhecimento de django e do entendimento da arquitetura, pela tabela dá para perceber que a equipe de MDS focou no aprendizado da API "Django Rest" o que ajudará no planejamento da sprint 3, em relação aos tópicos de estudo e distribuição de atividades.
 
 ## Análise do Scrum Master
 

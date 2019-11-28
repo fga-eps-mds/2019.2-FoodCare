@@ -62,7 +62,7 @@ Na tabela, 1 significa menor conhecimento, indo até 5 para maior conhecimento.
 
 ### Dojo ágil
 
-Para introduzir a metodologia que será utilizada durante a matéria, e cumprindo a descrição da [issue #4](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/4) do projeto, foram ensinados os conceitos de scrum, papéis e XP para a equipe MDS.  
+Para introduzir a metodologia que será utilizada durante a matéria, e cumprindo a descrição da [issue #4](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/4) do projeto, foram ensinados os conceitos de scrum, papéis e XP para a equipe MDS.  
 
 Alguns membros já tinham contato com a metodologia ágil, por ter feito, ou fazer, estágio em empresas que utilizam o ágil. Mas a maioria não tinha conhecimento sobre as práticas ágeis.  
 
@@ -74,7 +74,7 @@ Links utilizados no dojo ágil:
 
 ### Dojo git
 
-Para que a equipe MDS tenha o conhecimento necessário para começar o projeto, e cumprindo a descrição da [issue #2](https://github.com/fga-eps-mds/2019.2-Grupo7/issues/2) do projeto, foi realizado um dojo de git, no qual foram ensinados: comandos do terminal, branches, pull requests, issues, git flow.  
+Para que a equipe MDS tenha o conhecimento necessário para começar o projeto, e cumprindo a descrição da [issue #2](https://github.com/fga-eps-mds/2019.2-FoodCare/issues/2) do projeto, foi realizado um dojo de git, no qual foram ensinados: comandos do terminal, branches, pull requests, issues, git flow.  
 
 Durante o dojo, criamos um [repositório teste](https://github.com/roginaldosemog/dojo-git) para treinar os comandos básicos, ensinar sobre branches, pull requests e resoluções de conflito.  
 

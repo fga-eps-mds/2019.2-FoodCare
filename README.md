@@ -1,5 +1,5 @@
 <p align="center">
-    <img src="docs/assets/images/id-visual/vertical-normal.png" alt="Logo">
+    <img src="docs/assets/images/id-visual/logo-green.png" alt="Logo">
 </p>
 
 <h1 align="center">FoodCare API</h1>
@@ -38,10 +38,9 @@
 
 ## Funcionalidades principais
 
+- Lista de Eventos
 - Cadastro de Doadores
 - Gerenciamento de Eventos
-- Mapa e Lista de Eventos
-- Notificação de Eventos
 
 ## Tecnologias utilizadas
 
