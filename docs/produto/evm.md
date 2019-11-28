@@ -5,6 +5,7 @@
 |Versão|Data|Descrição|Nome|
 |---|---|---|---|
 |0.1|26/11/2019|criação da evm da release 1|Geovanne Santos Saraiva|
+|0.2|27/11/2019|criação da evm da release 2|Geovanne Santos Saraiva|
 
 ## EVM Agile
 
@@ -23,6 +24,15 @@ O EVM (Earned Value Management ou Gerenciamento de Valor agregado) se trata de u
 |L|Tamanho da sprint em dias|	7|
 |PS|Total de sprints planejadas|6|
 |PRP|	Pontos planejados para a primeira release|181|
+
+#### release 2
+
+|Identificador|Descrição|Valor|
+|---|---|---|
+|BAC|	Orçamento disponível para a primeira release	|R$ 106033,6|
+|L|Tamanho da sprint em dias|	7|
+|PS|Total de sprints planejadas|8|
+|PRP|	Pontos planejados para a primeira release|203|
 
 ### Legenda
 
@@ -59,6 +69,21 @@ Abaixo segue as imagens da EVM para a primeira release, esta que já foi conclu�
 ##### gráfico da evm 1
 
 ![EV 1](img/ev1.png)
+
+### Planilha EVM release 2
+[Link do documeto no google docs](https://docs.google.com/spreadsheets/d/1Wj-KKK2OqgT-xWlo9CLOnf6XgVcxbwoo933VRXpf5eY/edit?usp=sharing)
+
+### Imagem da planilha da EVM 2
+
+Abaixo segue as imagens da EVM para a segunda release, esta que já foi concluída. As informações podem ser melhor vistas no link disponibilizado acima.
+
+##### tabela de dados da evm 2
+
+![EVM 1](img/evm_2.png)
+
+##### gráfico da evm 2
+
+![EV 1](img/ev2.png)
 
 ### Referências
 HiFlex Consultoria. Gerenciamento de valor agregado (EVM) em projetos agéis. Vitor Massari. Acesso em: http://www.hiflex.com.br/v1/gerenciamento-de-valor-agregado-evm-em-projetos-ageis/ codetiburon. Earned Value Management (EVM) for Agile Software Projects. Olga Yatskevich. Acesso em: https://codetiburon.com/earned-value-management-evm-agile-software-projects/
