@@ -10,6 +10,7 @@
 28/10/19 | 2.2 | Adiciona Tecnologia | Giovanna
 28/10/19 | 2.3 | Capacitação da equipe | Lucas
 28/10/19 | 2.4 | Adiciona Arquitetura | Bruna
+28/10/19 | 2.5 | Adiciona Conclusão e citações | Giovanna
 
 ## Introdução
 
@@ -76,6 +77,10 @@ Desisto. Bottino Giovanna.
 
 ```
 Na hora certa vai dar tudo errado. Bottino Giovanna. 
+```
+
+```
+É hora de esquecer os erros do passado e começar a planejar os erros do fututo. Junqueira Rafaella. 
 ```
 
 ```
