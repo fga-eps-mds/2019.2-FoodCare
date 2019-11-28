@@ -8,11 +8,11 @@
 
 ## Contribuição
 
-Siga o [guia de contribuição](../CONTRIBUTING.md) e o [código de conduta](../CODE_OF_CONDUCT.md) para entender os passos e regras para adicionar sua contribuição ao projeto.
+Siga o [guia de contribuição](https://github.com/fga-eps-mds/2019.2-FoodCare/blob/master/CONTRIBUTING.md) e o [código de conduta](https://github.com/fga-eps-mds/2019.2-FoodCare/blob/master/CODE_OF_CONDUCT.md) para entender os passos e regras para adicionar sua contribuição ao projeto.
 
 ## Licença
 
-GPLv3 © FoodCare. Acesse a [licença](../LICENSE) para mais detalhes.
+GPLv3 © FoodCare. Acesse a [licença](https://github.com/fga-eps-mds/2019.2-FoodCare/blob/master/LICENSE) para mais detalhes.
 
 ## Equipe
 
