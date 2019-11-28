@@ -8,20 +8,16 @@ import json
 
 # Create your views here.
 def mensagem(nome,email,mensagem):
-    msg = """
-
-    Nome: {}
-    Mensagem: {}    
-    Email: {}
-    """.format(nome,mensagem,email)
+    msg = "\n\nNome: {}\nMensagem: {}\nEmail: {}\n".format(nome,mensagem,email)
     return msg
 
-def index(n,e,m):
-    subject = "FoodCare: {}".format(n)
-    message = mensagem(n,e,m)
+def index(nome, email, mensagem):
+    subject = "FoodCare: {}".format(nome)
+    message = mensagem(nome, email, mensagem)
     email_from = settings.EMAIL_HOST_USER
     recipient_list = [settings.EMAIL_HOST_USER,]
     send_mail( subject, message, email_from, recipient_list )
+
 
 @csrf_exempt
 def email(request):
