@@ -1,4 +1,4 @@
-django==2.2.6
+django==2.2.28
 djangorestframework
 django-cors-headers
 djangorestframework-jwt
